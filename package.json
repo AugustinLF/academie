@@ -8,8 +8,9 @@
     "gatsby": "^1.9.63",
     "gatsby-link": "^1.6.21",
     "gatsby-plugin-i18n": "^0.3.3",
-    "gatsby-plugin-postcss-sass": "^1.0.12",
     "gatsby-plugin-react-helmet": "^1.0.5",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.10.0",
     "intl": "^1.2.5",
     "react-intl": "^2.4.0"
   },
@@ -19,9 +20,9 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "start": "gatsby develop",
+    "start": "gatsby serve",
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

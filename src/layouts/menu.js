@@ -1,29 +1,43 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import {FormattedMessage} from 'react-intl';
+import g from 'glamorous';
 
-import './menu.scss';
+const MenuContainer = g.div({
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '30px 50px',
+});
+const MenuLink = g(Link)({
+    color: 'initial',
+    transition: 'color 0.15s ease 0s',
+    textDecoration: 'none',
+    '&:hover': {
+        color: '#BFBFBF',
+    },
+});
 
 const Menu = ({homeLink}) => (
-    <div className="menu">
-        <Link to={homeLink}>
+    <MenuContainer>
+        <MenuLink to={homeLink}>
             <FormattedMessage id="home" />
-        </Link>
-        <Link to={`${homeLink}programme`}>
+        </MenuLink>
+        <MenuLink to={`${homeLink}programme`}>
             <FormattedMessage id="programme" />
-        </Link>
-        <Link to="/">
+        </MenuLink>
+        <MenuLink to="/">
             <FormattedMessage id="enseignants" />
-        </Link>
-        <Link to="/">
+        </MenuLink>
+        <MenuLink to="/">
             <FormattedMessage id="informations" />
-        </Link>
-        <Link to="/">
+        </MenuLink>
+        <MenuLink to="/">
             <FormattedMessage id="faq" />
-        </Link>
-        <Link to="/">
+        </MenuLink>
+        <MenuLink to="/">
             <FormattedMessage id="contact" />
-        </Link>
-    </div>
+        </MenuLink>
+    </MenuContainer>
 );
 export default Menu;

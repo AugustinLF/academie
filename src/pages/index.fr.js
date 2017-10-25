@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import Lead from '../components/lead';
+
 const IndexPage = () => (
     <div>
         <h1>Académie 2017</h1>

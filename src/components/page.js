@@ -1,11 +1,22 @@
+import g from 'glamorous';
 import React from 'react';
 
-import './page.scss';
+import {H1} from './base';
+
+const Title = g.div({
+    height: 35,
+    display: 'flex',
+    alignItems: 'center',
+    borderBottom: 'solid 2px black',
+    marginBottom: 20,
+});
 
 const Page = ({title, children}) => (
-    <div className="page">
-        <div className="page__title">{title}</div>
-        <div className="page__content">{children}</div>
+    <div>
+        <Title>
+            <H1>{title}</H1>
+        </Title>
+        {children}
     </div>
 );
 export default Page;
