@@ -1,0 +1,12 @@
+.program-item {
+    display: flex;
+    align-items: flex-start;
+
+    image {
+        flex-shrink: 0;
+    }
+
+    &__content {
+        margin-left: 20px;
+    }
+}
