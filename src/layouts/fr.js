@@ -1,11 +1,11 @@
-import React from 'react';
-import graphql from 'graphql';
-import Layout from './index';
-import {addLocaleData} from 'react-intl';
+import React from "react";
+import graphql from "graphql";
+import Layout from "./index";
+import {addLocaleData} from "react-intl";
 
-import messages from '../data/messages/fr';
-import fr from 'react-intl/locale-data/fr';
-import 'intl/locale-data/jsonp/fr';
+import messages from "../data/messages/fr";
+import fr from "react-intl/locale-data/fr";
+import "intl/locale-data/jsonp/fr";
 
 addLocaleData(fr);
 

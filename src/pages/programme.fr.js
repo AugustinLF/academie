@@ -1,14 +1,11 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from "react";
+import Link from "gatsby-link";
 
-import Page from '../components/page';
-import ProgramItem from '../components/programItem';
-import Lead from '../components/lead';
-
-import vocalImage from '../vocal.png';
+import Page from "../components/page";
+import Lead from "../components/lead";
 
 const Programme = () => (
-    <Page title="Les différents stages de l'Académie">
+    <Page title="Les différents stages de l'académie">
         <Lead>
             <p>
                 L'Académie d'été du Capriccio Français propose un stage pour chanteurs,
@@ -18,14 +15,12 @@ const Programme = () => (
                 lieu d'accueil de rencontres, notamment musicales. Un stage de danse baroque sera
                 également organisé du 21 au 23 juillet
             </p>
-
             <p>
                 Les stagiaires développeront leurs compétences techniques, mais aussi stylistiques
                 sur le répertoire de la musique ancienne. Tous les stagiaires bénéficient d'un
                 atelier complémentaire sur la danse baroque, faisant ainsi écho à leur pratique
                 d'instrumentistes, de chanteurs ou de choristes.
             </p>
-
             <p>
                 Tout au long du stage, chanteurs, instrumentistes, choristes travaillent
                 régulièrement ensemble, mettant ainsi en commun leurs connaissances stylistiques,
@@ -33,7 +28,6 @@ const Programme = () => (
                 juillet 2017 à 17h00 à l'Església de Sant Gaietà. Des auditions viennent ponctuer le
                 stage, multipliant ainsi la possibilité de mesurer le travail accompli.
             </p>
-
             <p>
                 Pour les instrumentistes et chanteurs, le profil des stagiaires est au minimum de
                 3ème cycle de conservatoire. Nous accueillons aussi des artistes professionnels ou
@@ -45,29 +39,7 @@ const Programme = () => (
                 pupitres. Une bonne expérience du travail de chœur est recommandée.
             </p>
         </Lead>
-        <ProgramItem
-            title="Stage de chant"
-            imageUrl={vocalImage}
-            imageAlt="stage de chant"
-            content={
-                <div>
-                    <p>
-                        Ce stage associe technique vocale et interprétation de la musique baroque.
-                        Les chanteurs partageront leur temps entre répertoire soliste, travail de
-                        rôle et musique d’ensemble. Chaque journée débute par un cours collectif sur
-                        les questions relatives à la posture et à la respiration.
-                    </p>
-
-                    <p>
-                        Chaque stagiaire reçoit quotidiennement un cours de technique vocale avec
-                        Isabelle Germain. Avec Hélène Dufour et Stefano Intrieri, les stagiaires
-                        travaillent, soit de façon individuelle en interprétation, soit en petit
-                        groupe en musique de chambre. Avec Josep Cabré, les stagiaires travaillent
-                        plus particulièrement le répertoire polyphonique.
-                    </p>
-                </div>
-            }
-        />
+        <Link to="/fr/vocal">Stage de chant</Link>
     </Page>
 );
 

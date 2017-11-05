@@ -1,13 +1,13 @@
-import g from 'glamorous';
-import React from 'react';
+import g from "glamorous";
+import React from "react";
 
-import {H1} from './base';
+import {H1} from "./base";
 
 const Title = g.div({
     height: 35,
-    display: 'flex',
-    alignItems: 'center',
-    borderBottom: 'solid 2px black',
+    display: "flex",
+    alignItems: "center",
+    borderBottom: "solid 2px black",
     marginBottom: 20,
 });
 

@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from "react";
+import Link from "gatsby-link";
 
-import Lead from '../components/lead';
+import Lead from "../components/lead";
 
 const IndexPage = () => (
     <div>

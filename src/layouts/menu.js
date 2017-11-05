@@ -1,20 +1,20 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import {FormattedMessage} from 'react-intl';
-import g from 'glamorous';
+import React from "react";
+import Link from "gatsby-link";
+import {FormattedMessage} from "react-intl";
+import g from "glamorous";
 
 const MenuContainer = g.div({
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '30px 50px',
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "30px 50px",
 });
 const MenuLink = g(Link)({
-    color: 'initial',
-    transition: 'color 0.15s ease 0s',
-    textDecoration: 'none',
-    '&:hover': {
-        color: '#BFBFBF',
+    color: "initial",
+    transition: "color 0.15s ease 0s",
+    textDecoration: "none",
+    "&:hover": {
+        color: "#BFBFBF",
     },
 });
 
@@ -26,16 +26,13 @@ const Menu = ({homeLink}) => (
         <MenuLink to={`${homeLink}programme`}>
             <FormattedMessage id="programme" />
         </MenuLink>
-        <MenuLink to="/">
+        <MenuLink to={`${homeLink}enseignants`}>
             <FormattedMessage id="enseignants" />
         </MenuLink>
-        <MenuLink to="/">
+        <MenuLink to={`${homeLink}informations`}>
             <FormattedMessage id="informations" />
         </MenuLink>
-        <MenuLink to="/">
-            <FormattedMessage id="faq" />
-        </MenuLink>
-        <MenuLink to="/">
+        <MenuLink to={`${homeLink}contact`}>
             <FormattedMessage id="contact" />
         </MenuLink>
     </MenuContainer>

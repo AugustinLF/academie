@@ -1,14 +1,14 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import g from 'glamorous';
+import React from "react";
+import Link from "gatsby-link";
+import g from "glamorous";
 
-import logo from './logo.png';
-import SelectLanguage from '../components/selectLanguage';
+import logo from "./logo.png";
+import SelectLanguage from "../components/selectLanguage";
 
 const HeaderContainer = g.div({
     padding: 10,
-    display: 'flex',
-    justifyContent: 'space-between',
+    display: "flex",
+    justifyContent: "space-between",
 });
 
 const Header = ({langs}) => (

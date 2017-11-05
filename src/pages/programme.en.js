@@ -1,14 +1,11 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from "react";
+import Link from "gatsby-link";
 
-import Page from '../components/page';
-import ProgramItem from '../components/programItem';
-import Lead from '../components/lead';
-
-import vocalImage from '../vocal.png';
+import Page from "../components/page";
+import Lead from "../components/lead";
 
 const Programme = () => (
-    <Page title="Les différents stages de l'Académie">
+    <Page title="Our programs">
         <Lead>
             <p>
                 Le Capriccio Français Summer Music Academy offers a tuition program for singers,
@@ -36,56 +33,7 @@ const Programme = () => (
             </p>
             <p>French and English are spoken in our international Music Academy.</p>
         </Lead>
-        <ProgramItem
-            title="Vocal Academy"
-            imageUrl={vocalImage}
-            imageAlt="vocal academy"
-            content={
-                <div>
-                    <p>
-                        The singers will focus their work on soloist repertoire, performance, as
-                        well as collegial practice. Technical work will concentrate on posture,
-                        breathing, phonation and voice consistency, so that students may develop
-                        their instrument. Students will study how a successful performance also
-                        requires expression and interpretation of a piece.
-                    </p>
-                    <p>
-                        Every day starts with a class in posture and breathing. Every student
-                        receives a daily private lesson in vocal technique with Isabelle Germain.
-                    </p>
-                    <p>
-                        Students work with Hélène Dufour and Stefano Intrieri, either individually
-                        or in small groups and with Josep Cabré for polyphonic repertoire.
-                    </p>
-                </div>
-            }
-            link="https://docs.wixstatic.com/ugd/169d18_1fd457e6017f483baa4cc95c60cd5950.pdf"
-            linkName="Download the program"
-        />
-        <ProgramItem
-            title="Vocal Academy"
-            imageUrl={vocalImage}
-            imageAlt="vocal academy"
-            content={
-                <div>
-                    <p>
-                        The singers will focus their work on soloist repertoire, performance, as
-                        well as collegial practice. Technical work will concentrate on posture,
-                        breathing, phonation and voice consistency, so that students may develop
-                        their instrument. Students will study how a successful performance also
-                        requires expression and interpretation of a piece.
-                    </p>
-                    <p>
-                        Every day starts with a class in posture and breathing. Every student
-                        receives a daily private lesson in vocal technique with Isabelle Germain.
-                    </p>
-                    <p>
-                        Students work with Hélène Dufour and Stefano Intrieri, either individually
-                        or in small groups and with Josep Cabré for polyphonic repertoire.
-                    </p>
-                </div>
-            }
-        />
+        <Link to="/en/vocal">Vocal Academy</Link>
     </Page>
 );
 
