@@ -15,27 +15,29 @@ const Header = g.div({
 });
 const Short = g.div({});
 const Link = g(RawLink)({color: "initial"});
-const Classes = g.ul({
+const Courses = g.ul({
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-end",
 });
 
-const renderClass = className => (
+const renderCourse = (className, localisation) => (
     <li key={className}>
-        <Link to={`/en/${className}`}>
+        <Link to={`/${localisation}/${className}`}>
             <FormattedMessage id={className} />
         </Link>
     </li>
 );
 
-const Teacher = ({name, short, link, classes}) => (
+const Teacher = ({name, short, link, courses, localisation}) => (
     <Container>
         <Header>
             <H3>
-                <Link to={`/en/${link}`}>{name}</Link>
+                <Link to={`/${localisation}/${link}`}>{name}</Link>
             </H3>
-            {classes && <Classes>{classes.map(renderClass)}</Classes>}
+            {courses && (
+                <Courses>{courses.map(course => renderCourse(course, localisation))}</Courses>
+            )}
         </Header>
         <Short>{short}</Short>
     </Container>

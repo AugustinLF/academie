@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "gatsby-link";
 
+import {InnerLink, H2, H3} from "../components/base";
 import Page from "../components/page";
 import Lead from "../components/lead";
 
@@ -39,7 +39,29 @@ const Programme = () => (
                 pupitres. Une bonne expérience du travail de chœur est recommandée.
             </p>
         </Lead>
-        <Link to="/fr/vocal">Stage de chant</Link>
+        <H2>Les stages</H2>
+        <H3>
+            <InnerLink to="/fr/vocal">Stage de chant</InnerLink>
+        </H3>
+        <div>
+            <p>
+                Ce stage associe technique vocale et interprétation de la musique baroque. Les
+                chanteurs partageront leur temps entre répertoire soliste, travail de rôle et
+                musique d’ensemble. Chaque journée débute par un cours collectif sur les questions
+                relatives à la posture et à la respiration.
+            </p>
+        </div>
+        <H3>
+            <InnerLink to="/fr/vocal">Stage de chant</InnerLink>
+        </H3>
+        <div>
+            <p>
+                Ce stage associe technique vocale et interprétation de la musique baroque. Les
+                chanteurs partageront leur temps entre répertoire soliste, travail de rôle et
+                musique d’ensemble. Chaque journée débute par un cours collectif sur les questions
+                relatives à la posture et à la respiration.
+            </p>
+        </div>
     </Page>
 );
 

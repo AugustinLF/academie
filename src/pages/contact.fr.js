@@ -10,8 +10,9 @@ const Contact = () => (
             FR - 94130 Nogent-sur-Marne<br />
             Tél. : 33 (0)6 12 28 55 13
         </p>
+        <br />
         <p>
-            Adresse à Barcelone<br />
+            Adresse à Barcelone :<br />
             Casa d´Espiritualitat Sant Felip Neri<br />
             Nena Casas, 37-47<br />
             08017 Barcelona

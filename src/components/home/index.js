@@ -5,6 +5,7 @@ import {FullWidth} from "../base";
 import home from "./home.jpg";
 import Block from "./block";
 import Testimonials from "./testimonials";
+import Sponsors from "./sponsors";
 
 const CrowdBackground = g.div({
     backgroundImage: `url(${home})`,
@@ -63,6 +64,7 @@ const Home = ({msg}) => (
                 <p style={{textAlign: "center", fontSize: 20}}>{msg.academy.content}</p>
             </Block>
             <Testimonials msg={msg} />
+            <Sponsors />
         </FullWidth>
     </div>
 );

@@ -26,8 +26,8 @@
     "dev": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "yarn build",
-    "publish": "surge public/"
+    "predeploy": "yarn build",
+    "deploy": "surge public/"
   },
   "devDependencies": {
     "gatsby-plugin-google-fonts": "^0.0.3",

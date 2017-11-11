@@ -10,4 +10,8 @@ module.exports = {
     instrumental: "Musique instrumentale",
     choralConducting: "Direction de chœur",
     dance: "Danse baroque",
+    moviment: "L'Académie d'été du Capriccio Français se déroule en collaboration avec le",
+    movimentTitle: "Moviment Coral Català",
+    symposium: "Profitez de l'Académie pour participer au",
+    symposiumTitle: "Forum Choral Mondial",
 };
