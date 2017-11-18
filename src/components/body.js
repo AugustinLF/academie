@@ -4,7 +4,6 @@ import {phone, tabletUp} from "./mediaQueries";
 
 const Body = g.div({
     margin: "0 auto",
-    padding: "0px 1.0875rem 1.45rem",
     paddingTop: 0,
     position: "relative",
     top: 0,
@@ -12,5 +11,8 @@ const Body = g.div({
     minHeight: "100%",
     margin: 0,
     width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
 });
 export default Body;

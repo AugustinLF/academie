@@ -3,6 +3,7 @@ import React from "react";
 
 import {H1} from "./base";
 
+const PageContainer = g.div({width: 960});
 const Title = g.div({
     height: 35,
     display: "flex",
@@ -12,11 +13,11 @@ const Title = g.div({
 });
 
 const Page = ({title, children}) => (
-    <div>
+    <PageContainer>
         <Title>
             <H1>{title}</H1>
         </Title>
         {children}
-    </div>
+    </PageContainer>
 );
 export default Page;

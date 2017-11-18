@@ -7,7 +7,6 @@ import "intl";
 import "./reset.css";
 import "./index.css";
 import Header from "./header";
-import Menu from "./menu";
 import Body from "../components/body";
 
 const TemplateWrapper = ({children, data, location, i18nMessages}) => {
@@ -28,8 +27,7 @@ const TemplateWrapper = ({children, data, location, i18nMessages}) => {
                     ]}
                 />
                 <Body>
-                    <Header langs={langsMenu} />
-                    <Menu homeLink={homeLink} />
+                    <Header langs={langsMenu} homeLink={homeLink} />
                     {children()}
                 </Body>
             </div>

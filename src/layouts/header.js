@@ -5,16 +5,21 @@ import g from "glamorous";
 import logo from "./logo.png";
 import SelectLanguage from "../components/selectLanguage";
 import {tabletUp, phone} from "../components/mediaQueries";
+import Menu from "./menu";
 
 const HeaderContainer = g.div({
-    [tabletUp]: {
-        padding: 10,
-        justifyContent: "space-between",
-    },
     display: "flex",
-    [phone]: {
-        flexDirection: "column",
+    flexDirection: "column",
+    alignItems: "stretch",
+    [tabletUp]: {
+        width: 1200,
+        maxWidth: "100vw",
+        paddingTop: 20,
     },
+});
+const Top = g.div({
+    display: "flex",
+    justifyContent: "space-between",
 });
 
 const Img = g.img({
@@ -25,10 +30,15 @@ const Img = g.img({
     },
 });
 
-const Header = ({langs}) => (
+const Header = ({langs, homeLink}) => (
     <HeaderContainer>
-        <Link to="/">{/* <Img src={logo} alt="Logo" /> */}</Link>
-        <SelectLanguage langs={langs} />
+        <Top>
+            <Link to="/">
+                <Img src={logo} alt="Logo" />
+            </Link>
+            <SelectLanguage langs={langs} />
+        </Top>
+        <Menu homeLink={homeLink} />
     </HeaderContainer>
 );
 

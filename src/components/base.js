@@ -29,6 +29,8 @@ export const InnerLink = g(RawLink)({
 
 const Relative = g.div(({height, mobile}) => ({
     position: "relative",
+    display: "flex",
+    justifyContent: "center",
     height,
     [phone]: {
         height: mobile,
@@ -38,10 +40,8 @@ const Relative = g.div(({height, mobile}) => ({
 const FullAbsolute = g.div({
     position: "absolute",
     top: 0,
-    left: "calc((100vw - 960px) / -2)",
-    [phone]: {
-        left: "-1.0875rem",
-    },
+    right: 0,
+    left: 0,
     bottom: 0,
     width: "100vw",
     display: "flex",

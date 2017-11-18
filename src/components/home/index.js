@@ -26,6 +26,7 @@ const Overlay = g.div({
 
 // TODO link program
 const Container = g.div({
+    width: 960,
     paddingTop: 100,
     [phone]: {
         paddingTop: 80,
