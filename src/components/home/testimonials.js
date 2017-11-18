@@ -2,13 +2,19 @@ import g from "glamorous";
 import React from "react";
 
 import {FullWidth} from "../base";
-import Block from "./block";
+import Block, {BlockTitle} from "./block";
+import {tabletUp, phone} from "../mediaQueries";
 
 const TestimonialBackground = g.div({backgroundColor: "rgba(0, 48, 91, 1)", flexGrow: 1});
-const Title = g.h2({textAlign: "center", fontSize: 35, marginBottom: 30});
+const Title = g(BlockTitle)({
+    marginBottom: 30,
+});
 const Testimonial = g.div({
     "&:not(:last-child)": {
         marginBottom: 20,
+        [phone]: {
+            marginBottom: 15,
+        },
     },
     textAlign: "center",
 });

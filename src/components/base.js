@@ -2,6 +2,8 @@ import RawLink from "gatsby-link";
 import g from "glamorous";
 import React from "react";
 
+import {phone, tabletUp} from "./mediaQueries";
+
 export const H1 = g.h1({
     fontFamily: '"Courier New", courier-ps-w01, courier-ps-w02, courier-ps-w10, monospace',
     fontSize: 35,
@@ -25,23 +27,29 @@ export const InnerLink = g(RawLink)({
     color: "initial",
 });
 
-const Relative = g.div(({height}) => ({
+const Relative = g.div(({height, mobile}) => ({
     position: "relative",
     height,
+    [phone]: {
+        height: mobile,
+    },
 }));
 
 const FullAbsolute = g.div({
     position: "absolute",
     top: 0,
     left: "calc((100vw - 960px) / -2)",
+    [phone]: {
+        left: "-1.0875rem",
+    },
     bottom: 0,
     width: "100vw",
     display: "flex",
     alignItems: "stretch",
     zIndex: -1,
 });
-export const FullWidth = ({height, background, children}) => (
-    <Relative height={height}>
+export const FullWidth = ({height, mobile, background, children}) => (
+    <Relative height={height} mobile={mobile}>
         {children}
         {background && <FullAbsolute>{background}</FullAbsolute>}
     </Relative>

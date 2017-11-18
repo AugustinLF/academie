@@ -10,10 +10,9 @@ const Container = g.div({
     padding: "30px 0",
     display: "flex",
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "center",
 });
 const Sponsor = g.div({
-    width: 400,
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -33,15 +32,6 @@ const Sponsors = () => (
                 <FormattedMessage id="moviment" />{" "}
                 <Link href="https://www.facebook.com/Moviment-Coral-Catal%C3%A0-1577322619247611/?fref=ts">
                     <FormattedMessage id="movimentTitle" />
-                </Link>
-            </Text>
-        </Sponsor>
-        <Sponsor>
-            <img src={symposium} alt="Symposium" width={150} />
-            <Text>
-                <FormattedMessage id="symposium" />{" "}
-                <Link href="http://www.wscm11.cat/accueil">
-                    <FormattedMessage id="symposiumTitle" />
                 </Link>
             </Text>
         </Sponsor>

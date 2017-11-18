@@ -8,58 +8,51 @@ const Programme = () => (
     <Page title="Les différents stages de l'académie">
         <Lead>
             <p>
-                L'Académie d'été du Capriccio Français propose un stage pour chanteurs,
-                clavecinistes, étudiants en direction de chœur, ainsi qu’un stage choral, du 16
-                juillet en fin de journée au 23 juillet 2017 (départ le matin du 24). L'Académie se
-                déroule à Barcelone dans la Casa Sant Felip Neri, un ancien couvent, aujourd'hui
-                lieu d'accueil de rencontres, notamment musicales. Un stage de danse baroque sera
-                également organisé du 21 au 23 juillet
+                L'Académie d'été du Capriccio Français propose un stage pour chanteurs, étudiants en
+                direction de chœur, ainsi qu’un stage choral, du 15 juillet en fin de journée au 22
+                juillet 2017 (départ le matin du 23). L'Académie se déroule à Barcelone dans la Casa
+                Sant Felip Neri, un ancien couvent, aujourd'hui lieu d'accueil de rencontres,
+                notamment musicales. Un stage de danse baroque sera également organisé du 21 au 23
+                juillet.
             </p>
             <p>
-                Les stagiaires développeront leurs compétences techniques, mais aussi stylistiques
-                sur le répertoire de la musique ancienne. Tous les stagiaires bénéficient d'un
-                atelier complémentaire sur la danse baroque, faisant ainsi écho à leur pratique
-                d'instrumentistes, de chanteurs ou de choristes.
-            </p>
-            <p>
-                Tout au long du stage, chanteurs, instrumentistes, choristes travaillent
-                régulièrement ensemble, mettant ainsi en commun leurs connaissances stylistiques,
-                tout en préparant le concert de fin de stage. Celui-ci aura lieu le dimanche 23
-                juillet 2017 à 17h00 à l'Església de Sant Gaietà. Des auditions viennent ponctuer le
-                stage, multipliant ainsi la possibilité de mesurer le travail accompli.
-            </p>
-            <p>
-                Pour les instrumentistes et chanteurs, le profil des stagiaires est au minimum de
-                3ème cycle de conservatoire. Nous accueillons aussi des artistes professionnels ou
-                des enseignants, dans le cadre de la formation professionnelle. Pour les chefs de
-                chœurs, ce stage s'adresse à des étudiants inscrits dans un cursus de direction de
-                chœur, à des amateurs déjà en responsabilité d'un chœur ou à des professionnels de
-                la musique souhaitant développer leurs compétences dans ce domaine. Pour les
-                choristes, la taille du chœur est limitée à 28 chanteurs, avec équilibre des
-                pupitres. Une bonne expérience du travail de chœur est recommandée.
+                Un concert de fin se stage aura lieu le dimanche 22 juillet 2017 à 17h00 à
+                l'Església de Sant Gaietà.
             </p>
         </Lead>
         <H2>Les stages</H2>
         <H3>
-            <InnerLink to="/fr/vocal">Stage de chant</InnerLink>
+            <InnerLink to="/fr/vocal">Stage vocal</InnerLink>
         </H3>
         <div>
             <p>
-                Ce stage associe technique vocale et interprétation de la musique baroque. Les
-                chanteurs partageront leur temps entre répertoire soliste, travail de rôle et
-                musique d’ensemble. Chaque journée débute par un cours collectif sur les questions
-                relatives à la posture et à la respiration.
+                Les stagiaires choisissent entre deux options : avec Maarten Koningsberger et les
+                chefs de chant, le stage associe technique vocale et interprétation de la musique
+                baroque. Avec Josep Cabré, les stagiaires travaillent dans un but de production :
+                l’oratorio XXX sera donné à l’issue de la semaine.
             </p>
         </div>
         <H3>
-            <InnerLink to="/fr/vocal">Stage de chant</InnerLink>
+            <InnerLink to="/fr/vocal">Stage direction de chœur</InnerLink>
         </H3>
         <div>
             <p>
-                Ce stage associe technique vocale et interprétation de la musique baroque. Les
-                chanteurs partageront leur temps entre répertoire soliste, travail de rôle et
-                musique d’ensemble. Chaque journée débute par un cours collectif sur les questions
-                relatives à la posture et à la respiration.
+                Ce stage s'adresse à des étudiants inscrits dans un cursus de direction de chœur et
+                souhaitant aborder toutes les facettes du métier de chef de chœur, et travailler
+                quotidiennement avec un chœur école. Il est aussi destiné à des chefs de chœur
+                amateurs ou encore à des musiciens professionnels souhaitant se former à la
+                direction de chœur.
+            </p>
+        </div>
+        <H3>
+            <InnerLink to="/fr/vocal">Stage choral</InnerLink>
+        </H3>
+        <div>
+            <p>
+                Le chœur est dirigé par Philippe Le Fèvre, directeur musical de l'académie, et par
+                Josep Cabré. Le chœur compte 28 choristes maximum avec équilibre des pupitres. Il
+                s'adresse à des choristes expérimentés souhaitant se plonger dans le répertoire de
+                musique ancienne.
             </p>
         </div>
     </Page>

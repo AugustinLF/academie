@@ -6,11 +6,14 @@ import home from "./home.jpg";
 import Block from "./block";
 import Testimonials from "./testimonials";
 import Sponsors from "./sponsors";
+import {phone, tabletUp} from "../mediaQueries";
+import Academy from "./academy";
 
 const CrowdBackground = g.div({
     backgroundImage: `url(${home})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
+    // 110% on phone?
     flexGrow: 1,
     display: "flex",
     alignItems: "stretch",
@@ -24,10 +27,16 @@ const Overlay = g.div({
 // TODO link program
 const Container = g.div({
     paddingTop: 100,
+    [phone]: {
+        paddingTop: 80,
+    },
 });
 const CallToAction = g.div({
     color: "white",
     fontSize: 60,
+    [phone]: {
+        fontSize: 24,
+    },
     letterSpacing: "0.1em",
     textTransform: "uppercase",
     fontWeight: "bold",
@@ -39,6 +48,7 @@ const Home = ({msg}) => (
     <div>
         <FullWidth
             height={610}
+            mobile={220}
             background={
                 <CrowdBackground>
                     <Overlay />
@@ -49,23 +59,9 @@ const Home = ({msg}) => (
                 {msg.title.map((title, index) => <CallToAction key={index}>{title}</CallToAction>)}
             </Container>
         </FullWidth>
-        <FullWidth height={310}>
-            <Block>
-                <h2 style={{textAlign: "center", fontSize: 35}}>{msg.academy.title}</h2>
-                <hr
-                    style={{
-                        height: 5,
-                        width: 42,
-                        backgroundColor: "rgba(0, 0, 0, 1)",
-                        marginTop: 30,
-                        marginBottom: 30,
-                    }}
-                />
-                <p style={{textAlign: "center", fontSize: 20}}>{msg.academy.content}</p>
-            </Block>
-            <Testimonials msg={msg} />
-            <Sponsors />
-        </FullWidth>
+        <Academy msg={msg} />
+        <Testimonials msg={msg} />
+        <Sponsors />
     </div>
 );
 export default Home;

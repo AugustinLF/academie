@@ -12,6 +12,4 @@ module.exports = {
     dance: "Baroque dance",
     moviment: "The Capriccio Français Summer Academy runs in partnership with the",
     movimentTitle: "Moviment Coral Català",
-    symposium: "Enjoy the Academy and be part of the",
-    symposiumTitle: "World Symposium on Choral Music",
 };

@@ -8,7 +8,7 @@ const Contact = () => (
             Adresse permanente :<br />
             5, rue Carnot<br />
             FR - 94130 Nogent-sur-Marne<br />
-            Tél. : 33 (0)6 12 28 55 13
+            Tél. : 01 48 75 00 70
         </p>
         <br />
         <p>

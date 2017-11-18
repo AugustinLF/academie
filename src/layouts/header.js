@@ -4,18 +4,30 @@ import g from "glamorous";
 
 import logo from "./logo.png";
 import SelectLanguage from "../components/selectLanguage";
+import {tabletUp, phone} from "../components/mediaQueries";
 
 const HeaderContainer = g.div({
-    padding: 10,
+    [tabletUp]: {
+        padding: 10,
+        justifyContent: "space-between",
+    },
     display: "flex",
-    justifyContent: "space-between",
+    [phone]: {
+        flexDirection: "column",
+    },
+});
+
+const Img = g.img({
+    width: 554,
+    height: 84,
+    [phone]: {
+        width: "90%",
+    },
 });
 
 const Header = ({langs}) => (
     <HeaderContainer>
-        <Link to="/">
-            <img src={logo} alt="Logo" width="554" height="84" />
-        </Link>
+        <Link to="/">{/* <Img src={logo} alt="Logo" /> */}</Link>
         <SelectLanguage langs={langs} />
     </HeaderContainer>
 );

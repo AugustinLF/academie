@@ -19,8 +19,9 @@ const Informations = () => (
                     Catalogne, début de la célèbre Rambla et du quartier historique.
                 </p>
                 <p>
-                    Les stagiaires sont hébergés en pension complète (du dîner du dimanche 16
-                    juillet au petit-déjeuner du lundi 24 juillet).
+                    Les stagiaires sont hébergés en pension complète (du dîner du dimanche 15
+                    juillet au petit-déjeuner du lundi 23 juillet), sauf trois dîners dans la
+                    semaine qui sont libres.
                 </p>
                 <p>Quatre possibilités d'hébergement en pension complète sont disponibles :</p>
                 <List>
@@ -145,13 +146,6 @@ const Informations = () => (
                     Attention, si vous venez en voiture, merci de nous avertir à l'avance, le nombre
                     de places de parking disponibles à la Casa Sant Felip Neri est réduit. Celles-ci
                     seront donc attribuées par ordre d'inscription.
-                </p>
-                <p>
-                    Sinon, la solution est de prendre un abonnement 7 jours dans un des parkings
-                    municipaux (69 €) qui vous permet de sortir et d'entrer aussi souvent que vous
-                    le souhaitez (ou de ne pas bouger pendant 7 jours, ce que nous vous recommandons
-                    !). Le parking BSM Cotxeres de Sarrià, situé Manuel Girona 77 est à 500 mètres
-                    de l'Académie.
                 </p>
             </div>
         </Section>

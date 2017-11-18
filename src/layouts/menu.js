@@ -3,11 +3,20 @@ import Link from "gatsby-link";
 import {FormattedMessage} from "react-intl";
 import g from "glamorous";
 
+import {phone, tabletUp} from "../components/mediaQueries";
+
 const MenuContainer = g.div({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "30px 50px",
+    [tabletUp]: {
+        padding: "30px 50px",
+    },
+    flexWrap: "wrap",
+    [phone]: {
+        justifyContent: "space-around",
+        padding: "0 10px",
+    },
 });
 const MenuLink = g(Link)({
     color: "initial",
