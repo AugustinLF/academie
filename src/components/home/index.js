@@ -46,7 +46,7 @@ const CallToAction = g.div({
 const TestimonialBackground = g.div({backgroundColor: "rgba(0, 48, 91, 1)", flexGrow: 1});
 
 const Home = ({msg}) => (
-    <div>
+    <div style={{width: "100%"}}>
         <FullWidth
             height={610}
             mobile={220}

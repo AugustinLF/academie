@@ -3,7 +3,7 @@ import React from "react";
 
 import {H1} from "./base";
 
-const PageContainer = g.div({width: 960});
+const PageContainer = g.div({width: 960, paddingTop: 40});
 const Title = g.div({
     height: 35,
     display: "flex",

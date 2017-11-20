@@ -3,6 +3,10 @@ import React from "react";
 import {InnerLink, H2, H3} from "../components/base";
 import Page from "../components/page";
 import Lead from "../components/lead";
+import {Tile, Grid} from "../components/grid";
+import vocal from "../vocal.png";
+import choral from "../choral.jpg";
+import choirConducting from "../choirConducting.jpg";
 
 const Programme = () => (
     <Page title="Les différents stages de l'académie">
@@ -21,40 +25,16 @@ const Programme = () => (
             </p>
         </Lead>
         <H2>Les stages</H2>
-        <H3>
-            <InnerLink to="/fr/vocal">Stage vocal</InnerLink>
-        </H3>
-        <div>
-            <p>
-                Les stagiaires choisissent entre deux options : avec Maarten Koningsberger et les
-                chefs de chant, le stage associe technique vocale et interprétation de la musique
-                baroque. Avec Josep Cabré, les stagiaires travaillent dans un but de production :
-                l’oratorio XXX sera donné à l’issue de la semaine.
-            </p>
-        </div>
-        <H3>
-            <InnerLink to="/fr/vocal">Stage direction de chœur</InnerLink>
-        </H3>
-        <div>
-            <p>
-                Ce stage s'adresse à des étudiants inscrits dans un cursus de direction de chœur et
-                souhaitant aborder toutes les facettes du métier de chef de chœur, et travailler
-                quotidiennement avec un chœur école. Il est aussi destiné à des chefs de chœur
-                amateurs ou encore à des musiciens professionnels souhaitant se former à la
-                direction de chœur.
-            </p>
-        </div>
-        <H3>
-            <InnerLink to="/fr/vocal">Stage choral</InnerLink>
-        </H3>
-        <div>
-            <p>
-                Le chœur est dirigé par Philippe Le Fèvre, directeur musical de l'académie, et par
-                Josep Cabré. Le chœur compte 28 choristes maximum avec équilibre des pupitres. Il
-                s'adresse à des choristes expérimentés souhaitant se plonger dans le répertoire de
-                musique ancienne.
-            </p>
-        </div>
+        <Grid>
+            <Tile imgUrl={vocal} title="vocalTitle" content="vocalContent" link="/fr/vocal" />
+            <Tile imgUrl={choral} title="choralTitle" content="choralContent" link="/fr/vocal" />
+            <Tile
+                imgUrl={choirConducting}
+                title="choralConductingTitle"
+                content="choralConductingContent"
+                link="/fr/vocal"
+            />
+        </Grid>
     </Page>
 );
 

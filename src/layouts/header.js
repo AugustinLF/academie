@@ -20,6 +20,8 @@ const HeaderContainer = g.div({
 const Top = g.div({
     display: "flex",
     justifyContent: "space-between",
+    paddingRight: 30,
+    paddingLeft: 30,
 });
 
 const Img = g.img({

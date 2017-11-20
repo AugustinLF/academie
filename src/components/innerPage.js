@@ -9,7 +9,11 @@ const Main = g.div({
     alignItems: "center",
 });
 const Picture = g.img({
+    height: 300,
     marginBottom: 20,
+});
+const Content = g.div({
+    width: 960,
 });
 
 const InnerPage = ({imgUrl, content, name, title}) => (
@@ -17,7 +21,7 @@ const InnerPage = ({imgUrl, content, name, title}) => (
         <H1>{name}</H1>
         <H2>{title}</H2>
         <Picture src={imgUrl} />
-        {content}
+        <Content>{content}</Content>
     </Main>
 );
 export default InnerPage;

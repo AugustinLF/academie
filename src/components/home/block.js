@@ -18,6 +18,7 @@ const Block = g.div(
         justifyContent: "center",
         height: "100%",
         [tabletUp]: {
+            width: 960,
             padding: "0 100px",
         },
     },
