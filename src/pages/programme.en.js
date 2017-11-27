@@ -1,8 +1,8 @@
 import React from "react";
-import Link from "gatsby-link";
 
 import Page from "../components/page";
 import Lead from "../components/lead";
+import ProgrammeList from "../components/programmeList";
 
 const Programme = () => (
     <Page title="Our programs">
@@ -33,7 +33,7 @@ const Programme = () => (
             </p>
             <p>French and English are spoken in our international Music Academy.</p>
         </Lead>
-        <Link to="/en/vocal">Vocal Academy</Link>
+        <ProgrammeList language="fr" />
     </Page>
 );
 

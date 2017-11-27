@@ -67,12 +67,10 @@ const Content = g.div({
     position: "relative",
 });
 
-const Tile = ({imgUrl, title, content, link}) => (
+const Tile = ({imgUrl, titleId, title, content, link}) => (
     <TileContainer to={link}>
         <PictureBackground imgUrl={imgUrl} />
-        <Title>
-            <FormattedMessage id={title} />
-        </Title>
+        <Title>{titleId ? <FormattedMessage id={titleId} /> : title}</Title>
         <Content>
             <FormattedMessage style={{zIndex: 0}} id={content} />
             <Background />

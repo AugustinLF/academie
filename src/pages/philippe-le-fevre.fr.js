@@ -2,7 +2,7 @@ import React from "react";
 
 import {Link} from "../components/base";
 import InnerPage from "../components/innerPage";
-import philippeImage from "./philippe-le-fevre.jpg";
+import philippeImage from "../philippe.jpg";
 
 const Philippe = () => (
     <InnerPage
@@ -38,7 +38,7 @@ const Philippe = () => (
                     définition du mot émotion aux temps baroques : ce qui fait mouvoir les individus
                     et les rend différents. Et contribuer, ne serait-ce que de façon infime, à
                     rendre heureux ceux qui auront partagé avec lui ces moments musicaux.
-                </p>{" "}
+                </p>
             </div>
         }
     />

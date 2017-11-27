@@ -1,11 +1,13 @@
 import React from "react";
 import Link from "gatsby-link";
 import g from "glamorous";
+import {FormattedMessage} from "react-intl";
 
 import logo from "./logo.png";
 import SelectLanguage from "../components/selectLanguage";
 import {tabletUp, phone} from "../components/mediaQueries";
 import Menu from "./menu";
+import {Link as OuterLink} from "../components/base";
 
 const HeaderContainer = g.div({
     display: "flex",
@@ -31,6 +33,13 @@ const Img = g.img({
         width: "90%",
     },
 });
+const Right = g.div({
+    display: "flex",
+    alignItems: "flex-start",
+    "> *:not(:last-child)": {
+        marginRight: 10,
+    },
+});
 
 const Header = ({langs, homeLink}) => (
     <HeaderContainer>
@@ -38,7 +47,12 @@ const Header = ({langs, homeLink}) => (
             <Link to="/">
                 <Img src={logo} alt="Logo" />
             </Link>
-            <SelectLanguage langs={langs} />
+            <Right>
+                <OuterLink href="http://capricciofrancais.com/inscription.php">
+                    <FormattedMessage id="register" />
+                </OuterLink>
+                <SelectLanguage langs={langs} />
+            </Right>
         </Top>
         <Menu homeLink={homeLink} />
     </HeaderContainer>

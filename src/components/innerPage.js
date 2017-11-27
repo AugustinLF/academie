@@ -13,13 +13,17 @@ const Picture = g.img({
     marginBottom: 20,
 });
 const Content = g.div({
-    width: 960,
+    width: 760,
+});
+const SubTitle = g(H2)({
+    textAlign: "center",
+    maxWidth: 600,
 });
 
 const InnerPage = ({imgUrl, content, name, title}) => (
     <Main>
         <H1>{name}</H1>
-        <H2>{title}</H2>
+        <SubTitle>{title}</SubTitle>
         <Picture src={imgUrl} />
         <Content>{content}</Content>
     </Main>
