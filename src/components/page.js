@@ -2,14 +2,24 @@ import g from "glamorous";
 import React from "react";
 
 import {H1} from "./base";
+import {phone} from "./mediaQueries";
 
-const PageContainer = g.div({width: 960, paddingTop: 40});
+const PageContainer = g.div({
+    width: 960,
+    paddingTop: 40,
+    [phone]: {
+        width: "100%",
+    },
+});
 const Title = g.div({
     height: 35,
     display: "flex",
     alignItems: "center",
     borderBottom: "solid 2px black",
     marginBottom: 20,
+    [phone]: {
+        paddingLeft: 20,
+    },
 });
 
 const Page = ({title, children}) => (

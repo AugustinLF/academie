@@ -4,6 +4,7 @@ import React from "react";
 import {FormattedMessage} from "react-intl";
 
 import {H3} from "../base";
+import {phone} from "../mediaQueries";
 
 const TileContainer = g(RawLink)({
     cursor: "pointer",
@@ -18,6 +19,11 @@ const TileContainer = g(RawLink)({
         "& > div:first-child": {
             transform: "scale(1.1)",
         },
+        "& > div:last-child": {
+            transform: "translateY(0)",
+        },
+    },
+    [phone]: {
         "& > div:last-child": {
             transform: "translateY(0)",
         },
@@ -41,6 +47,9 @@ const PictureBackground = g.div(
         backgroundSize: "cover",
         backgroundPosition: "center top",
         transition: "all 0.2s",
+        [phone]: {
+            backgroundPosition: "center",
+        },
     },
     ({imgUrl}) => ({
         backgroundImage: `url(${imgUrl})`,
@@ -65,6 +74,7 @@ const Content = g.div({
     color: "white",
     padding: 10,
     position: "relative",
+    alignSelf: "stretch",
 });
 
 const Tile = ({imgUrl, titleId, title, content, link}) => (

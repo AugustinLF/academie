@@ -1,18 +1,32 @@
 import g from "glamorous";
 import React from "react";
 
+import {phone, tabletUp} from "../mediaQueries";
+
 const GridContainer = g.div(({count}) => ({
-    marginLeft: -10,
-    marginRight: -10,
     display: "flex",
     flexWrap: "wrap",
+    [tabletUp]: {
+        marginLeft: -10,
+        marginRight: -10,
+    },
     "& > *": {
-        marginRight: 10,
-        marginBottom: 20,
-        marginLeft: 10,
-        flexBasis: `calc(${100 / count}% - ${count * 10}px)`,
+        [tabletUp]: {
+            marginRight: 10,
+            marginLeft: 10,
+            flexBasis: `calc(${100 / count}% - ${count * 10}px)`,
+        },
         flexGrow: 0,
         flexShrink: 0,
+        [phone]: {
+            flexBasis: "100%",
+            ":not(:last-child)": {
+                marginBottom: 5,
+            },
+        },
+        ":not(:last-child)": {
+            marginBottom: 20,
+        },
     },
 }));
 
