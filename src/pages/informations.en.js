@@ -43,114 +43,69 @@ const Informations = () => (
                 </p>
             </div>
         </Section>
-        <Section title="Tarifs">
+        <Section title="Fees">
             <div>
                 <p>
-                    Les frais pédagogiques s’élèvent à 340 € et comprennent l’adhésion à
-                    l’association. Pour les danseurs, les frais pédagogiques sont de 120 € et
-                    comprennent l’adhésion à l’association.
+                    Tuition fees are 340€, and include membership. For dancers, tuition fees are
+                    120€, and include membership.
                 </p>
                 <p>
-                    Pour les personnes accompagnant les stagiaires et hébergées par l'Académie, mais
-                    qui ne participent pas au stage, le montant de l'adhésion à l'association est de
-                    15€.
+                    If students should be accompanied by a person who does not participate in the
+                    programs but would like to be accommodated with them, then a membership fee of
+                    15€ is due.
                 </p>
-                <p>
-                    Les frais d'hébergement en pension complète sont les suivants, sachant que trois
-                    dîners dans la semaine sont libres (et donc non compris dans les frais) afin de
-                    permettre de profiter pleinement de la ville :
-                </p>
+                <p>Accommodation fees in full boarding:</p>
                 <List>
-                    <ListItem>Chambre double avec salle de bains : 430 €</ListItem>
-                    <ListItem>
-                        Chambre single avec lavabo dans la chambre et douches et toilettes partagées
-                        avec d'autres chambres
-                    </ListItem>
-                    <ListItem>
-                        Chambre single avec lavabo dans la chambre et douches et toilettes à
-                        l'extérieur : 410 €
-                    </ListItem>
-                    <ListItem>
-                        Chambre triple avec lavabo dans la chambre et douches et toilettes à
-                        l'extérieur : 335 €
-                    </ListItem>
+                    <ListItem>Ensuite Double room: 430€</ListItem>
+                    <ListItem>Single room, shared bathroom: 410€</ListItem>
+                    <ListItem>Triple room, shared bathroom: 335€</ListItem>
                 </List>
                 <p>
-                    Une participation aux frais de 15 € par jour (soit 105 €) pour les locations de
-                    salle sera demandée aux stagiaires ne logeant pas en pension complète. Cette
-                    participation ne s'applique pas aux membres du Moviment Coral Català et aux
-                    danseurs.
+                    Please take note that 3 evening meals in the week are not included, so that
+                    students may enjoy Barcelona at night!
                 </p>
                 <p>
-                    NB: Les frais d’hébergement ne comprennent ni le transport, ni les transferts
-                    depuis l’aéroport ou la gare.
+                    15 € per day (105 € for the whole academy) will be asked to students who should
+                    decide not to be accommodated in Casa Sant Felip Neri, as a participation for
+                    renting the rehearsal rooms. This fee does not apply for members of the Moviment
+                    Coral Català and for dancers.
+                </p>
+                <p>
+                    NNB: The number of rooms in each category is limited. We will warn you if your
+                    first choice of room is no longer available.
+                </p>
+                <p>
+                    NB: Accommodation rates do not include transportation or airport / railway
+                    station transfers.
                 </p>
             </div>
         </Section>
-        <Section title="Comment venir ?">
+        <Section title="Travelling to the Academy">
             <div>
-                <H3>En train</H3>
+                <H3>By train</H3>
                 <p>
-                    Barcelone est accessible en TGV direct depuis Paris. Il existe aussi des lignes
-                    directes depuis Lyon et Marseille. Il est aussi possible d'emprunter les trains
-                    low cost Ouigo de la SNCF depuis Marne-la-Vallée en direction du sud et de faire
-                    un changement pour bénéficier des meilleurs prix.
+                    Detailed route: Download the{" "}
+                    <Link href="https://docs.wixstatic.com/ugd/169d18_01641383473c4bda83f5fcfa72d6e5a7.pdf">
+                        plan
+                    </Link>.
                 </p>
-                <p>Pour vous rendre ensuite à l'Académie depuis la gare :</p>
-                <List>
-                    <ListItem>
-                        Vous pouvez prendre un taxi, il vous en coûtera entre 10 et 15 euros, selon
-                        le trafic et le nombre de bagages.
-                    </ListItem>
-                    <ListItem>
-                        Ou bien vous pouvez prendre le métro :{" "}
-                        <Link href="https://docs.wixstatic.com/ugd/169d18_9c24fa82724e441dacd0bdd615c3c094.pdf">
-                            téléchargez l'itinéraire détaillé
-                        </Link>
-                    </ListItem>
-                </List>
-                <H3>En avion</H3>
+                <H3>By plane</H3>
                 <p>
-                    Barcelone est très bien desservi par de nombreuses compagnies aériennes. Depuis
-                    Paris Air France et Iberia, en ce qui concerne les compagnies nationales,
-                    Easyjet, Transavia et Vueling, pour les compagnies low-cost, assurent plusieurs
-                    vols quotidiens. Ryanair dessert aussi Barcelone depuis l'aéroport de
-                    Paris-Beauvais. Depuis Lyon, Genève, Nice, Easyjet assure également des vols
-                    directs.
+                    Barcelona - El Prat is an international airport with direct flights from all
+                    European countries.{" "}
+                    <Link href="https://docs.wixstatic.com/ugd/169d18_04c83fe8a8bc4498af7b8c24154f3018.pdf">
+                        plan
+                    </Link>
                 </p>
-                <p>Pour vous rendre ensuite à l'Académie depuis l'aéroport :</p>
-                <List>
-                    <ListItem>
-                        Vous pouvez prendre un taxi, il vous en coûtera entre 30 et 40€ selon le
-                        trafic et le nombre de bagages.
-                    </ListItem>
-                    <ListItem>
-                        Vous pouvez aussi prendre l’Aerobus qui vous amènera Plaça de Catalunya. Le
-                        ticket aller-retour vaut 10,20€. Vous prendrez ensuite le métro :
-                        téléchargez l'itinéraire détaillé
-                    </ListItem>
-                </List>
-                <H3>En voiture</H3>
+                <H3>By car</H3>
                 <p>
-                    Attention, si vous venez en voiture, merci de nous avertir à l'avance, le nombre
-                    de places de parking disponibles à la Casa Sant Felip Neri est réduit. Celles-ci
-                    seront donc attribuées par ordre d'inscription.
+                    Please take note that there is no parking space in Casa Sant Felip Neri, and
+                    parking in the street is expensive. The best solution is to take a 7-day pass in
+                    one of the city car parks (69 €), which will allow you unlimited ins and outs
+                    (but we recommend that you do not move your car for the week!). The BSM Cotxeres
+                    de Sarrià car park, at Manuel Girona 77, is 500m from the Academy.
                 </p>
             </div>
-        </Section>
-        <Section title="Formation professionelle">
-            <p>
-                Les stages peuvent être pris en charge dans le cadre de la formation
-                professionnelle. Depuis sa création l'Académie travaille avec l'AFDAS pour les
-                professionnels intermittents du spectacle ou avec des organismes collecteurs comme
-                Uniformation par exemple pour les salariés d'association. Nous travaillons aussi
-                directement avec des collectivités locales pour les enseignants de conservatoire.
-            </p>
-            <p>
-                Quelques unes de nos récentes références : AFDAS Paris, AFDAS Rhône-Alpes,
-                Uniformation, Atelier musicaux de Toulouse, Villes de Châlon-sur-Saône, Chambéry,
-                Domène, Lorient, Saint-Quentin
-            </p>
         </Section>
     </Page>
 );

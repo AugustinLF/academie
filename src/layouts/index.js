@@ -20,7 +20,11 @@ const TemplateWrapper = ({children, data, location, i18nMessages}) => {
         <IntlProvider locale={langKey} messages={i18nMessages}>
             <div>
                 <Helmet
-                    title="Académie d'été du Capriccio Français"
+                    title={
+                        langKey === "fr"
+                            ? "Académie d'été du Capriccio Français"
+                            : "Capriccio Français Summer Academy"
+                    }
                     meta={[
                         {name: "description", content: "Sample"},
                         {name: "keywords", content: "sample, something"},

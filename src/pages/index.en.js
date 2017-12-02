@@ -6,9 +6,9 @@ import Home from "../components/home";
 const msg = {
     title: ["Academy 2018", "JOIN US!"],
     academy: {
-        title: "Barcelona: 15-22 July 2017",
+        title: "Barcelona: 15-22 July 2018",
         content:
-            "Singers, chorists, harpsichordists, choir conductors and dancers: an international Academy devoted to ancient music in an outstanding setting in theheart of Barcelona",
+            "Singers, chorists, harpsichordists, choir conductors: an international Academy devoted to ancient music in an outstanding setting in the heart of Barcelona",
     },
     testimonials: {
         title: "TESTIMONIALS",
