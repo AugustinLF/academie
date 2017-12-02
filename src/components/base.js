@@ -32,8 +32,10 @@ const Relative = g.div(({height, mobile}) => ({
     display: "flex",
     justifyContent: "center",
     height,
+    padding: !height ? "30px 0" : null,
     [phone]: {
         height: mobile,
+        padding: !mobile ? "10px 0" : null,
     },
 }));
 

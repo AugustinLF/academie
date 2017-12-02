@@ -25,7 +25,7 @@ const Separator = g.hr({
 });
 
 const Academy = ({msg}) => (
-    <FullWidth height={310} mobile={240}>
+    <FullWidth>
         <Block>
             <BlockTitle>{msg.academy.title}</BlockTitle>
             <Separator />

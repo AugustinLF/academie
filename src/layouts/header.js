@@ -18,26 +18,41 @@ const HeaderContainer = g.div({
         maxWidth: "100vw",
         paddingTop: 20,
     },
+    [phone]: {
+        paddingTop: 10,
+    },
 });
 const Top = g.div({
     display: "flex",
     justifyContent: "space-between",
     paddingRight: 30,
     paddingLeft: 30,
+    [phone]: {
+        flexDirection: "column",
+    },
 });
 
 const Img = g.img({
     width: 554,
-    height: 84,
     [phone]: {
-        width: "90%",
+        width: "100%",
     },
 });
 const Right = g.div({
     display: "flex",
-    alignItems: "flex-start",
-    "> *:not(:last-child)": {
-        marginRight: 10,
+    [tabletUp]: {
+        alignItems: "flex-start",
+        "> *:not(:last-child)": {
+            marginRight: 10,
+        },
+    },
+    [phone]: {
+        margin: "20px 0",
+        flexDirection: "column",
+        alignItems: "center",
+        "> *:not(:last-child)": {
+            marginBottom: 10,
+        },
     },
 });
 

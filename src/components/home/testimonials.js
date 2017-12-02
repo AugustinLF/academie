@@ -20,7 +20,7 @@ const Testimonial = g.div({
 });
 
 const Testimonials = ({msg}) => (
-    <FullWidth height={450} background={<TestimonialBackground />}>
+    <FullWidth background={<TestimonialBackground />}>
         <Block white>
             <Title>{msg.testimonials.title}</Title>
             {msg.testimonials.content.map((testimonial, index) => (

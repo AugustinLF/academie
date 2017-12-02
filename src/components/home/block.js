@@ -21,6 +21,9 @@ const Block = g.div(
             width: 960,
             padding: "0 100px",
         },
+        [phone]: {
+            padding: "0 20px",
+        },
     },
     ({white}) => ({
         color: white ? "white" : "initial",

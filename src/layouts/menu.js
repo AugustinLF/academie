@@ -15,7 +15,7 @@ const MenuContainer = g.div({
     flexWrap: "wrap",
     [phone]: {
         justifyContent: "space-around",
-        padding: "0 10px",
+        padding: "0 10px 10px 10px",
     },
 });
 const MenuLink = g(Link)({
@@ -24,6 +24,9 @@ const MenuLink = g(Link)({
     textDecoration: "none",
     "&:hover": {
         color: "#BFBFBF",
+    },
+    [phone]: {
+        margin: "5px 20px",
     },
 });
 

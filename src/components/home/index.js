@@ -25,18 +25,14 @@ const Overlay = g.div({
 });
 
 // TODO link program
-const Container = g.div({
-    width: 960,
-    paddingTop: 100,
-    [phone]: {
-        paddingTop: 80,
-    },
+const Headline = g(Block)({
+    alignItems: "flex-start",
 });
 const CallToAction = g.div({
     color: "white",
     fontSize: 60,
     [phone]: {
-        fontSize: 24,
+        fontSize: 36,
     },
     letterSpacing: "0.1em",
     textTransform: "uppercase",
@@ -48,7 +44,7 @@ const TestimonialBackground = g.div({backgroundColor: "rgba(0, 48, 91, 1)", flex
 const Home = ({msg}) => (
     <div style={{width: "100%"}}>
         <FullWidth
-            height={610}
+            height={510}
             mobile={220}
             background={
                 <CrowdBackground>
@@ -56,9 +52,9 @@ const Home = ({msg}) => (
                 </CrowdBackground>
             }
         >
-            <Container>
+            <Headline>
                 {msg.title.map((title, index) => <CallToAction key={index}>{title}</CallToAction>)}
-            </Container>
+            </Headline>
         </FullWidth>
         <Academy msg={msg} />
         <Testimonials msg={msg} />
