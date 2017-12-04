@@ -33,7 +33,7 @@ const Programme = () => (
             </p>
             <p>French and English are spoken in our international Music Academy.</p>
         </Lead>
-        <ProgrammeList language="fr" />
+        <ProgrammeList language="en" />
     </Page>
 );
 

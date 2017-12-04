@@ -2,6 +2,7 @@ import g from "glamorous";
 import React from "react";
 
 import {H1, H2} from "../components/base";
+import {phone, tabletUp} from "./mediaQueries";
 
 const Main = g.div({
     display: "flex",
@@ -9,11 +10,20 @@ const Main = g.div({
     alignItems: "center",
 });
 const Picture = g.img({
-    height: 300,
     marginBottom: 20,
+
+    [tabletUp]: {
+        height: 300,
+    },
+    [phone]: {
+        width: "90%",
+    },
 });
 const Content = g.div({
     width: 760,
+    [phone]: {
+        width: "90%",
+    },
 });
 const SubTitle = g(H2)({
     textAlign: "center",

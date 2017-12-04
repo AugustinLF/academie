@@ -12,25 +12,25 @@ const ProgrammeList = ({language}) => (
             imgUrl={vocal}
             titleId="vocalTitle"
             content="vocalContent"
-            link={`/${language}/vocal`}
+            link={`/${language}/stage-de-chant`}
         />
         <Tile
             imgUrl={choral}
             titleId="choralTitle"
             content="choralContent"
-            link={`/${language}/vocal`}
+            link={`/${language}/stage-choral`}
         />
         <Tile
             imgUrl={choirConducting}
             titleId="choralConductingTitle"
             content="choralConductingContent"
-            link={`/${language}/vocal`}
+            link={`/${language}/stage-direction-de-choeur`}
         />
         <Tile
             imgUrl={instrumental}
             titleId="vocalCoachTitle"
             content="vocalCoachContent"
-            link={`/${language}/vocal`}
+            link={`/${language}/stage-pour-chefs-de-chant`}
         />
     </Grid>
 );
