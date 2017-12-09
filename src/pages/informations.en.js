@@ -86,18 +86,12 @@ const Informations = () => (
                 <div>
                     <H3>By train</H3>
                     <p>
-                        Detailed route: Download the{" "}
-                        <Link href="https://docs.wixstatic.com/ugd/169d18_01641383473c4bda83f5fcfa72d6e5a7.pdf">
-                            plan
-                        </Link>.
+                        Detailed route: Download the <Link href="/by-train.pdf">plan</Link>.
                     </p>
                     <H3>By plane</H3>
                     <p>
                         Barcelona - El Prat is an international airport with direct flights from all
-                        European countries.{" "}
-                        <Link href="https://docs.wixstatic.com/ugd/169d18_04c83fe8a8bc4498af7b8c24154f3018.pdf">
-                            plan
-                        </Link>
+                        European countries. <Link href="/by-plane.pdf">plan</Link>
                     </p>
                     <H3>By car</H3>
                     <p>

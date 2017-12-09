@@ -16,11 +16,6 @@ const Choral = () => (
                     Academy, and by Josep Cabré. All choral singers take part in a daily class of
                     vocal technique with Muriel Ferraro.
                 </p>
-                <p>
-                    We will celebrate the 450th Anniversary of Claudio Monteverdi’s birth. Carlo
-                    Gesualdo and Heinrich Schütz, certainly the greatest madrigalists of their time
-                    together with Monteverdi, will complete our program.
-                </p>
             </div>
         }
     />

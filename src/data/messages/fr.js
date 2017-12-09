@@ -22,7 +22,7 @@ module.exports = {
         "The Dutch baritone Maarten Koningsberger has sung in opera1s from Monteverdi to Mozart to Menotti.",
 
     vocalTitle: "Stage de chant",
-    vocalContent: "Maarten Koningsberger et Jospe Cabré animeront chacun un stage de chant.",
+    vocalContent: "Maarten Koningsberger et Josep Cabré animeront chacun un stage de chant.",
     choralTitle: "Stage de chant choral",
     choralContent:
         "Ce stage de chant choral accueille des choristes confirmés qui travailleront avec Philippe Le Fèvre et Josep Cabré.",

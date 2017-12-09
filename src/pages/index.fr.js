@@ -8,7 +8,7 @@ const msg = {
     academy: {
         title: "DU 15 AU 22 JUILLET 2018 : 7 JOURS A BARCELONE",
         content:
-            "Chanteurs, choristes, clavecinistes, chefs de chœur et danseurs : 7 jours de stage consacrés à la musique baroque dans un cadre exceptionnel",
+            "Chanteurs, choristes, clavecinistes, chefs de chœur : 7 jours de stage consacrés à la musique baroque dans un cadre exceptionnel",
     },
     testimonials: {
         title: "TEMOIGNAGES",

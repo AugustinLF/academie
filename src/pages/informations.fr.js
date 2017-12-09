@@ -1,4 +1,5 @@
 import React from "react";
+import {withPrefix} from "gatsby-link";
 
 import Page from "../components/page";
 import LeadImage from "../components/leadImage";
@@ -117,9 +118,7 @@ const Informations = () => (
                         </ListItem>
                         <ListItem>
                             Ou bien vous pouvez prendre le métro :{" "}
-                            <Link href="https://docs.wixstatic.com/ugd/169d18_9c24fa82724e441dacd0bdd615c3c094.pdf">
-                                téléchargez l'itinéraire détaillé
-                            </Link>
+                            <Link href="/itineraire.pdf">téléchargez l'itinéraire détaillé</Link>
                         </ListItem>
                     </List>
                     <H3>En avion</H3>

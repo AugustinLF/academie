@@ -26,11 +26,6 @@ const Vocal = () => (
                     Students work with Hélène Dufour and Stefano Intrieri, either individually or in
                     small groups and with Josep Cabré for polyphonic repertoire.
                 </p>
-                <p>
-                    <Link href="https://docs.wixstatic.com/ugd/169d18_1fd457e6017f483baa4cc95c60cd5950.pdf">
-                        Download the program
-                    </Link>
-                </p>
             </div>
         }
     />
