@@ -2,13 +2,13 @@ import React from "react";
 
 import {Link} from "../components/base";
 import InnerPage from "../components/innerPage";
-import joseph from "../joseph.jpg";
+import josep from "../josep.jpg";
 
-const Joseph = () => (
+const Josep = () => (
     <InnerPage
-        name="Joseph Cabré"
+        name="Josep Cabré"
         title="Chœur et chant"
-        imgUrl={joseph}
+        imgUrl={josep}
         content={
             <div>
                 <p>
@@ -47,4 +47,4 @@ const Joseph = () => (
         }
     />
 );
-export default Joseph;
+export default Josep;

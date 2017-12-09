@@ -8,15 +8,24 @@ export const H1 = g.h1({
     fontFamily: '"Courier New", courier-ps-w01, courier-ps-w02, courier-ps-w10, monospace',
     fontSize: 35,
     paddingBottom: 10,
+    [phone]: {
+        fontSize: 26,
+    },
 });
 export const H2 = g.h2({
     fontFamily: '"Courier New", courier-ps-w01, courier-ps-w02, courier-ps-w10, monospace',
     fontSize: 25,
+    [phone]: {
+        fontSize: 20,
+    },
     paddingBottom: 8,
 });
 export const H3 = g.h3({
     fontFamily: '"Courier New", courier-ps-w01, courier-ps-w02, courier-ps-w10, monospace',
     fontSize: 20,
+    [phone]: {
+        fontSize: 18,
+    },
 });
 export const TextBlock = g.div({});
 

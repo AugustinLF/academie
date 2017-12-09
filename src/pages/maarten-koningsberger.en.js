@@ -55,6 +55,9 @@ const Maarten = () => (
                     Centre de Musique Baroque de Versailles. He regularly invited for jury’s and
                     gives masterclasses all over the world.
                 </p>
+                <p>
+                    <Link href="http://www.maartenkoningsberger.com/">Personal website</Link>
+                </p>
             </div>
         }
     />

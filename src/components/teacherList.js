@@ -4,7 +4,7 @@ import {Tile, Grid} from "../components/grid";
 
 import philippe from "../philippe.jpg";
 import helene from "../helene.jpg";
-import joseph from "../joseph.jpg";
+import josep from "../josep.jpg";
 import muriel from "../muriel.jpg";
 import stefano from "../stefano.jpg";
 import maarten from "../maarten.jpg";
@@ -24,10 +24,10 @@ const TeacherList = ({language}) => (
             link={`/${language}/helene-dufour`}
         />
         <Tile
-            imgUrl={joseph}
-            title="Joseph Cabré"
+            imgUrl={josep}
+            title="Josep Cabré"
             content="philippeContent"
-            link={`/${language}/joseph-cabre`}
+            link={`/${language}/josep-cabre`}
         />
         <Tile
             imgUrl={muriel}

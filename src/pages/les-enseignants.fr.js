@@ -2,12 +2,11 @@ import React from "react";
 
 import Page from "../components/page";
 import Lead from "../components/lead";
-import Teacher from "../components/teacher";
 import {Link} from "../components/base";
 import TeacherList from "../components/teacherList";
 
 const Teachers = () => (
-    <Page title="Le Capriccio Français et les enseignants">
+    <Page title="Les enseignants">
         <Lead>
             <p>
                 Le Capriccio Français a fêté son 20ème anniversaire en 2015. Depuis sa création il a

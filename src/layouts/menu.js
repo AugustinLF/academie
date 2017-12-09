@@ -38,7 +38,7 @@ const Menu = ({homeLink}) => (
         <MenuLink to={`${homeLink}programme`}>
             <FormattedMessage id="programme" />
         </MenuLink>
-        <MenuLink to={`${homeLink}enseignants`}>
+        <MenuLink to={`${homeLink}les-enseignants`}>
             <FormattedMessage id="enseignants" />
         </MenuLink>
         <MenuLink to={`${homeLink}informations`}>

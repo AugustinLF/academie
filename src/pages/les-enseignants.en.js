@@ -2,7 +2,6 @@ import React from "react";
 
 import Page from "../components/page";
 import Lead from "../components/lead";
-import Teacher from "../components/teacher";
 import {Link} from "../components/base";
 import TeacherList from "../components/teacherList";
 

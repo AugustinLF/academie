@@ -20,11 +20,11 @@ const Vocal = () => (
                 <p>
                     Chaque stagiaire reçoit quotidiennement un cours de technique vocale avec
                     Isabelle Germain. Avec{" "}
-                    <InnerLink to="/fr/philippe-le-fevre">Hélène Dufour</InnerLink> et{" "}
-                    <InnerLink to="/fr/stephano-intrieri">Stefano Intrieri</InnerLink>, les
+                    <InnerLink to="/fr/helene-dufour">Hélène Dufour</InnerLink> et{" "}
+                    <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>, les
                     stagiaires travaillent, soit de façon individuelle en interprétation, soit en
                     petit groupe en musique de chambre. Avec{" "}
-                    <InnerLink to="/fr/philippe-le-fevre">Josep Cabré</InnerLink>, les stagiaires
+                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
                     travaillent plus particulièrement le répertoire polyphonique.
                 </p>
                 <p>
