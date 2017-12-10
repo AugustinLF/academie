@@ -8,12 +8,12 @@ import Testimonials from "./testimonials";
 import Sponsors from "./sponsors";
 import {phone, tabletUp} from "../mediaQueries";
 import Academy from "./academy";
+import SocialMedia from "./socialMedia";
 
 const CrowdBackground = g.div({
     backgroundImage: `url(${home})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    // 110% on phone?
     flexGrow: 1,
     display: "flex",
     alignItems: "stretch",
@@ -59,6 +59,7 @@ const Home = ({msg}) => (
         <Academy msg={msg} />
         <Testimonials msg={msg} />
         <Sponsors />
+        <SocialMedia />
     </div>
 );
 export default Home;

@@ -70,6 +70,7 @@ const Content = g.div({
     transition: "all 0.2s",
     transform: "translateY(calc(100% - 50px))",
     marginTop: "auto",
+    minHeight: 50,
     zIndex: 1,
     color: "white",
     padding: 10,

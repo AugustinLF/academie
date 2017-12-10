@@ -21,11 +21,6 @@ const Choral = () => (
                     En parallèle de leurs répétitions, les choristes bénéficient chaque jour de
                     cours de technique vocale avec Muriel Ferraro
                 </p>
-                <p>
-                    <Link href="https://docs.wixstatic.com/ugd/169d18_1fd457e6017f483baa4cc95c60cd5950.pdf">
-                        Télécharger le programme
-                    </Link>
-                </p>
             </div>
         }
     />

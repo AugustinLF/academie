@@ -16,10 +16,12 @@ module.exports = {
     moviment: "L'Académie d'été du Capriccio Français se déroule en collaboration avec le",
     movimentTitle: "Moviment Coral Català",
 
-    philippeContent:
-        "Chef d’orchestre et chef de chœur, Philippe Le Fèvre travaille pour que la musique puisse rencontrer le plus grand nombre.",
-    maartenContent:
-        "The Dutch baritone Maarten Koningsberger has sung in opera1s from Monteverdi to Mozart to Menotti.",
+    philippeContent: "Stage direction de chœur et stage de chant choral",
+    maartenContent: "Stage de chant",
+    heleneContent: "Stage de chant et basse continue",
+    stefanoContent: "Stage de chant et stage de chant choral",
+    josepContent: "Stage de chant et stage de chant choral",
+    murielContent: "Stage de direction de chœur et stage de chant choral",
 
     vocalTitle: "Stage de chant",
     vocalContent: "Maarten Koningsberger et Josep Cabré animeront chacun un stage de chant.",

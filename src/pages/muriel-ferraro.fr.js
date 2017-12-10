@@ -7,7 +7,7 @@ import muriel from "../muriel.jpg";
 const Muriel = () => (
     <InnerPage
         name="Muriel Ferraro"
-        title="Technique vocale pour le chœur et pour les stagiaires en direction de chœur"
+        title="Technique vocale stage de chant choral et de direction de chœur"
         imgUrl={muriel}
         content={
             <div>

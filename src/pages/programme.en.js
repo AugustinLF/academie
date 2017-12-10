@@ -10,10 +10,9 @@ const Programme = () => (
             <p>
                 Le Capriccio Français Summer Music Academy offers a tuition program for singers,
                 harpsichordists, and students in choir conducting, as well as a choral program, from
-                July 16 (arrival before dinner) to July 23 (departure July 24 after breakfast). The
+                July 15 (arrival before dinner) to July 22 (departure July 23 after breakfast). The
                 Academy is situated in Barcelona, in Casa Sant Felip Neri, an ancient convent
-                welcoming meetings, and especially musical workshops. A 3 days baroque dance program
-                will take place from July 21 to july 23.
+                welcoming meetings, and especially musical workshops.
             </p>
             <p>
                 The students will develop their technical skills together with their stylistic

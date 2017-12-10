@@ -29,7 +29,9 @@ const TemplateWrapper = ({children, data, location, i18nMessages}) => {
                         {name: "description", content: "Sample"},
                         {name: "keywords", content: "sample, something"},
                     ]}
-                />
+                >
+                    <link rel="icon" href="/favicon.jpg" />
+                </Helmet>
                 <Body>
                     <Header langs={langsMenu} homeLink={homeLink} />
                     {children()}

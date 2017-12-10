@@ -20,19 +20,19 @@ const TeacherList = ({language}) => (
         <Tile
             imgUrl={helene}
             title="Hélène Dufour"
-            content="philippeContent"
+            content="heleneContent"
             link={`/${language}/helene-dufour`}
         />
         <Tile
             imgUrl={josep}
             title="Josep Cabré"
-            content="philippeContent"
+            content="josepContent"
             link={`/${language}/josep-cabre`}
         />
         <Tile
             imgUrl={muriel}
             title="Muriel Ferraro"
-            content="philippeContent"
+            content="murielContent"
             link={`/${language}/muriel-ferraro`}
         />
         <Tile
@@ -44,7 +44,7 @@ const TeacherList = ({language}) => (
         <Tile
             imgUrl={stefano}
             title="Stefano Intrieri"
-            content="philippeContent"
+            content="stefanoContent"
             link={`/${language}/stefano-intrieri`}
         />
     </Grid>

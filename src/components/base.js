@@ -27,7 +27,6 @@ export const H3 = g.h3({
         fontSize: 18,
     },
 });
-export const TextBlock = g.div({});
 
 export const Link = g.a({
     color: "initial",

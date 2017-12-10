@@ -1,7 +1,7 @@
 import React from "react";
 import g from "glamorous";
 
-import {Link, InnerLink} from "../components/base";
+import {Link, InnerLink, List, ListItem} from "../components/base";
 import vocalImage from "../vocal.png";
 import InnerPage from "../components/innerPage";
 
@@ -11,22 +11,30 @@ const Vocal = () => (
         imgUrl={vocalImage}
         content={
             <div>
-                <p>
-                    Ce stage associe technique vocale et interprétation de la musique baroque. Les
-                    chanteurs partageront leur temps entre répertoire soliste, travail de rôle et
-                    musique d’ensemble. Chaque journée débute par un cours collectif sur les
-                    questions relatives à la posture et à la respiration.
-                </p>
+                <p>Les stagiaires choisissent parmi deux formules :</p>
+                <List>
+                    <ListItem>
+                        Avec Maarten Koninsberger (+ lien) le stage associe technique vocale et
+                        interprétation de la musique baroque. Les chanteurs partageront leur temps
+                        entre répertoire soliste, travail de rôle et musique d’ensemble.
+                    </ListItem>
+                </List>
                 <p>
                     Chaque stagiaire reçoit quotidiennement un cours de technique vocale avec
-                    Isabelle Germain. Avec{" "}
+                    Maarten Koninsberger. Avec{" "}
                     <InnerLink to="/fr/helene-dufour">Hélène Dufour</InnerLink> et{" "}
                     <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>, les
                     stagiaires travaillent, soit de façon individuelle en interprétation, soit en
-                    petit groupe en musique de chambre. Avec{" "}
-                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
-                    travaillent plus particulièrement le répertoire polyphonique.
+                    petit groupe en musique de chambre.
                 </p>
+                <List>
+                    <ListItem>
+                        Avec <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
+                        travaillent (œuvre à préciser utlérieurement) sous la forme d'un atelier
+                        journalier de 3 heures conduisant à une restitution publique à la fin du
+                        stage.
+                    </ListItem>
+                </List>
             </div>
         }
     />
