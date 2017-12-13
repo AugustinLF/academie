@@ -8,7 +8,6 @@ import Testimonials from "./testimonials";
 import Sponsors from "./sponsors";
 import {phone, tabletUp} from "../mediaQueries";
 import Academy from "./academy";
-import SocialMedia from "./socialMedia";
 
 const CrowdBackground = g.div({
     backgroundImage: `url(${home})`,
@@ -59,7 +58,6 @@ const Home = ({msg}) => (
         <Academy msg={msg} />
         <Testimonials msg={msg} />
         <Sponsors />
-        <SocialMedia />
     </div>
 );
 export default Home;

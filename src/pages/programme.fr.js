@@ -14,7 +14,7 @@ const Programme = () => (
                 Elle se déroulera du 15 juillet au 22 juillet 2018 à Barcelone
             </p>
             <p>
-                Le concert de fin se stage aura lieu le dimanche 22 juillet 2018 à 17h00 à
+                Le concert de fin de stage aura lieu le dimanche 22 juillet 2018 à 17h00 à
                 l'Església de Sant Gaietà.
             </p>
         </Lead>

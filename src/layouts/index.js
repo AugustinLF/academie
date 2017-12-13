@@ -4,10 +4,12 @@ import Helmet from "react-helmet";
 import {getCurrentLangKey, getLangs, getUrlForLang} from "ptz-i18n";
 import {IntlProvider} from "react-intl";
 import "intl";
+
 import "./reset.css";
 import "./index.css";
 import Header from "./header";
 import Body from "../components/body";
+import SocialMedia from "./social";
 
 const TemplateWrapper = ({children, data, location, i18nMessages}) => {
     const url = location.pathname;
@@ -35,6 +37,7 @@ const TemplateWrapper = ({children, data, location, i18nMessages}) => {
                 <Body>
                     <Header langs={langsMenu} homeLink={homeLink} />
                     {children()}
+                    <SocialMedia />
                 </Body>
             </div>
         </IntlProvider>

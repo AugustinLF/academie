@@ -14,9 +14,13 @@ const Vocal = () => (
                 <p>Les stagiaires choisissent parmi deux formules :</p>
                 <List>
                     <ListItem>
-                        Avec Maarten Koninsberger (+ lien) le stage associe technique vocale et
-                        interprétation de la musique baroque. Les chanteurs partageront leur temps
-                        entre répertoire soliste, travail de rôle et musique d’ensemble.
+                        Avec{" "}
+                        <InnerLink to="/fr/maarten-koningsberger">
+                            Maarten Koninsberger
+                        </InnerLink>{" "}
+                        le stage associe technique vocale et interprétation de la musique baroque.
+                        Les chanteurs partageront leur temps entre répertoire soliste, travail de
+                        rôle et musique d’ensemble.
                     </ListItem>
                 </List>
                 <p>
