@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "../components/base";
+import {Link, InnerLink} from "../components/base";
 import InnerPage from "../components/innerPage";
 import philippe from "../philippe.jpg";
 
@@ -44,6 +44,15 @@ const Philippe = () => (
                     Philippe Le Fèvre cherishes the Baroque definition of the word “emotion”: that
                     which makes you move and makes you different. His inner aspiration is to make
                     his audience feel happy for sharing these ravishing musical moments.
+                </p>
+                <p>
+                    Philippe Le Fèvre hosts the{" "}
+                    <InnerLink to="/en/stage-direction-de-choeur">
+                        choir conducting academy
+                    </InnerLink>{" "}
+                    and shares the choir conductin with{" "}
+                    <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink> for the{" "}
+                    <InnerLink to="/en/stage-choral">vocal academy</InnerLink>
                 </p>
             </div>
         }

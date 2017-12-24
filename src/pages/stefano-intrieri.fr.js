@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "../components/base";
+import {Link, InnerLink} from "../components/base";
 import InnerPage from "../components/innerPage";
 import stefano from "../stefano.jpg";
 
@@ -37,6 +37,11 @@ const Stefano = () => (
                     Lyrique de Tourcoing, Opera Zuid-Nederland et pour plusieurs productions
                     théatrales, et a accompagné les masterclasses de Margreet Honig, Rachel Yakar,
                     Howard Crook, Maarten Koningsberger, Gérard Lesne, Andreas Scholl...
+                </p>
+                <p>
+                    Stefano Intrieri est chef de chant pour le{" "}
+                    <InnerLink to="/fr/stage-de-chant">stage de chant</InnerLink> et accompagnateur
+                    pour le <InnerLink to="/fr/stage-choral">stage de chant choral</InnerLink>.
                 </p>
             </div>
         }

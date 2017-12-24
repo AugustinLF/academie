@@ -12,9 +12,12 @@ const Choral = () => (
         content={
             <div>
                 <p>
-                    The choir is conducted by Philippe Le Fèvre, artistic director of the Music
-                    Academy, and by Josep Cabré. All choral singers take part in a daily class of
-                    vocal technique with Muriel Ferraro.
+                    The choir is conducted by{" "}
+                    <InnerLink to="/en/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, artistic
+                    director of the Music Academy, and by{" "}
+                    <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink>. All choral singers take
+                    part in a daily class of vocal technique with{" "}
+                    <InnerLink to="/en/muriel-ferraro">Muriel Ferraro</InnerLink>.
                 </p>
             </div>
         }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "../components/base";
+import {Link, InnerLink} from "../components/base";
 import InnerPage from "../components/innerPage";
 import maarten from "../maarten.jpg";
 
@@ -55,6 +55,10 @@ const Maarten = () => (
                     Maarten Koningsberger est professeur au Conservatoire de Musique d’Amsterdam et
                     au Centre de Musique Baroque de Versailles. Il est régulièrement invité à faire
                     partie de jurys et donne des masterclasses dans le monde entier.
+                </p>
+                <p>
+                    Maarten Koningsberger est professeur pour le{" "}
+                    <InnerLink to="/fr/stage-de-chant">stage de chant</InnerLink>.
                 </p>
                 <p>
                     <Link href="http://www.maartenkoningsberger.com/">Site personnel</Link>

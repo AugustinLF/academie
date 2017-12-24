@@ -2,18 +2,19 @@ import React from "react";
 
 import Page from "../components/page";
 import Lead from "../components/lead";
-import {Link} from "../components/base";
+import {Link, InnerLink} from "../components/base";
 import TeacherList from "../components/teacherList";
 
 const Teachers = () => (
     <Page title="Le Capriccio Français and Academy faculty">
         <Lead>
             <p>
-                Founded by Philippe Le Fèvre, Le Capriccio Français has performed hundreds of times,
-                in prestigious and famous festivals as well as in more humble places. We have
-                performed with the most renowned soloists and with amateur choirs alike. Our public
-                may be music lovers or students in disadvantaged neighborhoods. Our goal is always
-                the same: to perform with determination and passion.
+                Founded by <InnerLink to="/en/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, Le
+                Capriccio Français has performed hundreds of times, in prestigious and famous
+                festivals as well as in more humble places. We have performed with the most renowned
+                soloists and with amateur choirs alike. Our public may be music lovers or students
+                in disadvantaged neighborhoods. Our goal is always the same: to perform with
+                determination and passion.
             </p>
             <p>
                 When Le Capriccio Français was founded, we intended to perform the 18th century

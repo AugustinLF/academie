@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "../components/base";
+import {Link, InnerLink} from "../components/base";
 import InnerPage from "../components/innerPage";
 import muriel from "../muriel.jpg";
 
@@ -43,6 +43,13 @@ const Muriel = () => (
                     et au Département pour Jeunes Chanteurs du CRR de Paris. Elle enseigne également
                     la technique vocale dans trois chœurs de la région parisienne: le chœur de
                     l'Assemblée Nationale, le chœur de Malestroit et l'ensemble vocal Folia.
+                </p>
+                <p>
+                    Muriel Ferraro enseigne le chant pour le{" "}
+                    <InnerLink to="/fr/stage-direction-de-choeur">
+                        stage de direction de chœur
+                    </InnerLink>{" "}
+                    et pour le <InnerLink to="/fr/stage-choral">stage de chant choral</InnerLink>.
                 </p>
             </div>
         }

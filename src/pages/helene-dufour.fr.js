@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "../components/base";
+import {Link, InnerLink} from "../components/base";
 import InnerPage from "../components/innerPage";
 import helene from "../helene.jpg";
 
@@ -34,6 +34,12 @@ const Helene = () => (
                     Elle est chef de chant au Centre de Musique Baroque de Versailles, enseigne le
                     clavecin au Conservatoire à Rayonnement Régional de Reims et la basse continue
                     au Conservatoire à Rayonnement Départemental d'Orsay.
+                </p>
+                <p>
+                    Hélène Dufour est chef de chant pour le{" "}
+                    <InnerLink to="/fr/stage-de-chant">stage de chant</InnerLink> et travaillera
+                    avec les clavecinistes du{" "}
+                    <InnerLink to="/fr/stage-pour-chefs-de-chant">stage chefs de chant</InnerLink>
                 </p>
             </div>
         }

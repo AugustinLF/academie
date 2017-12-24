@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "../components/base";
+import {Link, InnerLink} from "../components/base";
 import InnerPage from "../components/innerPage";
 import philippeImage from "../philippe.jpg";
 
@@ -38,6 +38,15 @@ const Philippe = () => (
                     définition du mot émotion aux temps baroques : ce qui fait mouvoir les individus
                     et les rend différents. Et contribuer, ne serait-ce que de façon infime, à
                     rendre heureux ceux qui auront partagé avec lui ces moments musicaux.
+                </p>
+                <p>
+                    Philippe Le Fèvre anime le{" "}
+                    <InnerLink to="/fr/stage-direction-de-choeur">
+                        stage de direction de chœur
+                    </InnerLink>{" "}
+                    et partage la direction du chœur avec{" "}
+                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink> pour le{" "}
+                    <InnerLink to="/fr/stage-choral">stage de chant choral</InnerLink>
                 </p>
             </div>
         }

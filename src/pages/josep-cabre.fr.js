@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "../components/base";
+import {Link, InnerLink} from "../components/base";
 import InnerPage from "../components/innerPage";
 import josep from "../josep.jpg";
 
@@ -42,6 +42,13 @@ const Josep = () => (
                     d'une centaine d'enregistrements discographiques (ACCENT, Harmonia Mundi,
                     Almaviva, Astrée-Auvidis, Tactus, K617, NB), bon nombre desquels se sont vus
                     décerner des prix de la critique par la presse spécialisée.
+                </p>
+                <p>
+                    Josep Cabre anime un des deux ateliers du{" "}
+                    <InnerLink to="/fr/stage-de-chant">stage de chant</InnerLink> et partage la
+                    direction du chœur avec{" "}
+                    <InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink> pour le{" "}
+                    <InnerLink to="/fr/stage-choral">stage de chant choral</InnerLink>.
                 </p>
             </div>
         }
