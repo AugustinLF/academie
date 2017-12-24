@@ -1,6 +1,6 @@
 module.exports = {
     home: "Accueil",
-    programme: "Les stages été 2018",
+    programme: "Les stages de musique été",
     enseignants: "Les enseignants",
     informations: "Informations pratiques",
     faq: "FAQ",

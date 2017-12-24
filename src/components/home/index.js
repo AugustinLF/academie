@@ -27,7 +27,17 @@ const Overlay = g.div({
 const Headline = g(Block)({
     alignItems: "flex-start",
 });
-const CallToAction = g.div({
+const CallToActionMain = g.h1({
+    color: "white",
+    fontSize: 60,
+    [phone]: {
+        fontSize: 36,
+    },
+    letterSpacing: "0.1em",
+    textTransform: "uppercase",
+    fontWeight: "bold",
+});
+const CallToAction = g.h2({
     color: "white",
     fontSize: 60,
     [phone]: {
@@ -52,7 +62,8 @@ const Home = ({msg}) => (
             }
         >
             <Headline>
-                {msg.title.map((title, index) => <CallToAction key={index}>{title}</CallToAction>)}
+                <CallToActionMain>{msg.title[0]}</CallToActionMain>
+                <CallToAction>{msg.title[1]}</CallToAction>
             </Headline>
         </FullWidth>
         <Academy msg={msg} />

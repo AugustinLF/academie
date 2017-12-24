@@ -6,7 +6,7 @@ import Lead from "../components/lead";
 import ProgrammeList from "../components/programmeList";
 
 const Programme = () => (
-    <Page title="Les stages été 2018 de l'Académie">
+    <Page title="Les stages de musique été 2018">
         <Lead>
             <p>
                 L'Académie d'été du Capriccio Français propose un stage de chant, un stage de

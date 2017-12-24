@@ -5,7 +5,7 @@ import Lead from "../components/lead";
 import ProgrammeList from "../components/programmeList";
 
 const Programme = () => (
-    <Page title="Our programs">
+    <Page title="Summer Music Academy 2018">
         <Lead>
             <p>
                 Le Capriccio Français Summer Music Academy offers a tuition program for singers,

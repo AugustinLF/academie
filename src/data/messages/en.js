@@ -1,6 +1,6 @@
 module.exports = {
     home: "Home",
-    programme: "Our programs",
+    programme: "Summer music academy",
     enseignants: "Faculty",
     informations: "Information",
     faq: "FAQ",
