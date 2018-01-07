@@ -56,14 +56,19 @@ const Right = g.div({
     },
 });
 
-const Header = ({langs, homeLink}) => (
+const registrationLinks = {
+    en: "http://capricciofrancais.com/registration.php",
+    fr: "http://capricciofrancais.com/inscription.php",
+};
+
+const Header = ({langs, homeLink, langKey}) => (
     <HeaderContainer>
         <Top>
             <Link to="/">
                 <Img src={logo} alt="Logo" />
             </Link>
             <Right>
-                <OuterLink href="http://capricciofrancais.com/inscription.php">
+                <OuterLink href={registrationLinks[langKey]}>
                     <FormattedMessage id="register" />
                 </OuterLink>
                 <SelectLanguage langs={langs} />

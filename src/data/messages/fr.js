@@ -32,5 +32,6 @@ module.exports = {
     choralConductingContent:
         "Ce stage permettra d’aborder toutes les facettes du métier de chef de chœur et de travailler quotidiennement avec un chœur école.",
     vocalCoachTitle: "Stage pour chefs de chant",
-    vocalCoachContent: "Comment se préparer au travail avec les chanteurs",
+    vocalCoachContent:
+        "Ce stage s’adresse à des clavecinistes, organistes ou pianistes souhaitant se perfectionner au métier de chef de chant.",
 };
