@@ -50,7 +50,7 @@ const Informations = () => (
                     <p>
                         A noter : les murs épais du couvent garantissent une fraîcheur relative en
                         été dans les chambres. La grande salle de répétition est climatisée si
-                        nécessaire. Le studio de danse est climatisé.
+                        nécessaire. 
                     </p>
                 </div>
             </Section>
