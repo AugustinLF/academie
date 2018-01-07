@@ -90,7 +90,7 @@ const Informations = () => (
                         </ListItem>
                     </List>
                     <p>
-                        Une participation aux frais de 15 € par jour (soit 105 €) pour les locations
+                        Une participation aux frais de 10 € par jour (soit 70 €) pour les locations
                         de salle sera demandée aux stagiaires ne logeant pas en pension complète.
                         Cette participation ne s'applique pas aux membres du Moviment Coral Català
                         et aux danseurs.
