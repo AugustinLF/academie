@@ -8,7 +8,7 @@ const msg = {
     academy: {
         title: "Barcelona: 15-22 July 2018",
         content:
-            "Singers, chorists, harpsichordists, choir conductors: an international Academy devoted to ancient music in an outstanding setting in the heart of Barcelona",
+            "Singers, chorists, lyric coaches, choir conductors: an international Academy devoted to ancient music in an outstanding setting in the heart of Barcelona",
     },
     testimonials: {
         title: "TESTIMONIALS",
