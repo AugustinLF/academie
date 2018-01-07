@@ -40,7 +40,7 @@ const Informations = () => (
                     <p>
                         Air-conditioning: Walls are very thick inside the convent, which assures
                         fairly fresh air in rooms in summer. The main rehearsal room can be
-                        air-conditioned if necessary. The dance studio is air-conditioned.
+                        air-conditioned if necessary. 
                     </p>
                 </div>
             </Section>
