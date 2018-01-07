@@ -26,7 +26,7 @@ const Informations = () => (
                         juillet au petit-déjeuner du lundi 23 juillet), sauf trois dîners dans la
                         semaine qui sont libres.
                     </p>
-                    <p>Quatre possibilités d'hébergement en pension complète sont disponibles :</p>
+                    <p>Trois possibilités d'hébergement en pension complète sont disponibles :</p>
                     <List>
                         <ListItem>Chambre double avec salle de bains (deux lits simples)</ListItem>
                         <ListItem>
@@ -37,10 +37,7 @@ const Informations = () => (
                             Chambre triple avec lavabo dans la chambre (trois lits simples) et
                             douches et toilettes partagées avec d'autres chambres
                         </ListItem>
-                        <ListItem>
-                            Chambre double avec salle de bain dans un hôtel distant de moins de 300
-                            mètres
-                        </ListItem>
+                       
                     </List>
                     <p>
                         Le linge de toilette est fourni, les draps sont changés en milieu de séjour.
@@ -61,7 +58,7 @@ const Informations = () => (
                 <div>
                     <p>
                         Les frais pédagogiques s’élèvent à 340 € et comprennent l’adhésion à
-                        l’association. Pour les danseurs, les frais pédagogiques sont de 120 € et
+                        l’association. Pour le stage de chant avec Josep Cabré, les frais pédagogiques sont de 170 € et
                         comprennent l’adhésion à l’association.
                     </p>
                     <p>
