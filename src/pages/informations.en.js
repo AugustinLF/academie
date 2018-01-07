@@ -23,12 +23,11 @@ const Informations = () => (
                         Full board is provided from the dinner of Sunday 16 July to the breakfast of
                         Monday 24 July.
                     </p>
-                    <p>4 different options are available for your accommodation:</p>
+                    <p>3 different options are available for your accommodation:</p>
                     <List>
                         <ListItem>Ensuite Double room (two single beds)</ListItem>
                         <ListItem>Single room, shared bathroom (washbasin in the room)</ListItem>
                         <ListItem>Triple room, shared bathroom (washbasin in the room)</ListItem>
-                        <ListItem>Ensuite Double room in hotel ***</ListItem>
                     </List>
                     <p>
                         Linen and towels are provided; bed linen will be changed once during the
@@ -41,7 +40,7 @@ const Informations = () => (
                     <p>
                         Air-conditioning: Walls are very thick inside the convent, which assures
                         fairly fresh air in rooms in summer. The main rehearsal room can be
-                        air-conditioned if necessary. The dance studio is air-conditioned.
+                        air-conditioned if necessary. 
                     </p>
                 </div>
             </Section>
@@ -67,7 +66,7 @@ const Informations = () => (
                         students may enjoy Barcelona at night!
                     </p>
                     <p>
-                        15 € per day (105 € for the whole academy) will be asked to students who
+                        10 € per day (70 € for the whole academy) will be asked to students who
                         should decide not to be accommodated in Casa Sant Felip Neri, as a
                         participation for renting the rehearsal rooms. This fee does not apply for
                         members of the Moviment Coral Català and for dancers.
@@ -91,7 +90,7 @@ const Informations = () => (
                     <H3>By plane</H3>
                     <p>
                         Barcelona - El Prat is an international airport with direct flights from all
-                        European countries. <Link href="/by-plane.pdf">plan</Link>
+                        European countries. Detailed route: Download the <Link href="/by-plane.pdf">plan</Link>
                     </p>
                     <H3>By car</H3>
                     <p>
