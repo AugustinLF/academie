@@ -23,12 +23,11 @@ const Informations = () => (
                         Full board is provided from the dinner of Sunday 16 July to the breakfast of
                         Monday 24 July.
                     </p>
-                    <p>4 different options are available for your accommodation:</p>
+                    <p>3 different options are available for your accommodation:</p>
                     <List>
                         <ListItem>Ensuite Double room (two single beds)</ListItem>
                         <ListItem>Single room, shared bathroom (washbasin in the room)</ListItem>
                         <ListItem>Triple room, shared bathroom (washbasin in the room)</ListItem>
-                        <ListItem>Ensuite Double room in hotel ***</ListItem>
                     </List>
                     <p>
                         Linen and towels are provided; bed linen will be changed once during the
@@ -48,8 +47,8 @@ const Informations = () => (
             <Section title="Fees">
                 <div>
                     <p>
-                        Tuition fees are 340€, and include membership. For dancers, tuition fees are
-                        120€, and include membership.
+                        Tuition fees are 340€, and include membership. For the vocal workshop with Josep Cabré, tuition fees are
+                        170€, and include membership.
                     </p>
                     <p>
                         If students should be accompanied by a person who does not participate in
@@ -67,10 +66,10 @@ const Informations = () => (
                         students may enjoy Barcelona at night!
                     </p>
                     <p>
-                        15 € per day (105 € for the whole academy) will be asked to students who
+                        10 € per day (70 € for the whole academy) will be asked to students who
                         should decide not to be accommodated in Casa Sant Felip Neri, as a
                         participation for renting the rehearsal rooms. This fee does not apply for
-                        members of the Moviment Coral Català and for dancers.
+                        members of the Moviment Coral Català.
                     </p>
                     <p>
                         NNB: The number of rooms in each category is limited. We will warn you if
@@ -91,7 +90,7 @@ const Informations = () => (
                     <H3>By plane</H3>
                     <p>
                         Barcelona - El Prat is an international airport with direct flights from all
-                        European countries. <Link href="/by-plane.pdf">plan</Link>
+                        European countries. Detailed route: Download the <Link href="/by-plane.pdf">plan</Link>
                     </p>
                     <H3>By car</H3>
                     <p>
