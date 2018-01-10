@@ -49,8 +49,7 @@ const Informations = () => (
                     </p>
                     <p>
                         A noter : les murs épais du couvent garantissent une fraîcheur relative en
-                        été dans les chambres. La grande salle de répétition est climatisée si
-                        nécessaire. 
+                        été dans les chambres. La grande salle de répétition est climatisée. 
                     </p>
                 </div>
             </Section>
@@ -64,7 +63,7 @@ const Informations = () => (
                     <p>
                         Pour les personnes accompagnant les stagiaires et hébergées par l'Académie,
                         mais qui ne participent pas au stage, le montant de l'adhésion à
-                        l'association est de 15€.
+                        l'association est de 40€.
                     </p>
                     <p>
                         Les frais d'hébergement en pension complète sont les suivants, sachant que
@@ -72,25 +71,20 @@ const Informations = () => (
                         frais) afin de permettre de profiter pleinement de la ville :
                     </p>
                     <List>
-                        <ListItem>Chambre double avec salle de bains : 430 €</ListItem>
-                        <ListItem>
-                            Chambre single avec lavabo dans la chambre et douches et toilettes
-                            partagées avec d'autres chambres
-                        </ListItem>
+                        <ListItem>Chambre double avec salle de bains : 440 €</ListItem>
                         <ListItem>
                             Chambre single avec lavabo dans la chambre et douches et toilettes à
-                            l'extérieur : 410 €
+                            l'extérieur : 420 €
                         </ListItem>
                         <ListItem>
                             Chambre triple avec lavabo dans la chambre et douches et toilettes à
-                            l'extérieur : 335 €
+                            l'extérieur : 340 €
                         </ListItem>
                     </List>
                     <p>
                         Une participation aux frais de 10 € par jour (soit 70 €) pour les locations
                         de salle sera demandée aux stagiaires ne logeant pas en pension complète.
-                        Cette participation ne s'applique pas aux membres du Moviment Coral Català
-                        et aux danseurs.
+                        Cette participation ne s'applique pas aux membres du Moviment Coral Catala.
                     </p>
                     <p>
                         NB: Les frais d’hébergement ne comprennent ni le transport, ni les
