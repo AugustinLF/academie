@@ -39,8 +39,8 @@ const Informations = () => (
                     </p>
                     <p>
                         Air-conditioning: Walls are very thick inside the convent, which assures
-                        fairly fresh air in rooms in summer. The main rehearsal room can be
-                        air-conditioned if necessary. 
+                        fairly fresh air in rooms in summer. The main rehearsal is
+                        air-conditioned. 
                     </p>
                 </div>
             </Section>
@@ -53,14 +53,18 @@ const Informations = () => (
                     <p>
                         If students should be accompanied by a person who does not participate in
                         the programs but would like to be accommodated with them, then a membership
-                        fee of 15€ is due.
+                        fee of 40€ is due.
                     </p>
                     <p>Accommodation fees in full boarding:</p>
                     <List>
-                        <ListItem>Ensuite Double room: 430€</ListItem>
-                        <ListItem>Single room, shared bathroom: 410€</ListItem>
-                        <ListItem>Triple room, shared bathroom: 335€</ListItem>
+                        <ListItem>Ensuite Double room: 440€</ListItem>
+                        <ListItem>Single room, shared bathroom: 420€</ListItem>
+                        <ListItem>Triple room, shared bathroom: 350€</ListItem>
                     </List>
+                    <p>
+                        The number of rooms in each category is limited. We will warn you if
+                        your first choice of room is no longer available.
+                    </p>
                     <p>
                         Please take note that 3 evening meals in the week are not included, so that
                         students may enjoy Barcelona at night!
@@ -71,10 +75,7 @@ const Informations = () => (
                         participation for renting the rehearsal rooms. This fee does not apply for
                         members of the Moviment Coral Català.
                     </p>
-                    <p>
-                        NNB: The number of rooms in each category is limited. We will warn you if
-                        your first choice of room is no longer available.
-                    </p>
+                   
                     <p>
                         NB: Accommodation rates do not include transportation or airport / railway
                         station transfers.
