@@ -34,7 +34,7 @@ const Vocal = () => (
                 <List>
                     <ListItem>
                         Avec <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
-                        travaillent (œuvre à préciser utlérieurement) sous la forme d'un atelier
+                        travaillent Jephté de Carrisimi sous la forme d'un atelier
                         journalier de 3 heures conduisant à une restitution publique à la fin du
                         stage.
                     </ListItem>
