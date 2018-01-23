@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 
 import Home from "../components/home";
 
-const msg = {
+export const msg = {
     title: ["Academy 2018", "JOIN US!"],
     academy: {
         title: "Barcelona: 15-22 July 2018",

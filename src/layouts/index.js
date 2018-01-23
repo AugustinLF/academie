@@ -10,6 +10,13 @@ import "./index.css";
 import Header from "./header";
 import Body from "../components/body";
 import SocialMedia from "./social";
+import {msg as msgFr} from "../pages/index.fr";
+import {msg as msgEn} from "../pages/index.en";
+
+const description = {
+    fr: msgFr.academy.content,
+    en: msgFr.academy.content,
+};
 
 const TemplateWrapper = ({children, data, location, i18nMessages}) => {
     const url = location.pathname;
@@ -27,10 +34,7 @@ const TemplateWrapper = ({children, data, location, i18nMessages}) => {
                             ? "Académie d'été du Capriccio Français"
                             : "Capriccio Français Summer Academy"
                     }
-                    meta={[
-                        {name: "description", content: "Sample"},
-                        {name: "keywords", content: "sample, something"},
-                    ]}
+                    meta={[{name: "description", content: description[langKey]}]}
                 >
                     <link rel="icon" href="/favicon.jpg" />
                 </Helmet>
