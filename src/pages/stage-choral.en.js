@@ -18,6 +18,12 @@ const Choral = () => (
                     <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink>. All choral singers take
                     part in a daily class of vocal technique with{" "}
                     <InnerLink to="/en/muriel-ferraro">Muriel Ferraro</InnerLink>.
+    
+    in 2018, the program is about italian baroc music. The choir will sing:
++    . Giacomo Carissimi : Jephté (SSATTB)
++    . Alessandro Grandi :  O speciosa (SAB and SATB)
++    . Antonio Lotti ; Crucifixus a 6 (SSAATB)
++    . Antonio Lotti : Miserere in d (SATB)
                 </p>
                 <p>
                     in 2018, the program is about italian baroc music. The choir will sing:<List>
