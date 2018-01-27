@@ -12,10 +12,12 @@ import Body from "../components/body";
 import SocialMedia from "./social";
 import {msg as msgFr} from "../pages/index.fr";
 import {msg as msgEn} from "../pages/index.en";
+import {msg as msgEs} from "../pages/index.es";
 
 const description = {
     fr: msgFr.academy.content,
-    en: msgFr.academy.content,
+    en: msgEn.academy.content,
+    es: msgEs.academy.content,
 };
 
 const TemplateWrapper = ({children, data, location, i18nMessages}) => {

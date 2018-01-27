@@ -59,6 +59,7 @@ const Right = g.div({
 const registrationLinks = {
     en: "http://capricciofrancais.com/registration.php",
     fr: "http://capricciofrancais.com/inscription.php",
+    es: "http://capricciofrancais.com/registration.php",
 };
 
 const Header = ({langs, homeLink, langKey}) => (

@@ -4,8 +4,9 @@ import Link from "gatsby-link";
 
 import en from "./uk.png";
 import fr from "./france.png";
+import es from "./es.png";
 
-const flagMap = {en, fr};
+const flagMap = {en, fr, es};
 
 const Container = g.div({
     display: "flex",
