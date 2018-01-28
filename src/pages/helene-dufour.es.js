@@ -7,36 +7,28 @@ import helene from "../helene.jpg";
 const Helene = () => (
     <InnerPage
         name="Hélène Dufour"
-        title="Harpischord and lyric coach"
+        title="Clave mestre de cant"
         imgUrl={helene}
         content={
             <div>
                 <p>
-                    Hélène Dufour started studying harpsichord at the Paris Superior National Music
-                    Conservatory, then at the Royal Flemish Conservatory in Antwerp with Jos Van
-                    Immerseel, and studied organ with Jean Boyer.
-                </p>
-                <p>
-                    She took part in tours of the European Union Baroque Orchestra, where she was to
-                    meet Ton Koopman, Roy Goodman and Jaap ter Linden. She then played for the most
-                    important concert institutions (Paris Sacred Art Festival, Lisbon Gulbekian
-                    Foundation, Utrecht Festival, Moscow Conservatory…)
-                </p>
-                <p>
-                    She now plays chamber music (duet with James Bowman, trio with La Tempesta…),
-                    basso continuo for orchestras (Le Capriccio Français, La Réjouissance…), and
-                    solos (Bach concertos, Manuel de Falla…).
-                </p>
-                <p>
-                    She has recorded French baroque motets (Diapason d’Or award), concerti grossi
-                    with ECBO. Her recording of 18th century sonatas with Patrick Bismuth received
-                    the Venice Fondazione Cini award, and her recording of Biber’s Rosenkranzsonaten
-                    received a “Choc” award from “Le Monde de la Musique”.
-                </p>
-                <p>
-                    She is a Lyric coach at the Versailles Baroque Music Center, a harpsichord
-                    Professor at the Reims Regional Conservatory, and a basso continuo Professor at
-                    the Orsay Regional Conservatory.
+                    Un cop acabats els seus estudis de clave al CNSM de Paris, Hélène Dufour es perfecciona amb Jos Van 
+    Immerseel al Conservatori Royal Flamand d’Anvers i treballa orgue amb Jean Boyer. És seleccionada pera formar part de 
+    tournées de l’Orchestre Baroque de la Communauté Européenne on treballa amb Ton Koopman, Roy Goodman i Jaap ter Linden. 
+    Toca en les més importants institucions de concerts (Festival d’Art Sacré de Paris, Fondation Gulbenkian de Lisbonne, 
+    Festival d’Utrecht, Conservatoire de Moscou...)
+</p>
+ <p>
+Hélène Dufour comparteix actualment la seva activitat entre la música de cambra (duo amb el contra-tenor James Bowman, 
+trio amb la Tempesta...) i el continuo d’orquestra (Le Capriccio Français, la Réjouissance...) i els solos 
+(concerts de Bach, Manuel de Falla.. ) Ha realitzat nombrosos enregistraments: els motets barrocs francesos (Diapason d’Or), 
+    dels concerti grossi amb l’ECBO. L’enregistrament amb Patrick Bismuth dedicat a les sonates del segle XVII ha rebut 
+    el premi de la Fondazione Cini de Venècia i el de les Sonates per al rosari de Biber ha estat guardonat amb un “Choc” 
+    del Monde la Musique.
+</p>
+ <p>
+És mestre de cant al Centre de Musique Baroque de Versailles, ensenya clave al Conservatori à Rayonnement Régional de Reims 
+i baix continu al Conservatori à Rayonnement Départemental d’Orsay.
                 </p>
             </div>
         }
