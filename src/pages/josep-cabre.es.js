@@ -7,40 +7,33 @@ import josep from "../josep.jpg";
 const Josep = () => (
     <InnerPage
         name="Josep Cabré"
-        title="Choir and singing"
+        title="Cant i cor"
         imgUrl={josep}
         content={
             <div>
                 <p>
-                    Josep Cabré has worked for a long time with the most prestigious ensembles
-                    devoted to historical interpretation, among which Hesperion XX, Huelgas
-                    Ensemble, La Chapelle Royale, Ensemble Organum, Ensemble Gilles Binchois,
-                    Sequentia, with repertoires ranging from the Middle Ages to the Baroque. He is
-                    currently collaborating with the Daedalus ensemble (Geneva) and the organist
-                    Jean Charles Ablitzer.
+                    Llargament col·laborador de prestigiosos conjunts entre els quals es pot citar Hesperion XX, 
+                     Huelgas Ensemble, la Chapelle Royales, el conjunt Organum, Gilles Binchois o Sequentia per a repertoris que van des de 
+    l’Edat Mitjana fins a l’època barroca. Josep Cabré col·labora amb l’Ensemble Daedalus i amb l’organista Jean-Charles Abilizer.
                 </p>
                 <p>
-                    He is a founding member of the vocal quartet La Colombina. With this ensemble he
-                    has performed in many concerts and has recorded a number of records. He is often
-                    invited to teach specialised courses in various institutions (University of
-                    Mexico, UNAM, Flanders Festival, Centre International les Chemins du
-                    Baroque...). He also teaches at Musikene, the Higher School of Music of the
-                    Basque Country, in San Sebastian, and at the Conservatory in Perpignan.
+Membre fundador del quartet vocal La Colombina, amb qui ha desenvolupat una part important de la seva activitat concertística 
+    i d’enregistrament. Regularment és convidat a fer cursos d’ensenyament (Universitat de Mèxic, Seminaris de Música Antiga 
+    de Bariloche a Argentina, Festival de Flandes o al Centre International des Chemins du Baoque...) 
+És també professor a Musikene, Escola Superior de Música del País Basc a Sant Sebastià i al CRR de Perpinyà.
                 </p>
                 <p>
-                    Josep Cabré founded the Companyia Musical ensemble for the performance of
-                    Renaissance and Baroque repertoires away from the mainstream, from plainchant to
-                    polyphony. He was the conductor of the Capilla Peñaflorida (San Sebastián) and
-                    artistic director and conductor of the Coral de Cámara de Pamplona. He has
-                    carried out intensive work on the performance and recording of Hispanic
-                    repertoires from the Renaissance and the Baroque with both ensembles.
-                </p>
+Fundador de la Compagnie Musicale per a la pràctica de repertoris poc habituals de l’època barroca, del cant pla a la polifonia
+en quartets masculins. Ha estat també responsable de la direcció musical de la Capilla Peñaflorida a Sant Sebastià, 
+    al País Basc, sent també director musical del Choeur de Chambre de Pampelune de Navarra, amb el qual ha desenvolupat 
+    una gran activitat d’interpretació i d’enregistrament de repertoris hispànics del renaixement i del barroc.
+</p>
                 <p>
-                    All this activity crystallises in frequent radio productions and the recording
-                    of around a hundred records for different labels (Accent, Harmonia Mundi,
-                    Almaviva, Tactus, K617, NB....), many of which have been awarded prizes by the
-                    specialised critics.
+Les activitats de Josep Cabré comprenent també nombroses emissions de radio (RadioFrance, BRT de Bruseles, Radio Nacional 
+de España...) així com sobre un centenar d’enregistraments discogràfics (ACCENT, Harmonia Mundi, Almaviva, Astrée-Auvidis, 
+Tatus, K617, NB), a gran nombre dels quals la crítica i premsa especialitzada ha otorgat diversos premis.
                 </p>
+                
             </div>
         }
     />
