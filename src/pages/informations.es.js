@@ -11,99 +11,59 @@ const Informations = () => (
     <Page title="Information">
         <LeadImage src={Barcelona} alt="house" />
         <PageContent>
-            <Section title="Accommodation">
+            <Section title="Allotjament">
                 <div>
                     <p>
-                        The Academy (tuition, rehearsals, lodging and dining) takes place in "Casa
-                        Sant Felip Neri", an ancient convent. Located in the quiet residential
-                        district of la Sarria, Casa Sant Felip Neri is 300m from the underground
-                        station and 10mins from the Catalunya Square and historical area.
-                    </p>
-                    <p>
-                        Full board is provided from the dinner of Sunday 16 July to the breakfast of
-                        Monday 24 July.
-                    </p>
-                    <p>3 different options are available for your accommodation:</p>
-                    <List>
-                        <ListItem>Ensuite Double room (two single beds)</ListItem>
-                        <ListItem>Single room, shared bathroom (washbasin in the room)</ListItem>
-                        <ListItem>Triple room, shared bathroom (washbasin in the room)</ListItem>
-                    </List>
-                    <p>
-                        Linen and towels are provided; bed linen will be changed once during the
-                        week. Toiletries are not provided.
-                    </p>
-                    <p>
-                        Rooms may be available one or more days before or after the Academy (no
-                        meals), subject to availability.
-                    </p>
-                    <p>
-                        Air-conditioning: Walls are very thick inside the convent, which assures
-                        fairly fresh air in rooms in summer. The main rehearsal is
-                        air-conditioned. 
-                    </p>
-                </div>
-            </Section>
-            <Section title="Fees">
-                <div>
-                    <p>
-                        Tuition fees are 340€, and include membership. For the vocal workshop with Josep Cabré, tuition fees are
-                        170€, and include membership.
-                    </p>
-                    <p>
-                        If students should be accompanied by a person who does not participate in
-                        the programs but would like to be accommodated with them, then a membership
-                        fee of 40€ is due.
-                    </p>
-                    <p>Accommodation fees in full boarding:</p>
-                    <List>
-                        <ListItem>Ensuite Double room: 440€</ListItem>
-                        <ListItem>Single room, shared bathroom: 420€</ListItem>
-                        <ListItem>Triple room, shared bathroom: 350€</ListItem>
-                    </List>
-                    <p>
-                        The number of rooms in each category is limited. We will warn you if
-                        your first choice of room is no longer available.
-                    </p>
-                    <p>
-                        Please take note that 3 evening meals in the week are not included, so that
-                        students may enjoy Barcelona at night!
-                    </p>
-                    <p>
-                        10 € per day (70 € for the whole academy) will be asked to students who
-                        should decide not to be accommodated in Casa Sant Felip Neri, as a
-                        participation for renting the rehearsal rooms. This fee does not apply for
-                        members of the Moviment Coral Català.
+                        L’Acadèmia es desenvoluparà en la “Casa Sant Felip Neri”, que és un antic convent. Tant el curs, 
+    els assajos, l’allotjament i els àpats es faran al mateix lloc. Situat en un barri residencial de Sarrià, en un lloc 
+    molt tranquil, la Casa Sant Felip Neri és a 300 metres del metro, a 5 estacions i a 10 minuts de la plaça Catalunya, 
+    des d’on surt la coneguda Rambla i el barri històric.
+ </p>
+    <p>
+Els participants són allotjats en règim de pensió completa (des del dinar del diumenge 15 de juliol fins a l’esmorzar 
+    del dilluns 23 de juliol)
+ </p>
+    <p>Tres possibilitats d’allotjament en pensió completa són disponibles:</p>
+ <List>
+   <ListItem>Habitació doble amb sala de bany (dos llits individuals)</ListItem>
+    <ListItem>Habitació individual amb lavabo dins l’habitació i dutxes i wàters compartits amb altres habitacions.</ListItem>
+<ListItem>Habitació triple amb lavabo dins l’habitació (tres llits individuals) i dutxes i wàters compartits amb altres habitacions.</ListItem>
+ </List>
+                    <p>Es facilitaran les tovalloles. Els llençols es canviaran en la meitat de l’estada. 
+                    No es donaran articles d’higiene personal..
+                     </p>
+                    <p>És possible d’arribar abans del començament del taller o de sortir-ne més tard. Les habitacions són 
+                    disponibles (sense àpats): consulteu-nos, si us plau.
+                     </p>
+                    <p>Nota: Les parets del convent són gruixudes i garanteixen una frescor relativa d’estiu a les habitacions. La sala gran d’assaig pot ser climatitzada si és necessari. L’estudi de dansa estarà climatitzat.
                     </p>
                    
-                    <p>
-                        NB: Accommodation rates do not include transportation or airport / railway
-                        station transfers.
-                    </p>
                 </div>
             </Section>
-            <Section title="Travelling to the Academy">
+            <Section title="Tarifs">
                 <div>
-                    <H3>By train</H3>
                     <p>
-                        Detailed route: Download the <Link href="/by-train.pdf">plan</Link>.
-                    </p>
-                    <H3>By plane</H3>
-                    <p>
-                        Barcelona - El Prat is an international airport with direct flights from all
-                        European countries. Detailed route: Download the <Link href="/by-plane.pdf">plan</Link>
-                    </p>
-                    <H3>By car</H3>
-                    <p>
-                        Please take note that there is no parking space in Casa Sant Felip Neri, and
-                        parking in the street is expensive. The best solution is to take a 7-day
-                        pass in one of the city car parks (69 €), which will allow you unlimited ins
-                        and outs (but we recommend that you do not move your car for the week!). The
-                        BSM Cotxeres de Sarrià car park, at Manuel Girona 77, is 500m from the
-                        Academy.
+                        Els costos docents són de 340 € i comprèn l’adhesió a l’associació. 
+                        Per als dansaires la tarifa és de 170 € i comprèn també l’adhesió a l’associació.
+</p>
+                    <p>Per als acompanyants dels participants i allotjats a través de l’Acadèmia, però que no participen en cap taller, 
+    la tarifa d’adhesió a l’associació és de 40 €.
+</p>
+                    <p>Els preus d’allotjament en pensió completa són:
+</p>
+                    <p>Els despeses d’allotjament, en règim de pensió completa, són els següents, sabent, però, que tres sopars durant la setmana seran lliures per permetre tastar Barcelona de la vora:
+</p><List>
+                        <ListItem>Habitació doble amb sala de bany: 440 €</ListItem>
+                        <ListItem>Habitació individual amb lavabo a l’habitació i dutxes i wàters a l’exterior: 420 €</ListItem>
+                        <ListItem>Habitació triple amb lavabo a l’habitació i dutxes i wàters a l’exterior: 3350 €</ListItem>
+</p>
+<p>Els participants que no estiguin allotjats en pensió completa, hauran de pagar 10 € per dia (70 €) en concepte de lloguer de la sala.
+</p>
+<p>NB. Els preus d’allotjament no comprenen ni el transports ni el transport des de l’aeroport o estació de tren.
                     </p>
                 </div>
             </Section>
+           
         </PageContent>
     </Page>
 );
