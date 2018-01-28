@@ -7,51 +7,31 @@ import muriel from "../muriel.jpg";
 const Muriel = () => (
     <InnerPage
         name="Muriel Ferraro"
-        title="Singing for the choir and for the choir conducting workshop"
+        title="Tècnica vocal per al cor i per al taller de direcció de cor"
         imgUrl={muriel}
         content={
             <div>
                 <p>
-                    The French soprano Muriel Ferraro was born in Grenoble, where she first started
-                    studying the violin. She unexpectedly decided to resume her musical studies
-                    after a master’s degree in Law and Applied Languages. She left Berlin for Paris
-                    and was lead by her rising voice through the sinuous paths of singing. Out of
-                    curiosity she explored various styles and vocal practices. She was then inclined
-                    towards young dramatic opera repertoire thanks to the decisive encounter with
-                    the Soprano Florence Guignolet, from whom she received instruction. She has been
-                    perfecting her skills with Mirella Freni and Leontina Vaduva.
-                </p>
+                    Muriel Ferraro, soprano, va estudiar violí prèviament a decantar-se cap a la lírica. Recentment se la 
+    pogut escoltar en la créaion de théâtre musical Dell’Onesta Dissimulazione, a la Fundació Royaumont, en Les Méfaits du 
+    tabac, concert en un acte concebut per Floriane Bonanni i posat en escena per Denis Podaydès. Les Lessiveuses, òpera de 
+    Thierry Machuel amb l’ensemble 2E2M, posada en escena per Christian Gangneron.
+</p>
                 <p>
-                    Recently Muriel Ferraro could be heard Les Lessiveuses, an opera creation by
-                    French contemporary composer Thierry Machuel with 2E2M ; as Tannhaüser’s Venus
-                    in Clermont-Ferrand Opera ; as Wozzeck’s Marie at the Royaumont Foundation,
-                    staged by André Engel; as Puccini’s Suor Angelica in Paris, as Brünnhilde in
-                    extracts of Ring des Niebelungen in the musical theater show Nietzsche/Wagner:
-                    le Ring in Théâtre de l’Athénée, Paris, as Egisto in L’Egisto by Mazzocchi and
-                    Marazzoli at Massy Opera and in Ma at Amphitheater of the Bastille Paris Opera.
-                </p>
+Ha interpretat el paper de Vénus en Tannhaüser a l’òpera de Clermont-Ferrand, els Wesendonck Lieder al Palais Beauharmais; 
+    Marie dans Wozzeck, Fondation Royaumont, posada en escena André Engel, extractes del paper de Brünnhilde per la represa 
+    de Nietzsche/Wagner: le Ring al Théâtre de l’Athénée, posada en escena Alain Bézu, direcció Dominique Debart, 
+    Orchestre Lamoureux; L’Egisto, paper titular de Mazzocchi et Marazzoli (1648) amb Les Paladins sota la direcció de 
+Jérôme Corréas i posada en escena de Jean-Denis Monory; Ma, espectacle públic jove de la Compagnie Eclats, autor dels Chants 
+du Capricorne de Giacinto Scelsi a l’Amphithéâtre de l’Opéra Bastille, així com els papers d’Agathe en Les Enfants Terribles 
+de Philip Glas, posada en escena P. Desveaux; Giovanna en Rigoletto, de Mélanie Thiébaut; Dulcinée en Don Quichotte segons 
+Massenet amb la Compagnie Étoile du Jour; la Baronne Aspasia en La Pietra del Paragone de Rossini amb La Clef des Chants; 
+la Reine des Elfes en Der Rose Pilgerfahrt de Schumann a la Folle Journée de Nantes.
+</p>
                 <p>
-                    Her operatic performances include: Nedda in I Pagliacci, Giorgetta in Il
-                    Tabarro, la Ciesca in Gianni Schicchi and Métella in Offenbach’s La Vie
-                    Parisienne with the company Collectif Lyrique; Mazet in Gounod’s La Colombe at
-                    Abbaye aux Dames; Agathe in Philip Glass’s Les Enfants terribles, Théâtre
-                    Athénée, staging Paul Desveaux; Giovanna and Contessa Ceprano in Rigoletto
-                    conducted by Mélanie Thiébaut; Dulcinée in Don Quichotte after Massenet; la
-                    Baronessa Aspasia in Rossini’s La Pietra del Paragone) conducted by Laurent
-                    Gendre ; The Queen of the Fairies in Schumann’s Der Rose Pilgerfahrt at Folle
-                    Journée, Nantes.
-                </p>
-                <p>
-                    In concert she sang Samuel Barber’s Knoxville: Summer of 1915 with Ensemble
-                    Orchestral de Paris.
-                </p>
-                <p>
-                    Muriel Ferraro teaches singing at the{" "}
-                    <Link href="http://www.cmbv.fr/formation/">
-                        Versailles Baroque Music Center
-                    </Link>{" "}
-                    and at the Young Singers Department in Paris Regional Conservatory. She also
-                    teaches vocal technique for three choirs, in and near Paris.
+Muriel Ferraro ensenya cant al Centre de Musique Baroque de Versailles i al Département pour Jeunes Chanteurs du CRR de Paris. 
+Ensenya també tècnica vocal en dos cors de la regió parisenca: el cor de l’Assemblée Nationale i 
+el conjunt vocal Folia.
                 </p>
             </div>
         }
