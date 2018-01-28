@@ -12,15 +12,15 @@ const Choral = () => (
         content={
             <div>
                 <p>
-                    The choir is conducted by{" "}
-                    <InnerLink to="/en/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, artistic
-                    director of the Music Academy, and by{" "}
-                    <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink>. All choral singers take
-                    part in a daily class of vocal technique with{" "}
-                    <InnerLink to="/en/muriel-ferraro">Muriel Ferraro</InnerLink>.
+                    El cor serà dirigit per  <InnerLink to="/es/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, 
+    director musical de l’Acadèmia, i <InnerLink to="/es/josep-cabre">Josep Cabré</InnerLink>. 
+    El cor comptarà amb 28 coristes amb un màxim equilibri de cordes. El taller està adreçat a cantaires experimentats.
                 </p>
                 <p>
-                    in 2018, the program is about italian baroc music. The choir will sing:<List>
+    En parallel als assajos, els cantaires rebran classes de tècnica vocal de <InnerLink to="/es/muriel-ferraro">Muriel Ferraro</InnerLink>
+  </p>
+                <p>
+                    El programa del cor:<List>
                         <ListItem>Giacomo Carissimi : Jephté (SSATTB)</ListItem>
                         <ListItem>Alessandro Grandi : O speciosa (SAB and SATB)</ListItem>
                         <ListItem>Antonio Lotti ; Crucifixus a 6 (SSAATB)</ListItem>
