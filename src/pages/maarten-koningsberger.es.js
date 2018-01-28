@@ -7,7 +7,7 @@ import maarten from "../maarten.jpg";
 const Maarten = () => (
     <InnerPage
         name="Maarten Koningsberger"
-        title="Singing"
+        title="Cant"
         imgUrl={maarten}
         content={
             <div>
