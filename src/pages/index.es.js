@@ -4,11 +4,12 @@ import Link from "gatsby-link";
 import Home from "../components/home";
 
 export const msg = {
-    title: ["Académie 2018", "rejoignez-nous!"],
+    title: ["Acadèmia 2018", "join us!"],
     academy: {
-        title: "DU 15 AU 22 JUILLET 2018 : 7 JOURS A BARCELONE",
+        title: "BARCELONA: 15-22 DE JULIOL 2018",
         content:
-            "Stage de chant, stage de chant choral, stage pour chefs de chant, stage de direction de chœur : 7 jours consacrés à la musique baroque dans un cadre exceptionnel",
+            "Cant, clavecí, direcció de cors, coral:
+una acadèmia internacional en un marc excepcional al centre Barcelona dedicats de ple als repertoris del barroc",
     },
     testimonials: {
         title: "TEMOIGNAGES",
