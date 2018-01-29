@@ -30,7 +30,7 @@ module.exports = {
         "El cor serà dirigit per Philippe Le Fèvre, director musical de l’Acadèmia, i Josep Cabré. ",
     choralConductingTitle: "Taller de Direcció de Cor",
     choralConductingContent:
-        "Aquest taller s’adreça als estudiants inscrits en un curs de direcció de cor 
+        "Aquest taller s’adreça als estudiants inscrits en un curs de direcció de cor
     i als directors de cor amateurs i també als músics professionals ",
     vocalCoachTitle: "Taller de clavicèmbal",
     vocalCoachContent:

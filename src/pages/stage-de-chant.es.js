@@ -12,15 +12,18 @@ const Vocal = () => (
         content={
             <div>
                 <p>
-    Aquest taller associa tècnica vocal i interpretació de la música barroca. Els cantants dividiran el seu temps entre 
-    repertori solista, treball de protagonista i de música de conjunt. Cada dia començarà amb un curs col·lectiu sobre 
-    qüestions relatives a la posició del cos i a la respiració.
- </p>
+                    Aquest taller associa tècnica vocal i interpretació de la música barroca. Els
+                    cantants dividiran el seu temps entre repertori solista, treball de protagonista
+                    i de música de conjunt. Cada dia començarà amb un curs col·lectiu sobre
+                    qüestions relatives a la posició del cos i a la respiració.
+                </p>
                 <p>
-Cada participant rebrà diàriament un curs de tècnica vocal amb <InnerLink to="/es/maarten-koningsberger">Maarten Koningsberger </InnerLink>{" "}.
-    Amb <InnerLink to="/es/helene-dufour">Hélêne Dufour</InnerLink>{" "} i  <InnerLink to="/e/stefano-intrieri">Stefano Intrieri </InnerLink>{" "} 
-    treballaran de manera individual la interpretació, així com en petit grup de música de cambra. 
-              </p>           
+                    Cada participant rebrà diàriament un curs de tècnica vocal amb{" "}
+                    <InnerLink to="/es/maarten-koningsberger">Maarten Koningsberger </InnerLink>.
+                    Amb <InnerLink to="/es/helene-dufour">Hélêne Dufour</InnerLink> i{" "}
+                    <InnerLink to="/e/stefano-intrieri">Stefano Intrieri </InnerLink> treballaran de
+                    manera individual la interpretació, així com en petit grup de música de cambra.
+                </p>
             </div>
         }
     />

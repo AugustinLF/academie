@@ -38,9 +38,9 @@ const Vocal = () => (
                 </p>
                 <List>
                     <ListItem>
-                        With <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink> students will study Carissimi's Jephte , in a daily 3-hour-workshop, 
-    and then perform that piece in the final concert.
-                   
+                        With <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink> students will
+                        study Carissimi's Jephte , in a daily 3-hour-workshop, and then perform that
+                        piece in the final concert.
                     </ListItem>
                 </List>
             </div>
