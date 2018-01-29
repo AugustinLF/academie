@@ -7,22 +7,19 @@ import InnerPage from "../components/innerPage";
 
 const ChoirConducting = () => (
     <InnerPage
-        name="Choir conducting Academy"
+        name="Taller de Direcció de Cor"
         imgUrl={choirConducting}
         content={
             <div>
                 <p>
-                    The workshop offers intermediate and advanced students in choral directing the
-                    opportunity to work in a challenging yet supportive environment. Amateur choral
-                    directors and professional musicians may also apply.
-                </p>
+                    Aquest taller s’adreça als estudiants inscrits en un curs de direcció de cor i desitgen treballar 
+    totes les facetes de l’ofici de director de cor i treballar diàriament amb un cor pilot. Està també destinat als 
+    directors de cor amateurs i també als músics professionals (professors de formació musical, professors de música d’escoles 
+    i instituts, músics en generals...)
+</p>
                 <p>
-                    Tuition program includes score study, gesture, rehearsal technique, and work
-                    with choral singers. The workshop focuses on connecting gesture with sound.
-                </p>
-                <p>
-                    The students work with a pilot choir on a daily basis, and with the Academy
-                    choir on a regular basis.
+El treball relatiu al gest en relació al so serà el centre del taller que s’articularà entre treball d’estudi fet en comú, 
+    gest, realització d’un assaig i treball amb els coristes.
                 </p>
             </div>
         }
