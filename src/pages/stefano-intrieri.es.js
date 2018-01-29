@@ -12,34 +12,27 @@ const Stefano = () => (
         content={
             <div>
                 <p>
-                    Born in Milano, he graduates in Organ and Harpsichord studies in Italy, before
-                    completing his education with Ton Koopman in Amsterdam.
-                </p>
+                    Nascut a Milà, va obtenir els diplomes d’orgue i de clavecí a Itàlia i es va perfeccionar els de clavecí i
+    música de cambra en la classe de Ton Koopman al Sweelinck-Conservatorium d’Amsterdam.
+ </p>
                 <p>
-                    He plays either as a soloist or accompanist with several choirs and orchestras,
-                    such as Coro & Orchestra RAI - Milano, Nederlands Omroep Koor (Marcus Creed),
-                    Collegium ad Mosam, Il Concerto Barocco, Chœur de Radio France, Orchestre de
-                    Picardie, Le Capriccio français, Ensemble Orchestral de Paris (Ton Koopman), La
-                    Grande Écurie et la Chambre du Roy...
-                </p>
+Ha col·laborat amb diversos cors i orquestres, com continuo i com solista, d’una manera notable amb le Coro & Orchestra RAI –
+    Milano, le Nederlands Omroep Koor (Marcus Creed), Collegium ad Mosam, Il Concerto Barocco, le Choeur de Radio France, 
+    l’Orchestre de Picardie, Le Capriccio Français, l’Ensemble Orchestral de Paris (Ton Koopman), la Grande Écurie i 
+    la Chambre du Roy.... 
+ </p>
                 <p>
-                    Stefano is also founder and artistic director of gruppo strumentale La
-                    Réjouissance.
-                </p>
+És el director musical del gruppo strumentale La Réjouissance. Titular del Certificat d’Aptitude à l’enseignement de 
+la musique ancienne, ha donat classes al CRR de Paris, a la Maïtrise de Notre-Dame de Paris i al Pole Supérieur ’93 a 
+Aubervilliers – La Coumeuve. És l’ànima de nombroses iniciatives, com cursos, conferències i master-classes i autor de 
+diferents temàtiques relacionades amb el repertori musical barroc.
+ </p>
                 <p>
-                    He obtained his French superior teaching certificate in Early Music and worked
-                    for CRR de Paris, Maîtrise de Notre-Dame de Paris and Pôle Supérieur ’93 in
-                    Aubervilliers – La Courneuve. He is often asked for other activities, such as
-                    seminars, conferences and master classes about different specifical themes,
-                    related to Baroque musical repertoire.
+Ha treballat també com director de cant per le Centre de la Voix – Fondation Royaumont, le Centre de Musique Baroque de 
+Versailles, l’Atelier Lyrique de Tourcoing, Opera Zuid-Nederland i per a diverses produccions teatrals i ha acompanyat 
+les master-classes de Margreet Honig, Rachel Yakar, Howard Crook, Maarten Koningsberger, Gérard Lesne, Andreas Scholl...
                 </p>
-                <p>
-                    As a vocal coach, he has been working for several institutions (Centre de la
-                    Voix - Fondation Royaumont, Centre de Musique Baroque de Versailles, Atelier
-                    Lyrique de Tourcoing, Opera Zuid-Nederland…), opera productions and master
-                    classes (with Margreet Honig, Rachel Yakar, Howard Crook, Maarten Köningsberger,
-                    Gérard Lesne, Andreas Scholl…)
-                </p>
+               
             </div>
         }
     />
