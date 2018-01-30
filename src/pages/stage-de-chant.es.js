@@ -21,8 +21,9 @@ const Vocal = () => (
                     Cada participant rebrà diàriament un curs de tècnica vocal amb{" "}
                     <InnerLink to="/es/maarten-koningsberger">Maarten Koningsberger </InnerLink>.
                     Amb <InnerLink to="/es/helene-dufour">Hélêne Dufour</InnerLink> i{" "}
-                    <InnerLink to="/e/stefano-intrieri">Stefano Intrieri </InnerLink> treballaran de
-                    manera individual la interpretació, així com en petit grup de música de cambra.
+                    <InnerLink to="/es/stefano-intrieri">Stefano Intrieri </InnerLink> treballaran
+                    de manera individual la interpretació, així com en petit grup de música de
+                    cambra.
                 </p>
             </div>
         }

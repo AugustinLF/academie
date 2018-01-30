@@ -39,16 +39,15 @@ const Informations = () => (
                     </p>
                     <p>
                         Air-conditioning: Walls are very thick inside the convent, which assures
-                        fairly fresh air in rooms in summer. The main rehearsal is
-                        air-conditioned. 
+                        fairly fresh air in rooms in summer. The main rehearsal is air-conditioned.
                     </p>
                 </div>
             </Section>
             <Section title="Fees">
                 <div>
                     <p>
-                        Tuition fees are 340€, and include membership. For the vocal workshop with Josep Cabré, tuition fees are
-                        170€, and include membership.
+                        Tuition fees are 340€, and include membership. For the vocal workshop with
+                        Josep Cabré, tuition fees are 170€, and include membership.
                     </p>
                     <p>
                         If students should be accompanied by a person who does not participate in
@@ -62,8 +61,8 @@ const Informations = () => (
                         <ListItem>Triple room, shared bathroom: 350€</ListItem>
                     </List>
                     <p>
-                        The number of rooms in each category is limited. We will warn you if
-                        your first choice of room is no longer available.
+                        The number of rooms in each category is limited. We will warn you if your
+                        first choice of room is no longer available.
                     </p>
                     <p>
                         Please take note that 3 evening meals in the week are not included, so that
@@ -75,7 +74,7 @@ const Informations = () => (
                         participation for renting the rehearsal rooms. This fee does not apply for
                         members of the Moviment Coral Català.
                     </p>
-                   
+
                     <p>
                         NB: Accommodation rates do not include transportation or airport / railway
                         station transfers.
@@ -91,7 +90,8 @@ const Informations = () => (
                     <H3>By plane</H3>
                     <p>
                         Barcelona - El Prat is an international airport with direct flights from all
-                        European countries. Detailed route: Download the <Link href="/by-plane.pdf">plan</Link>
+                        European countries. Detailed route: Download the{" "}
+                        <Link href="/by-plane.pdf">plan</Link>
                     </p>
                     <H3>By car</H3>
                     <p>

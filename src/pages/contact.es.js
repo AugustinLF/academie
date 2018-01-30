@@ -3,7 +3,7 @@ import React from "react";
 import Page from "../components/page";
 import PageContent from "../components/pageContent";
 
-const Contacte = () => (
+const Contact = () => (
     <Page title="Contacte">
         <PageContent>
             <p>

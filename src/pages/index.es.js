@@ -8,8 +8,7 @@ export const msg = {
     academy: {
         title: "BARCELONA: 15-22 DE JULIOL 2018",
         content:
-            "Cant, clavecí, direcció de cors, coral:
-una acadèmia internacional en un marc excepcional al centre Barcelona dedicats de ple als repertoris del barroc",
+            "Cant, clavecí, direcció de cors, coral: una acadèmia internacional en un marc excepcional al centre Barcelona dedicats de ple als repertoris del barroc",
     },
     testimonials: {
         title: "TEMOIGNAGES",

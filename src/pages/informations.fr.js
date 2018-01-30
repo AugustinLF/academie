@@ -37,7 +37,6 @@ const Informations = () => (
                             Chambre triple avec lavabo dans la chambre (trois lits simples) et
                             douches et toilettes partagées avec d'autres chambres
                         </ListItem>
-                       
                     </List>
                     <p>
                         Le linge de toilette est fourni, les draps sont changés en milieu de séjour.
@@ -49,7 +48,7 @@ const Informations = () => (
                     </p>
                     <p>
                         A noter : les murs épais du couvent garantissent une fraîcheur relative en
-                        été dans les chambres. La grande salle de répétition est climatisée. 
+                        été dans les chambres. La grande salle de répétition est climatisée.
                     </p>
                 </div>
             </Section>
@@ -57,8 +56,8 @@ const Informations = () => (
                 <div>
                     <p>
                         Les frais pédagogiques s’élèvent à 340 € et comprennent l’adhésion à
-                        l’association. Pour le stage de chant avec Josep Cabré, les frais pédagogiques sont de 170 € et
-                        comprennent l’adhésion à l’association.
+                        l’association. Pour le stage de chant avec Josep Cabré, les frais
+                        pédagogiques sont de 170 € et comprennent l’adhésion à l’association.
                     </p>
                     <p>
                         Pour les personnes accompagnant les stagiaires et hébergées par l'Académie,
