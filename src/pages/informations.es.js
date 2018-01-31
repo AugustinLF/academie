@@ -80,7 +80,7 @@ const Informations = () => (
                         </ListItem>
                         <ListItem>
                             Habitació triple amb lavabo a l’habitació i dutxes i wàters a
-                            l’exterior: 3350 €
+                            l’exterior: 350 €
                         </ListItem>
                     </List>
 
