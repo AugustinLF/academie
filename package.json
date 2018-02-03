@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default-i18n",
-  "description": "Gatsby default starter",
+  "name": "academie",
+  "description": "Capriccio Français's Summer Academy",
   "version": "1.0.0",
-  "author": "angeloocana.com",
+  "author": "Augustin Le Fèvre <augustin.public@gmail.com>",
   "dependencies": {
     "autoprefixer": "^7.1.5",
     "gatsby": "^1.9.63",
@@ -26,7 +26,6 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "yarn build && cp ./CNAME public/",
     "deploy": "surge public/"
   },
