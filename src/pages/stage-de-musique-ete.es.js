@@ -5,7 +5,7 @@ import Lead from "../components/lead";
 import ProgrammeList from "../components/programmeList";
 
 const Programme = () => (
-    <Page title="Summer Music Academy 2018">
+    <Page title="L’Acadèmia d’Estiu 2018">
         <Lead>
             <p>
                 L’Acadèmia d’Estiu del Capriccio Français proposa un taller per a cantaires,
