@@ -3,16 +3,16 @@ import graphql from "graphql";
 import Layout from "./index";
 import {addLocaleData} from "react-intl";
 
-import messages from "../data/messages/es";
-import es from "react-intl/locale-data/es";
-import "intl/locale-data/jsonp/es";
+import messages from "../data/messages/ca";
+import ca from "react-intl/locale-data/ca";
+import "intl/locale-data/jsonp/ca";
 
-addLocaleData(es);
+addLocaleData(ca);
 
 export default props => <Layout {...props} i18nMessages={messages} />;
 
 export const pageQuery = graphql`
-    query LayoutEs {
+    query LayoutCa {
         site {
             siteMetadata {
                 languages {

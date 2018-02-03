@@ -13,15 +13,15 @@ const Choral = () => (
             <div>
                 <p>
                     El cor serà dirigit per{" "}
-                    <InnerLink to="/es/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, director
-                    musical de l’Acadèmia, i <InnerLink to="/es/josep-cabre">
+                    <InnerLink to="/ca/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, director
+                    musical de l’Acadèmia, i <InnerLink to="/ca/josep-cabre">
                         Josep Cabré
                     </InnerLink>. El cor comptarà amb 28 coristes amb un màxim equilibri de cordes.
                     El taller està adreçat a cantaires experimentats.
                 </p>
                 <p>
                     En parallel als assajos, els cantaires rebran classes de tècnica vocal de{" "}
-                    <InnerLink to="/es/muriel-ferraro">Muriel Ferraro</InnerLink>
+                    <InnerLink to="/ca/muriel-ferraro">Muriel Ferraro</InnerLink>
                 </p>
                 <p>
                     El programa del cor:<List>

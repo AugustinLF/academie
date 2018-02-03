@@ -12,12 +12,18 @@ import Body from "../components/body";
 import SocialMedia from "./social";
 import {msg as msgFr} from "../pages/index.fr";
 import {msg as msgEn} from "../pages/index.en";
-import {msg as msgEs} from "../pages/index.es";
+import {msg as msgCa} from "../pages/index.ca";
 
 const description = {
     fr: msgFr.academy.content,
     en: msgEn.academy.content,
-    es: msgEs.academy.content,
+    ca: msgCa.academy.content,
+};
+
+const title = {
+    fr: "Académie d'été du Capriccio Français",
+    en: "Capriccio Français Summer Academy",
+    ca: "Capriccio Français Summer Academy",
 };
 
 const TemplateWrapper = ({children, data, location, i18nMessages}) => {
@@ -31,11 +37,7 @@ const TemplateWrapper = ({children, data, location, i18nMessages}) => {
         <IntlProvider locale={langKey} messages={i18nMessages}>
             <div>
                 <Helmet
-                    title={
-                        langKey === "fr"
-                            ? "Académie d'été du Capriccio Français"
-                            : "Capriccio Français Summer Academy"
-                    }
+                    title={title[langKey]}
                     meta={[{name: "description", content: description[langKey]}]}
                 >
                     <link rel="icon" href="/favicon.jpg" />

@@ -1,7 +1,7 @@
 module.exports = {
     home: "Benvinguts",
     programme: "L'Acadèmia",
-    enseignants: "els ensenyants",
+    enseignants: "Els ensenyants",
     informations: "Què cal saber",
     faq: "FAQ",
     contact: "Contacte",

@@ -35,7 +35,7 @@ const Programme = () => (
                 a 28, amb equilibri de cordes. És recomanable bona experiència coral.
             </p>
         </Lead>
-        <ProgrammeList language="en" />
+        <ProgrammeList language="ca" />
     </Page>
 );
 

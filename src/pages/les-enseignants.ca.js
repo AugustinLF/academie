@@ -41,7 +41,7 @@ const Teachers = () => (
                 venir a treballar amb ell per formar joves artistes.
             </p>
         </Lead>
-        <TeacherList language="en" />
+        <TeacherList language="ca" />
     </Page>
 );
 

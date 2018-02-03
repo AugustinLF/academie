@@ -59,13 +59,13 @@ const Right = g.div({
 const registrationLinks = {
     en: "http://capricciofrancais.com/registration.php",
     fr: "http://capricciofrancais.com/inscription.php",
-    es: "http://capricciofrancais.com/registration.php",
+    ca: "http://capricciofrancais.com/registration.php",
 };
 
 const Header = ({langs, homeLink, langKey}) => (
     <HeaderContainer>
         <Top>
-            <Link to="/">
+            <Link to={`/${langKey}`}>
                 <Img src={logo} alt="Logo" />
             </Link>
             <Right>

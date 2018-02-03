@@ -1,4 +1,4 @@
 module.exports = {
-    langs: ["fr", "en", "es"],
+    langs: ["fr", "en", "ca"],
     defaultLangKey: "fr",
 };
