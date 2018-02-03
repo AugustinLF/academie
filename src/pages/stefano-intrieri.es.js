@@ -1,4 +1,4 @@
-import React from "react";
+e import React from "react";
 
 import {Link} from "../components/base";
 import InnerPage from "../components/innerPage";
@@ -7,7 +7,7 @@ import stefano from "../stefano.jpg";
 const Stefano = () => (
     <InnerPage
         name="Stefano Intrieri"
-        title="Lyric coach"
+        title="Mestre de cant"
         imgUrl={stefano}
         content={
             <div>
