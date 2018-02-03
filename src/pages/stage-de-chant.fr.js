@@ -18,18 +18,17 @@ const Vocal = () => (
                         <InnerLink to="/fr/maarten-koningsberger">
                             Maarten Koninsberger
                         </InnerLink>{" "}
-                        le stage associe technique vocale et interprétation de la musique baroque.
-                        Les chanteurs partageront leur temps entre répertoire soliste, travail de
-                        rôle et musique d’ensemble.
+                        ce stage de chant associe technique vocale et interprétation de la musique baroque.
                     </ListItem>
                 </List>
                 <p>
-                    Chaque stagiaire reçoit quotidiennement un cours de technique vocale avec
-                    Maarten Koninsberger. Avec{" "}
+                    Après un cours collectif sur la posture et la respiration, cours qui ouvre la journée, chaque stagiaire 
+                reçoit un cours individuel de technique vocale avec Maarten Koninsberger et travaille avec leurs chefs de chant
+                    {" "}
                     <InnerLink to="/fr/helene-dufour">Hélène Dufour</InnerLink> et{" "}
-                    <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>, les
-                    stagiaires travaillent, soit de façon individuelle en interprétation, soit en
-                    petit groupe en musique de chambre.
+                    <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>. La journée se conclut sous la forme
+                d'une masterclasse qui sera consacrée aux quatre œuvres majeures de J.S. Bach : Passion selon Saint-Jean, 
+            Passsion selon Matthieu, Messe en si, Oratorio de Noël.
                 </p>
                 <List>
                     <ListItem>
