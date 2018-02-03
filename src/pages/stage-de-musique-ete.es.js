@@ -10,7 +10,7 @@ const Programme = () => (
             <p>
                 L’Acadèmia d’Estiu del Capriccio Français proposa un taller per a cantaires,
                 instrumentistes, estudiants de direcció de cor, així com un taller de cant coral del
-                15 al 22 de juliol de 20178 (sortida matí del 23). L’Acadèmia es durà a terme a
+                15 al 22 de juliol de 2018 (sortida matí del 23). L’Acadèmia es durà a terme a
                 Barcelona, a la Casa Sant Felip Neri, un antic convent, reconvertit actualment en
                 lloc d’acollida de trobades, també musicals.
             </p>
