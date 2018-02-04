@@ -23,7 +23,7 @@ const description = {
 const title = {
     fr: "Académie d'été du Capriccio Français",
     en: "Capriccio Français Summer Academy",
-    ca: "Capriccio Français Summer Academy",
+    ca: "Académie d’estiu Del Capriccio Français",
 };
 
 const TemplateWrapper = ({children, data, location, i18nMessages}) => {
