@@ -8,7 +8,7 @@ import {List, ListItem, H3, Link} from "../components/base";
 import PageContent from "../components/pageContent";
 
 const Informations = () => (
-    <Page title="Information">
+    <Page title="Què cal saber">
         <LeadImage src={Barcelona} alt="house" />
         <PageContent>
             <Section title="Allotjament">
