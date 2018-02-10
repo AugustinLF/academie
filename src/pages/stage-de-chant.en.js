@@ -36,9 +36,10 @@ const Vocal = () => (
                     and <InnerLink to="/en/stefano-intrieri">Stefano Intrieri</InnerLink>, either
                     individually or in small groups.
                 </p>
-    <p>
-                    The day ends with a masterclass on 4 major J.S. Bach pieces: St John Passion, St Matthew Passsion, 
-                    Mass in B minor, Christmas Oratorio</p>
+                <p>
+                    The day ends with a masterclass on 4 major J.S. Bach pieces: St John Passion, St
+                    Matthew Passsion, Mass in B minor, Christmas Oratorio
+                </p>
                 <List>
                     <ListItem>
                         With <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink> students will
