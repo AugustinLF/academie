@@ -85,13 +85,13 @@ const Informations = () => (
                 <div>
                     <H3>By train</H3>
                     <p>
-                        Detailed route: Download the <Link href="/by-train.pdf">plan</Link>.
+                        Detailed route: Download the <Link href="https://drive.google.com/file/d/1g5fxG8cmhT0c-z8k4zlpuNqsrZDcQ4R-/view?usp=sharing">plan</Link>.
                     </p>
                     <H3>By plane</H3>
                     <p>
                         Barcelona - El Prat is an international airport with direct flights from all
                         European countries. Detailed route: Download the{" "}
-                        <Link href="/by-plane.pdf">plan</Link>
+                        <Link href="https://drive.google.com/file/d/1SIrY8N3NmEchhO7g91if1RLNQbORpn6N/view?usp=sharing">plan</Link>
                     </p>
                     <H3>By car</H3>
                     <p>
