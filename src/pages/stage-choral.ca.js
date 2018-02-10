@@ -7,7 +7,7 @@ import InnerPage from "../components/innerPage";
 
 const Choral = () => (
     <InnerPage
-        name="Choral Academy"
+        name="Taller coral"
         imgUrl={choralImage}
         content={
             <div>
