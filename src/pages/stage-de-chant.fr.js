@@ -27,8 +27,10 @@ const Vocal = () => (
                     journée, chaque stagiaire reçoit un cours individuel de technique vocale avec
                     Maarten Koninsberger et travaille avec leurs chefs de chant{" "}
                     <InnerLink to="/fr/helene-dufour">Hélène Dufour</InnerLink> et{" "}
-                    <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>. La journée se
-                    conclut sous la forme d'une masterclasse qui sera consacrée aux quatre œuvres
+                    <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>. 
+     <p>
+    </p>
+                    La journée se conclut sous la forme d'une masterclasse qui sera consacrée aux quatre œuvres
                     majeures de J.S. Bach : Passion selon Saint-Jean, Passsion selon Matthieu, Messe
                     en si, Oratorio de Noël.
                 </p>
