@@ -100,15 +100,16 @@ const Informations = () => (
                         les trains low cost Ouigo de la SNCF depuis Marne-la-Vallée en direction du
                         sud et de faire un changement pour bénéficier des meilleurs prix.
                     </p>
-                    <p>Pour vous rendre ensuite à l'Académie depuis la gare :</p>
+                    <p>Pour vous rendre ensuite à l'Académie depuis la gare :
+</p>
                     <List>
                         <ListItem>
                             Vous pouvez prendre un taxi, il vous en coûtera entre 10 et 15 euros,
                             selon le trafic et le nombre de bagages.
                         </ListItem>
                         <ListItem>
-                            Ou bien vous pouvez prendre le métro :{" "}
-                            <Link href="/itineraire.pdf">téléchargez l'itinéraire détaillé</Link>
+                            Ou bien vous pouvez prendre le métro :
+                            <a href:"https://drive.google.com/file/d/1BrouSE6JkvQ_5mou9uWoh-xM1NYtPUAD/view?usp=sharing">téléchargez l'itinéraire détaillé</a>
                         </ListItem>
                     </List>
                     <H3>En avion</H3>
@@ -129,7 +130,7 @@ const Informations = () => (
                         <ListItem>
                             Vous pouvez aussi prendre l’Aerobus qui vous amènera Plaça de Catalunya.
                             Le ticket aller-retour vaut 10,20€. Vous prendrez ensuite le métro :
-                            téléchargez l'itinéraire détaillé
+                            téléchargez <a href="https://drive.google.com/file/d/1JaESdg-R8zC7NHtpdk504qhHj6Zp20A-/view?usp=sharing">l'itinéraire détaillé</a>
                         </ListItem>
                     </List>
                     <H3>En voiture</H3>
