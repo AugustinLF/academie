@@ -25,7 +25,7 @@ const Vocal = () => (
                 <p>
                     Après un cours collectif sur la posture et la respiration, cours qui ouvre la
                     journée, chaque stagiaire reçoit un cours individuel de technique vocale avec
-                    Maarten Koninsberger et travaille avec leurs chefs de chant{" "}
+                    Maarten Koninsberger et travaille avec ses chefs de chant{" "}
                     <InnerLink to="/fr/helene-dufour">Hélène Dufour</InnerLink> et{" "}
                     <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>.
                     <p />
@@ -36,7 +36,7 @@ const Vocal = () => (
                 <List>
                     <ListItem>
                         Avec <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
-                        travaillent Jephté de Carrisimi sous la forme d'un atelier journalier de 3
+                        travaillent Jephté de Carissimi sous la forme d'un atelier journalier de 3
                         heures conduisant à une restitution publique à la fin du stage.
                     </ListItem>
                 </List>
