@@ -16,11 +16,10 @@ const Programme = () => (
             </p>
             <p>
                 The students will develop their technical skills together with their stylistic
-                skills on early music repertoire. As an addition to their practice of the instrument
-                or voice, all students will attend a special workshop on baroque dance. Singers,
+                skills on early music repertoire. Singers,
                 instrumentalists and choral singers work together all through the session, sharing
                 their stylistic knowledge, and prepare auditions and the final concert together. The
-                concert will be held on Sunday 23 July (5:00 pm) in Església de Sant Gaietà.
+                concert will be held on Sunday 22 July (5:00 pm) in Església de Sant Gaietà.
             </p>
             <p>
                 Students interested in the vocal, conducting or instrumental Academy must be
