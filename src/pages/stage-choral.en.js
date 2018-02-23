@@ -21,10 +21,10 @@ const Choral = () => (
                 </p>
                 <p>
                     in 2018, the program is about italian baroc music. The choir will sing:<List>
-                        <ListItem>Giacomo Carissimi : Jephté (SSATTB)</ListItem>
-                        <ListItem>Alessandro Grandi : O speciosa (SAB and SATB)</ListItem>
-                        <ListItem>Antonio Lotti ; Crucifixus a 6 (SSAATB)</ListItem>
-                        <ListItem>Antonio Lotti : Miserere in d (SATB)</ListItem>
+                        <ListItem>Giacomo Carissimi: Jephté (SSATTB)</ListItem>
+                        <ListItem>Alessandro Grandi: O speciosa (SAB and SATB)</ListItem>
+                        <ListItem>Antonio Lotti: Crucifixus a 6 (SSAATB)</ListItem>
+                        <ListItem>Antonio Lotti: Miserere in d (SATB)</ListItem>
                     </List>
                 </p>
             </div>
