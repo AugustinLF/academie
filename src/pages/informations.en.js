@@ -39,7 +39,8 @@ const Informations = () => (
                     </p>
                     <p>
                         Air-conditioning: Walls are very thick inside the convent, which assures
-                        fairly fresh air in rooms in summer. The main rehearsal room is air-conditioned.
+                        fairly fresh air in rooms in summer. The main rehearsal room is
+                        air-conditioned.
                     </p>
                 </div>
             </Section>

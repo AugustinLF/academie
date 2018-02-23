@@ -51,15 +51,16 @@ const Informations = () => (
                     <p>
                         Nota: Les parets del convent són gruixudes i garanteixen una frescor
                         relativa d’estiu a les habitacions. La sala gran d’assaig pot ser
-                        climatitzada si és necessari. 
+                        climatitzada si és necessari.
                     </p>
                 </div>
             </Section>
             <Section title="Tarifs">
                 <div>
                     <p>
-                        Els costos docents són de 340 € i comprèn l’adhesió a l’associació (taller amb Josep Cabré : 
-                        la tarifa és de 170 € i comprèn també l’adhesió a l’associació).
+                        Els costos docents són de 340 € i comprèn l’adhesió a l’associació (taller
+                        amb Josep Cabré : la tarifa és de 170 € i comprèn també l’adhesió a
+                        l’associació).
                     </p>
                     <p>
                         Per als acompanyants dels participants i allotjats a través de l’Acadèmia,
