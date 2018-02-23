@@ -46,13 +46,8 @@ const Philippe = () => (
                     his audience feel happy for sharing these ravishing musical moments.
                 </p>
                 <p>
-                    Philippe Le Fèvre hosts the{" "}
-                    <InnerLink to="/en/stage-direction-de-choeur">
-                        choir conducting academy
-                    </InnerLink>{" "}
-                    and shares the choir conductin with{" "}
-                    <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink> for the{" "}
-                    <InnerLink to="/en/stage-choral">vocal academy</InnerLink>
+                    Philippe Le Fèvre conducts  <InnerLink to="/en/stage-choral">the Academy choir</InnerLink>{" "} and teaches the students of the  <InnerLink to="/en/stage-direction-de-choeur">choir conducting program</InnerLink>{" "} (who have a dedicated pilot choir for their practice) Philippe Le Fèvre hosts the{" "}
+                   
                 </p>
             </div>
         }
