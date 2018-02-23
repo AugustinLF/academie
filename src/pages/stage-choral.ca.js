@@ -27,7 +27,7 @@ const Choral = () => (
                     El programa del cor:<List>
                         <ListItem>Giacomo Carissimi : Jephté (SSATTB)</ListItem>
                         <ListItem>Alessandro Grandi : O speciosa (SAB and SATB)</ListItem>
-                        <ListItem>Antonio Lotti ; Crucifixus a 6 (SSAATB)</ListItem>
+                        <ListItem>Antonio Lotti : Crucifixus a 6 (SSAATB)</ListItem>
                         <ListItem>Antonio Lotti : Miserere in d (SATB)</ListItem>
                     </List>
                 </p>
