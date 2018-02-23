@@ -58,7 +58,7 @@ const Informations = () => (
                     <List>
                         <ListItem>Ensuite Double room: 440€</ListItem>
                         <ListItem>Single room, shared bathroom: 420€</ListItem>
-                        <ListItem>Triple room, shared bathroom: 350€</ListItem>
+                        <ListItem>Triple room, shared bathroom: 340€</ListItem>
                     </List>
                     <p>
                         The number of rooms in each category is limited. We will warn you if your
