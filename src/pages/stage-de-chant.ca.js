@@ -25,6 +25,10 @@ const Vocal = () => (
                     de manera individual la interpretació, així com en petit grup de música de
                     cambra.
                 </p>
+     <p>
+    Els participants al curs treballaran amb Josep Cabré l’oratori de Carissimi Jephte, en forma de taller diari 
+    de 3 hores que ens ha de dur a una interpretació pública al final del curs. 
+     </p>
             </div>
         }
     />
