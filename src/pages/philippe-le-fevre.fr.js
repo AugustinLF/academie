@@ -40,13 +40,13 @@ const Philippe = () => (
                     rendre heureux ceux qui auront partagé avec lui ces moments musicaux.
                 </p>
                 <p>
-                    Philippe Le Fèvre anime le{" "}
+                    Philippe Le Fèvre partage la direction du <InnerLink to="/fr/stage-choral">chœur de l'Académie </InnerLink> avec{" "}
+                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink> 
+                   et anime le{" "}
                     <InnerLink to="/fr/stage-direction-de-choeur">
                         stage de direction de chœur
-                    </InnerLink>{" "}
-                    et partage la direction du chœur avec{" "}
-                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink> pour le{" "}
-                    <InnerLink to="/fr/stage-choral">stage de chant choral</InnerLink>
+                    </InnerLink>{" "} (les étudiants en direction de chœur dirigent un chœur pilote spécialement dédié à cet atelier.
+                   
                 </p>
             </div>
         }
