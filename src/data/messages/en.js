@@ -32,6 +32,7 @@ module.exports = {
     choralConductingTitle: "Choir conducting academy",
     choralConductingContent:
         "Tuition program includes score study, gesture, rehearsal technique and work with a pilot choir on a daily basis",
-    vocalCoachContent: "Detailed informations: January 2018.",
+    vocalCoachContent:
+        "A workshop for harpsichordists, organists and pianists who want to improve their skills as Lyric coach for Early music",
     vocalCoachTitle: "Vocal coach academy",
 };
