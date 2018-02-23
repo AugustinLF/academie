@@ -32,7 +32,7 @@ const Choral = () => (
                             Giacomo Carissimi : Jephté (chœurs à 6 voix de l'oratorio)
                         </ListItem>
                         <ListItem>Alessandro Grandi : O speciosa (à 3 et 4 voix)</ListItem>
-                        <ListItem>Antonio Lotti ; Crucifixus a 6</ListItem>
+                        <ListItem>Antonio Lotti : Crucifixus a 6</ListItem>
                         <ListItem>Antonio Lotti : Miserere en ré (à 4 voix)</ListItem>
                     </List>
                 </p>
