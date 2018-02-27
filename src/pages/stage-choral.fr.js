@@ -37,8 +37,8 @@ const Choral = () => (
                     </List>
                 </p>
 
-            Les journées commencent à 9h30 par un cours collectif d’une heure de technique vocale : 
-        posture, respiration, technique vocale selon une progression pré-établie tout au long de la semaine.
+            Les journées commencent à 9h30 par un cours collectif d’une heure de technique vocale avec  <InnerLink to="/fr/muriel-ferraro">
+                Muriel Ferraro</InnerLink> : posture, respiration, technique vocale selon une progression pré-établie tout au long de la semaine.
                  </p>
                 <p>
         Ensuite, jusqu’à 13h00, les participants du stage de chant choral travaillent le programme musical soit avec 
@@ -46,13 +46,12 @@ const Choral = () => (
         par <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>.
                 </p>
                 <p>
-    Les répétitions reprennent à 16h00 ou 16h30 jusqu’à 19h00, avec le chef avec lequel le chœur n’a pas travaillé le matin.
+    Les répétitions reprennent à 16h30 jusqu’à 19h00, avec le chef avec lequel le chœur n’a pas travaillé le matin.
                  </p>
                 <p>
     Le début de l’après-midi est consacré, par rotation, à des cours de technique vocale par pupitre avec <InnerLink to="/fr/muriel-ferraro">Muriel Ferraro</InnerLink>. 
-    Parfois les chefs travaillent avec un nombre réduits de pupitres pendant qu’un pupitre a un cours de technique vocale. 
     Le stage de chant choral de l’Académie d’été attache une importance particulière à la qualité vocale et donne aux 
-    choriste le maximum de temps de travail en technique vocale pour y parvenir.
+    choristes le maximum de temps de travail en technique vocale pour y parvenir.
                  </p>
                 <p>
     Il n’y a pas de répétition le vendredi après-midi et, sauf exception, jamais le soir.
