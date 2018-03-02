@@ -1,13 +1,14 @@
 import React from "react";
-import Link from "gatsby-link";
 import g from "glamorous";
 import {FormattedMessage} from "react-intl";
 
-import logo from "./logo.png";
-import SelectLanguage from "../components/selectLanguage";
-import {tabletUp, phone} from "../components/mediaQueries";
-import Menu from "./menu";
-import {Link as OuterLink} from "../components/base";
+import SelectLanguage from "../../components/selectLanguage";
+import {tabletUp, phone} from "../../components/mediaQueries";
+import DesktopMenu from "./desktopMenu";
+import MobileHeader from "./mobileHeader";
+import Logo from "./logo";
+import {Link as OuterLink} from "../../components/base";
+import Register from "./register";
 
 const HeaderContainer = g.div({
     display: "flex",
@@ -19,7 +20,7 @@ const HeaderContainer = g.div({
         paddingTop: 20,
     },
     [phone]: {
-        paddingTop: 10,
+        width: "100%",
     },
 });
 const Top = g.div({
@@ -32,12 +33,6 @@ const Top = g.div({
     },
 });
 
-const Img = g.img({
-    width: 554,
-    [phone]: {
-        width: "100%",
-    },
-});
 const Right = g.div({
     display: "flex",
     [tabletUp]: {
@@ -56,26 +51,17 @@ const Right = g.div({
     },
 });
 
-const registrationLinks = {
-    en: "http://capricciofrancais.com/registration.php",
-    fr: "http://capricciofrancais.com/inscription.php",
-    ca: "http://capricciofrancais.com/registration.php",
-};
-
 const Header = ({langs, homeLink, langKey}) => (
     <HeaderContainer>
+        <MobileHeader homeLink={homeLink} langKey={langKey} />
         <Top>
-            <Link to={`/${langKey}`}>
-                <Img src={logo} alt="Logo" />
-            </Link>
+            <Logo langKey={langKey} />
             <Right>
-                <OuterLink href={registrationLinks[langKey]}>
-                    <FormattedMessage id="register" />
-                </OuterLink>
+                <Register langkey={langKey} />
                 <SelectLanguage langs={langs} />
             </Right>
         </Top>
-        <Menu homeLink={homeLink} />
+        <DesktopMenu homeLink={homeLink} />
     </HeaderContainer>
 );
 
