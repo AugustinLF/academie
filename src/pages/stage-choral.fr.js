@@ -44,7 +44,7 @@ const Choral = () => (
                 </p>
                 <p>
                     Ensuite, jusqu’à 13h00, les participants du stage de chant choral travaillent le
-                    programme musical soit avec
+                    programme musical soit avec{" "}
                     <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, soit avec{" "}
                     <InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink>. Selon les
                     moments de la journée, le chœur travaille a cappella ou accompagné par{" "}
