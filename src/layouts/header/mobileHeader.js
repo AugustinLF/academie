@@ -38,9 +38,14 @@ class MobileHeader extends React.Component {
         const {homeLink, langKey} = this.props;
         return (
             <HeaderContainer>
-                <button onClick={() => this.setState(({open}) => ({open: !open}))}>
-                    <img src={menuIcon} alt="Toggle menu" width={40} height={40} />
-                </button>
+                <img
+                    onClick={() => this.setState(({open}) => ({open: !open}))}
+                    src={menuIcon}
+                    alt="Toggle menu"
+                    width={40}
+                    height={40}
+                />
+
                 <img src={squareLogo} alt="Toggle menu" width={30} height={30} />
                 <Register langKey={langKey} />
                 <MobileMenu homeLink={homeLink} open={this.state.open} closeMenu={this.closeMenu} />

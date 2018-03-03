@@ -27,6 +27,7 @@
     "dev": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "predeploy": "yarn build && cp ./CNAME public/",
+    "deploy:feature": "yarn build && rm ./public/CNAME && surge public/",
     "deploy": "surge public/"
   },
   "devDependencies": {

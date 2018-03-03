@@ -24,8 +24,7 @@ const SideMenu = g.div(
     })
 );
 const MenuLink = g(InnerLink)({
-    height: 60,
-    paddingLeft: 20,
+    padding: "10px 20px",
     fontSize: 24,
     display: "flex",
     alignItems: "center",
