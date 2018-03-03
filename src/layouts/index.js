@@ -13,6 +13,7 @@ import SocialMedia from "./social";
 import {msg as msgFr} from "../pages/index.fr";
 import {msg as msgEn} from "../pages/index.en";
 import {msg as msgCa} from "../pages/index.ca";
+import Footer from "./footer";
 
 const description = {
     fr: msgFr.academy.content,
@@ -43,9 +44,9 @@ const TemplateWrapper = ({children, data, location, i18nMessages}) => {
                     <link rel="icon" href="/favicon.jpg" />
                 </Helmet>
                 <Body>
-                    {/* <Header langs={langsMenu} homeLink={homeLink} langKey={langKey} /> */}
+                    <Header langs={langsMenu} homeLink={homeLink} langKey={langKey} />
                     {children()}
-                    <SocialMedia />
+                    <Footer langsMenu={langsMenu} />
                 </Body>
             </div>
         </IntlProvider>

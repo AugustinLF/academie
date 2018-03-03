@@ -8,6 +8,7 @@ import {tabletUp} from "../../components/mediaQueries";
 import menuIcon from "./menu.svg";
 import MobileMenu from "./mobileMenu";
 import Register from "./register";
+import squareLogo from "./squareLogo.png";
 
 const HeaderContainer = g.div({
     position: "relative",
@@ -40,6 +41,7 @@ class MobileHeader extends React.Component {
                 <button onClick={() => this.setState(({open}) => ({open: !open}))}>
                     <img src={menuIcon} alt="Toggle menu" width={40} height={40} />
                 </button>
+                <img src={squareLogo} alt="Toggle menu" width={30} height={30} />
                 <Register langKey={langKey} />
                 <MobileMenu homeLink={homeLink} open={this.state.open} closeMenu={this.closeMenu} />
             </HeaderContainer>

@@ -8,8 +8,6 @@ import facebook from "./facebook.svg";
 const Container = g.div({
     display: "flex",
     justifyContent: "center",
-    marginBottom: 20,
-    marginTop: 50,
     "&>*": {
         ":not(:last-child)": {
             marginRight: 20,

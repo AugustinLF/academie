@@ -2,7 +2,6 @@ import React from "react";
 import g from "glamorous";
 import {FormattedMessage} from "react-intl";
 
-import SelectLanguage from "../../components/selectLanguage";
 import {tabletUp, phone} from "../../components/mediaQueries";
 import DesktopMenu from "./desktopMenu";
 import MobileHeader from "./mobileHeader";
@@ -23,13 +22,13 @@ const HeaderContainer = g.div({
         width: "100%",
     },
 });
-const Top = g.div({
+const DesktopHeader = g.div({
     display: "flex",
     justifyContent: "space-between",
     paddingRight: 30,
     paddingLeft: 30,
     [phone]: {
-        flexDirection: "column",
+        display: "none",
     },
 });
 
@@ -41,26 +40,17 @@ const Right = g.div({
             marginRight: 10,
         },
     },
-    [phone]: {
-        margin: "20px 0",
-        flexDirection: "column",
-        alignItems: "center",
-        "> *:not(:last-child)": {
-            marginBottom: 10,
-        },
-    },
 });
 
 const Header = ({langs, homeLink, langKey}) => (
     <HeaderContainer>
         <MobileHeader homeLink={homeLink} langKey={langKey} />
-        <Top>
+        <DesktopHeader>
             <Logo langKey={langKey} />
             <Right>
-                <Register langkey={langKey} />
-                <SelectLanguage langs={langs} />
+                <Register langKey={langKey} />
             </Right>
-        </Top>
+        </DesktopHeader>
         <DesktopMenu homeLink={homeLink} />
     </HeaderContainer>
 );

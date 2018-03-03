@@ -29,8 +29,8 @@ const LanguageText = g.div({
     textDecoration: "none",
 });
 
-const SelectLanguage = ({langs}) => {
-    const links = langs.map(lang => (
+const SelectLanguage = ({langsMenu}) => {
+    const links = langsMenu.map(lang => (
         <Language to={lang.link} key={lang.langKey}>
             <LanguageImage src={flagMap[lang.langKey]} />
             <LanguageText selected={lang.selected}>{lang.langKey}</LanguageText>
