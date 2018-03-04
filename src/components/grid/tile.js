@@ -4,7 +4,7 @@ import React from "react";
 import {FormattedMessage} from "react-intl";
 
 import {H3} from "../base";
-import {phone} from "../mediaQueries";
+import {phone, tabletUp} from "../mediaQueries";
 
 const TileContainer = g(RawLink)({
     cursor: "pointer",
@@ -15,12 +15,14 @@ const TileContainer = g(RawLink)({
     alignItems: "flex-start",
     textDecoration: "none",
     height: 250,
-    ":hover": {
-        "& > div:first-child": {
-            transform: "scale(1.1)",
-        },
-        "& > div:last-child": {
-            transform: "translateY(0)",
+    [tabletUp]: {
+        ":hover": {
+            "& > div:first-child": {
+                transform: "scale(1.1)",
+            },
+            "& > div:last-child": {
+                transform: "translateY(0)",
+            },
         },
     },
     [phone]: {
@@ -28,6 +30,11 @@ const TileContainer = g(RawLink)({
             transform: "translateY(0)",
         },
     },
+});
+const TitleZone = g.div({
+    position: "relative",
+    zIndex: 1,
+    alignSelf: "stretch",
 });
 const Title = g(H3)({
     color: "white",
@@ -81,7 +88,10 @@ const Content = g.div({
 const Tile = ({imgUrl, titleId, title, content, link}) => (
     <TileContainer to={link}>
         <PictureBackground imgUrl={imgUrl} />
-        <Title>{titleId ? <FormattedMessage id={titleId} /> : title}</Title>
+        <TitleZone>
+            <Title>{titleId ? <FormattedMessage id={titleId} /> : title}</Title>
+            <Background />
+        </TitleZone>
         <Content>
             <FormattedMessage style={{zIndex: 0}} id={content} />
             <Background />
