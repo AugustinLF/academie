@@ -1,6 +1,7 @@
-const autoprefixer = require('autoprefixer');
+const autoprefixer = require("autoprefixer");
 
-const languages = require('./src/data/languages');
+const languages = require("./src/data/languages");
+const config = require("./local.js");
 
 module.exports = {
     siteMetadata: {
@@ -11,17 +12,25 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-glamor`,
         {
-            resolve: 'gatsby-plugin-google-fonts',
+            resolve: "gatsby-plugin-google-fonts",
             options: {
-                fonts: ['Open Sans'],
+                fonts: ["Open Sans"],
             },
         },
         {
-            resolve: 'gatsby-plugin-i18n',
+            resolve: "gatsby-plugin-i18n",
             options: {
-                langKeyForNull: 'any',
+                langKeyForNull: "any",
                 langKeyDefault: languages.defaultLangKey,
                 useLangKeyLayout: true,
+            },
+        },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: config.googleAnalyticsId,
+                anonymize: true,
+                respectDNT: true,
             },
         },
     ],

@@ -48,8 +48,6 @@ const CallToAction = g.h2({
     fontWeight: "bold",
 });
 
-const TestimonialBackground = g.div({backgroundColor: "rgba(0, 48, 91, 1)", flexGrow: 1});
-
 const Home = ({msg}) => (
     <div style={{width: "100%"}}>
         <FullWidth
