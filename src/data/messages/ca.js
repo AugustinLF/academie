@@ -13,7 +13,7 @@ module.exports = {
 
     register: "Online registration",
 
-    moviment: "L'Académie d'été du Capriccio Français se déroule en collaboration avec le",
+    moviment: "L’Acadèmia d’estiu el Capriccio Français es realitza amb la col·laboració del",
     movimentTitle: "Moviment Coral Català",
 
     philippeContent: "Taller Coral i de Direcció de Cor",
