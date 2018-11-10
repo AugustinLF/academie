@@ -41,8 +41,16 @@ curiosité le conduisent à diriger aussi bien des formations de chambre que de
 la danse contemporaine (compagnie Lionel Hoche), à intervenir dans le milieu de l’entreprise (Fondation Orange, Business 
 France…) ou à conduire la musique pour des défilés de mode (Gaspard Yurkievich).
 </p> 
-                  <InnerLink to="/fr/stage-choral">stage choral</InnerLink> et stage de direction de chœur{" "}
-                    <InnerLink to="/fr/stage-">stage chefs de chant</InnerLink>
+ <p>
+                   Adam Vidovic partage la direction du chœur avec
+                   {" "}
+                    <InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink> pour le{" "}
+                    <InnerLink to="/fr/stage-choral">stage de chant choral</InnerLink>
+                    et travaillera avec les débutants pour le
+                    <InnerLink to="/fr/stage-direction-de-choeur">
+                        stage de direction de chœur
+                    </InnerLink>{" "}
+                    
                 </p>
             </div>
         }
