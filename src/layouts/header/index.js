@@ -3,6 +3,7 @@ import g from "glamorous";
 import {FormattedMessage} from "react-intl";
 
 import {tabletUp, phone} from "../../components/mediaQueries";
+import SelectLanguage from "../../components/selectLanguage";
 import DesktopMenu from "./desktopMenu";
 import MobileHeader from "./mobileHeader";
 import Logo from "./logo";
@@ -34,21 +35,18 @@ const DesktopHeader = g.div({
 
 const Right = g.div({
     display: "flex",
-    [tabletUp]: {
-        alignItems: "flex-start",
-        "> *:not(:last-child)": {
-            marginRight: 10,
-        },
-    },
+    flexDirection: "column",
+    alignItems: "flex-end",
 });
 
-const Header = ({langs, homeLink, langKey}) => (
+const Header = ({homeLink, langKey, langsMenu}) => (
     <HeaderContainer>
-        <MobileHeader homeLink={homeLink} langKey={langKey} />
+        <MobileHeader homeLink={homeLink} langKey={langKey} langsMenu={langsMenu} />
         <DesktopHeader>
             <Logo langKey={langKey} />
             <Right>
                 <Register langKey={langKey} />
+                <SelectLanguage langsMenu={langsMenu} />
             </Right>
         </DesktopHeader>
         <DesktopMenu homeLink={homeLink} />

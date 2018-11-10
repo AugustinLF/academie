@@ -44,9 +44,9 @@ const TemplateWrapper = ({children, data, location, i18nMessages}) => {
                     <link rel="icon" href="/favicon.jpg" />
                 </Helmet>
                 <Body>
-                    <Header langs={langsMenu} homeLink={homeLink} langKey={langKey} />
+                    <Header langsMenu={langsMenu} homeLink={homeLink} langKey={langKey} />
                     {children()}
-                    <Footer langsMenu={langsMenu} />
+                    <Footer />
                 </Body>
             </div>
         </IntlProvider>

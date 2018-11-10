@@ -13,6 +13,7 @@ const Container = g.div({
 });
 const Language = g(Link)({
     display: "flex",
+    color: "black",
     alignItems: "center",
     ":not(:last-child)": {
         marginRight: 10,
@@ -29,7 +30,7 @@ const LanguageText = g.div({
     textDecoration: "none",
 });
 
-const SelectLanguage = ({langsMenu}) => {
+const SelectLanguage = ({className, langsMenu}) => {
     const links = langsMenu.map(lang => (
         <Language to={lang.link} key={lang.langKey}>
             <LanguageImage src={flagMap[lang.langKey]} />
@@ -37,7 +38,7 @@ const SelectLanguage = ({langsMenu}) => {
         </Language>
     ));
 
-    return <Container>{links}</Container>;
+    return <Container className={className}>{links}</Container>;
 };
 
 export default SelectLanguage;

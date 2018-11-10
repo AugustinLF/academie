@@ -22,8 +22,8 @@ const Informations = () => (
                         de Catalogne, début de la célèbre Rambla et du quartier historique.
                     </p>
                     <p>
-                        Les stagiaires sont hébergés en pension complète (du dîner du dimanche 15
-                        juillet au petit-déjeuner du lundi 23 juillet), sauf trois dîners dans la
+                        Les stagiaires sont hébergés en pension complète (du dîner du dimanche 21
+                        juillet au petit-déjeuner du lundi 29 juillet), sauf trois dîners dans la
                         semaine qui sont libres.
                     </p>
                     <p>Trois possibilités d'hébergement en pension complète sont disponibles :</p>
@@ -46,18 +46,14 @@ const Informations = () => (
                         Il est possible d'arriver plus tôt ou de repartir plus tard, des chambres
                         sont disponibles (sans repas) : nous consulter.
                     </p>
-                    <p>
-                        A noter : les murs épais du couvent garantissent une fraîcheur relative en
-                        été dans les chambres. La grande salle de répétition est climatisée.
-                    </p>
+                    <p>A noter : la grande salle de répétition est climatisée.</p>
                 </div>
             </Section>
             <Section title="Tarifs">
                 <div>
                     <p>
                         Les frais pédagogiques s’élèvent à 340 € et comprennent l’adhésion à
-                        l’association. Pour le stage de chant avec Josep Cabré, les frais
-                        pédagogiques sont de 170 € et comprennent l’adhésion à l’association.
+                        l’association.
                     </p>
                     <p>
                         Pour les personnes accompagnant les stagiaires et hébergées par l'Académie,

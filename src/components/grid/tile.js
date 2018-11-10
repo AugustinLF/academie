@@ -14,7 +14,7 @@ const TileContainer = g(RawLink)({
     display: "flex",
     alignItems: "flex-start",
     textDecoration: "none",
-    height: 250,
+    height: 300,
     [tabletUp]: {
         ":hover": {
             "& > div:first-child": {

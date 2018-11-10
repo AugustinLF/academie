@@ -8,6 +8,7 @@ import josep from "../josep.jpg";
 import muriel from "../muriel.jpg";
 import stefano from "../stefano.jpg";
 import maarten from "../maarten.jpg";
+import adam from "../adam.jpg";
 
 const TeacherList = ({language}) => (
     <Grid count={3}>
@@ -47,6 +48,14 @@ const TeacherList = ({language}) => (
             content="stefanoContent"
             link={`/${language}/stefano-intrieri`}
         />
+        {language === "fr" && (
+            <Tile
+                imgUrl={adam}
+                title="Adam Vidovic"
+                content="philippeContent"
+                link={`/${language}/adam-vidovic`}
+            />
+        )}
     </Grid>
 );
 export default TeacherList;
