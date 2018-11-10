@@ -21,7 +21,7 @@ const Philippe = () => (
                 <p>
                     Alongside his work as a musical director, Philippe Le Fèvre favors pedagogy and
                     transmission: he has therefore founded a Summer Music Academy for future young
-                    artists, he is a Professor at Saint-Maur Regional Conservatory, Cergy Regional
+                    artists, he is a Professor at Cergy-Pontoise Regional
                     Conservatory and Paris 9e Conservatory. He is also the Choral conductor of three
                     amateur choirs including the french Parliament choir, and he regularly delivers
                     lectures.
