@@ -6,7 +6,7 @@ import Home from "../components/home";
 export const msg = {
     title: ["Académie 2018", "rejoignez-nous!"],
     academy: {
-        title: "DU 15 AU 22 JUILLET 2018 : 7 JOURS A BARCELONE",
+        title: "DU 21 AU 28 JUILLET 2019 : 7 JOURS A BARCELONE",
         content:
             "Stage de chant, stage de chant choral, stage pour chefs de chant, stage de direction de chœur : 7 jours consacrés à la musique baroque dans un cadre exceptionnel",
     },

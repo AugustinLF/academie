@@ -1,7 +1,6 @@
 import React from "react";
 import g from "glamorous";
 
-import SelectLanguage from "../../components/selectLanguage";
 import SocialMedia from "../social";
 import {phone, tabletUp} from "../../components/mediaQueries";
 
@@ -21,10 +20,9 @@ const FooterContainer = g.div({
     },
 });
 
-const Footer = ({langsMenu}) => (
+const Footer = () => (
     <FooterContainer>
         <SocialMedia />
-        <SelectLanguage langsMenu={langsMenu} />
     </FooterContainer>
 );
 export default Footer;

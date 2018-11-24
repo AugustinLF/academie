@@ -35,7 +35,7 @@ class MobileHeader extends React.Component {
     };
 
     render() {
-        const {homeLink, langKey} = this.props;
+        const {homeLink, langKey, langsMenu} = this.props;
         return (
             <HeaderContainer>
                 <img
@@ -48,7 +48,12 @@ class MobileHeader extends React.Component {
 
                 <img src={squareLogo} alt="Toggle menu" width={30} height={30} />
                 <Register langKey={langKey} />
-                <MobileMenu homeLink={homeLink} open={this.state.open} closeMenu={this.closeMenu} />
+                <MobileMenu
+                    homeLink={homeLink}
+                    open={this.state.open}
+                    closeMenu={this.closeMenu}
+                    langsMenu={langsMenu}
+                />
             </HeaderContainer>
         );
     }

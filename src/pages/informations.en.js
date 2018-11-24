@@ -20,8 +20,8 @@ const Informations = () => (
                         station and 10mins from the Catalunya Square and historical area.
                     </p>
                     <p>
-                        Full board is provided from the dinner of Sunday 15 July to the breakfast of
-                        Monday 23 July.
+                        Full board is provided from the dinner of Sunday 21 July to the breakfast of
+                        Monday 29 July.
                     </p>
                     <p>3 different options are available for your accommodation:</p>
                     <List>
@@ -46,10 +46,7 @@ const Informations = () => (
             </Section>
             <Section title="Fees">
                 <div>
-                    <p>
-                        Tuition fees are 340€, and include membership. For the vocal workshop with
-                        Josep Cabré, tuition fees are 170€, and include membership.
-                    </p>
+                    <p>Tuition fees are 340€, and include membership.</p>
                     <p>
                         If students should be accompanied by a person who does not participate in
                         the programs but would like to be accommodated with them, then a membership

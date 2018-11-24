@@ -4,6 +4,7 @@ import Link from "gatsby-link";
 import {FormattedMessage} from "react-intl";
 
 import {InnerLink} from "../../components/base";
+import SelectLanguage from "../../components/selectLanguage";
 
 const SideMenu = g.div(
     {
@@ -23,9 +24,12 @@ const SideMenu = g.div(
         transform: open ? "translateX(0%)" : "translateX(-100%)",
     })
 );
-const MenuLink = g(InnerLink)({
+const cellStyle = {
     padding: "10px 20px",
     fontSize: 24,
+};
+const MenuLink = g(InnerLink)({
+    ...cellStyle,
     display: "flex",
     alignItems: "center",
     textDecoration: "none",
@@ -33,7 +37,12 @@ const MenuLink = g(InnerLink)({
     borderBottom: "solid 1px black",
 });
 
-const MobileMenu = ({open, closeMenu, homeLink}) => (
+const BottomSelectLanguage = g(SelectLanguage)({
+    marginTop: "auto",
+    ...cellStyle,
+});
+
+const MobileMenu = ({open, closeMenu, homeLink, langsMenu}) => (
     <SideMenu open={open}>
         <MenuLink to={homeLink} onClick={closeMenu}>
             <FormattedMessage id="home" />
@@ -50,6 +59,7 @@ const MobileMenu = ({open, closeMenu, homeLink}) => (
         <MenuLink to={`${homeLink}contact`} onClick={closeMenu}>
             <FormattedMessage id="contact" />
         </MenuLink>
+        <BottomSelectLanguage langsMenu={langsMenu} />
     </SideMenu>
 );
 export default MobileMenu;
