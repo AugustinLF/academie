@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-google-fonts": "^0.0.3",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "surge": "^0.20.1"
   }
 }
