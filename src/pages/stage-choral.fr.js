@@ -12,10 +12,10 @@ const Choral = () => (
         content={
             <div>
                 <p>
-                    Le stage de chant choral été 2018 est dirigé par{" "}
+                    Le stage de chant choral été 2019 est dirigé par{" "}
                     <InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, directeur
                     musical de l'académie, et par{" "}
-                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>. Le chœur compte 28
+                    <InnerLink to="/fr/adam-vidovic">Adam Vidovic</InnerLink>. Le chœur compte 28
                     choristes maximum avec équilibre des pupitres. Il s'adresse à des choristes
                     expérimentés.
                 </p>
@@ -25,16 +25,7 @@ const Choral = () => (
                     <InnerLink to="/fr/muriel-ferraro">Muriel Ferraro</InnerLink>.
                 </p>
                 <p>
-                    Le stage choral 2018 sera consacré à un siècle de musique baroque italienne. Le
-                    chœur chantera :
-                    <List>
-                        <ListItem>
-                            Giacomo Carissimi : Jephté (chœurs à 6 voix de l'oratorio)
-                        </ListItem>
-                        <ListItem>Alessandro Grandi : O speciosa (à 3 et 4 voix)</ListItem>
-                        <ListItem>Antonio Lotti : Crucifixus a 6</ListItem>
-                        <ListItem>Antonio Lotti : Miserere en ré (à 4 voix)</ListItem>
-                    </List>
+                    Le programme détaillé du stage choral 2019 sera publié en janvier 2019.
                 </p>
                 <p>
                     Les journées commencent à 9h30 par un cours collectif d’une heure de technique
@@ -45,7 +36,7 @@ const Choral = () => (
                 <p>
                     Ensuite, jusqu’à 13h00, les participants du stage de chant choral travaillent le
                     programme musical soit avec{" "}
-                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, soit avec{" "}
+                    <InnerLink to="/fr/adam-vidovic">Adam Vidovic</InnerLink>, soit avec{" "}
                     <InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink>. Selon les
                     moments de la journée, le chœur travaille a cappella ou accompagné par{" "}
                     <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>.
