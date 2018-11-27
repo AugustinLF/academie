@@ -22,10 +22,10 @@ const Philippe = () => (
                     C'est pourquoi à côté de son activité de chef, Philippe Le Fèvre attache une
                     grande importance à la pédagogie et à la transmission : il a créé pour cela une
                     académie d’été où il forme les jeunes artistes de demain, il enseigne au
-                    Conservatoire à Rayonnement Régional de Cergy-Pontoise et à celui
-                    du 9ème arrondissement de Paris, il dirige des chœurs amateurs qu’il aide à
-                    découvrir chefs d’œuvres et œuvres méconnues, il donne des conférences pour
-                    donner des clés au mélomane…
+                    Conservatoire à Rayonnement Régional de Cergy-Pontoise et à celui du 9ème
+                    arrondissement de Paris, il dirige des chœurs amateurs qu’il aide à découvrir
+                    chefs d’œuvres et œuvres méconnues, il donne des conférences pour donner des
+                    clés au mélomane…
                 </p>
                 <p>
                     C'est aussi pourquoi, après avoir été directeur artistique et pédagogique de l'<Link href="https://artchoral.org/">Institut Français d’Art Choral</Link>{" "}

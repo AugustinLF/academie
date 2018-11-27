@@ -24,9 +24,7 @@ const Choral = () => (
                     cours de technique vocale avec{" "}
                     <InnerLink to="/fr/muriel-ferraro">Muriel Ferraro</InnerLink>.
                 </p>
-                <p>
-                    Le programme détaillé du stage choral 2019 sera publié en janvier 2019.
-                </p>
+                <p>Le programme détaillé du stage choral 2019 sera publié en janvier 2019.</p>
                 <p>
                     Les journées commencent à 9h30 par un cours collectif d’une heure de technique
                     vocale avec <InnerLink to="/fr/muriel-ferraro">Muriel Ferraro</InnerLink> :
