@@ -4,9 +4,9 @@ import Link from "gatsby-link";
 import Home from "../components/home";
 
 export const msg = {
-    title: ["Acadèmia 2018", "join us!"],
+    title: ["Acadèmia 2019", "join us!"],
     academy: {
-        title: "BARCELONA: 15-22 DE JULIOL 2018",
+        title: "BARCELONA: 21-28 DE JULIOL 2019",
         content:
             "Cant, clavecí, direcció de cors, coral: una acadèmia internacional en un marc excepcional al centre Barcelona dedicats de ple als repertoris del barroc",
     },
