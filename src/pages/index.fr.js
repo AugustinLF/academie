@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 import Home from "../components/home";
 
 export const msg = {
-    title: ["Académie 2018", "rejoignez-nous!"],
+    title: ["Académie 2019", "rejoignez-nous!"],
     academy: {
         title: "DU 21 AU 28 JUILLET 2019 : 7 JOURS A BARCELONE",
         content:
