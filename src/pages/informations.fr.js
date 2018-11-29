@@ -53,10 +53,13 @@ const Informations = () => (
                 <div>
                     <p>
                         Les frais pédagogiques sont :
- <List>
-                        <ListItem>inscription indivuelle (comprenant l'adhésion à l'association) : 340 €</ListItem>
-                        <ListItem>formation professionnelle : 600 €
-                        </ListItem>
+                        <List>
+                            <ListItem>
+                                inscription indivuelle (comprenant l'adhésion à l'association) : 340
+                                €
+                            </ListItem>
+                            <ListItem>formation professionnelle : 600 €</ListItem>
+                        </List>
                     </p>
                     <p>
                         Pour les personnes accompagnant les stagiaires et hébergées par l'Académie,

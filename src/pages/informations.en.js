@@ -37,15 +37,15 @@ const Informations = () => (
                         Rooms may be available one or more days before or after the Academy (no
                         meals), subject to availability.
                     </p>
-                    <p>
-                        Air-conditioning: The main rehearsal room is
-                        air-conditioned.
-                    </p>
+                    <p>Air-conditioning: The main rehearsal room is air-conditioned.</p>
                 </div>
             </Section>
             <Section title="Fees">
                 <div>
-                    <p>Tuition fees are 340€ (individuals), and include membership or 600 Ù (professional training).</p>
+                    <p>
+                        Tuition fees are 340€ (individuals), and include membership or 600€
+                        (professional training).
+                    </p>
                     <p>
                         If students should be accompanied by a person who does not participate in
                         the programs but would like to be accommodated with them, then a membership

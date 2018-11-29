@@ -48,14 +48,12 @@ const TeacherList = ({language}) => (
             content="stefanoContent"
             link={`/${language}/stefano-intrieri`}
         />
-        {language === "fr" && (
-            <Tile
-                imgUrl={adam}
-                title="Adam Vidovic"
-                content="philippeContent"
-                link={`/${language}/adam-vidovic`}
-            />
-        )}
+        <Tile
+            imgUrl={adam}
+            title="Adam Vidovic"
+            content="philippeContent"
+            link={`/${language}/adam-vidovic`}
+        />
     </Grid>
 );
 export default TeacherList;
