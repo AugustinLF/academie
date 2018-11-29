@@ -52,8 +52,11 @@ const Informations = () => (
             <Section title="Tarifs">
                 <div>
                     <p>
-                        Les frais pédagogiques s’élèvent à 340 € et comprennent l’adhésion à
-                        l’association.
+                        Les frais pédagogiques sont :
+ <List>
+                        <ListItem>inscription indivuelle (comprenant l'adhésion à l'association) : 340 €</ListItem>
+                        <ListItem>formation professionnelle : 600 €
+                        </ListItem>
                     </p>
                     <p>
                         Pour les personnes accompagnant les stagiaires et hébergées par l'Académie,
