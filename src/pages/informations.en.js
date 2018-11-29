@@ -38,15 +38,14 @@ const Informations = () => (
                         meals), subject to availability.
                     </p>
                     <p>
-                        Air-conditioning: Walls are very thick inside the convent, which assures
-                        fairly fresh air in rooms in summer. The main rehearsal room is
+                        Air-conditioning: The main rehearsal room is
                         air-conditioned.
                     </p>
                 </div>
             </Section>
             <Section title="Fees">
                 <div>
-                    <p>Tuition fees are 340€, and include membership.</p>
+                    <p>Tuition fees are 340€ (individuals), and include membership or 600 Ù (professional training).</p>
                     <p>
                         If students should be accompanied by a person who does not participate in
                         the programs but would like to be accommodated with them, then a membership
