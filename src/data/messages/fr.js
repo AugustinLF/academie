@@ -27,7 +27,7 @@ module.exports = {
     vocalContent: "Maarten Koningsberger et Josep Cabré animeront chacun un stage de chant.",
     choralTitle: "Stage de chant choral",
     choralContent:
-        "Ce stage de chant choral accueille des choristes confirmés qui travailleront avec Philippe Le Fèvre et Josep Cabré.",
+        "Ce stage de chant choral accueille des choristes confirmés qui travailleront avec Philippe Le Fèvre et Adam Vidovic.",
     choralConductingTitle: "Stage direction de chœur",
     choralConductingContent:
         "Ce stage permettra d’aborder toutes les facettes du métier de chef de chœur et de travailler quotidiennement avec un chœur école.",
