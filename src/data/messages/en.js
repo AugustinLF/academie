@@ -28,7 +28,7 @@ module.exports = {
         "The singers will focus their work on soloist repertoire, performance, as well as collegial practice.",
     choralTitle: "Choral Academy",
     choralContent:
-        "The choir is conducted by Philippe Le Fèvre, artistic director of the Music Academy, and by Josep Cabré. ",
+        "The choir is conducted by Philippe Le Fèvre, artistic director of the Music Academy, and by Adam Vidovic. ",
     choralConductingTitle: "Choir conducting academy",
     choralConductingContent:
         "Tuition program includes score study, gesture, rehearsal technique and work with a pilot choir on a daily basis",
