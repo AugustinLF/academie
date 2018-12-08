@@ -27,7 +27,7 @@ module.exports = {
     vocalContent: "Aquest taller associa tècnica vocal i interpretació de la música barroca. .",
     choralTitle: "Taller coral",
     choralContent:
-        "El cor serà dirigit per Philippe Le Fèvre, director musical de l’Acadèmia, i Josep Cabré. ",
+        "El cor serà dirigit per Philippe Le Fèvre, director musical de l’Acadèmia, i Adam Vidovic. ",
     choralConductingTitle: "Taller de Direcció de Cor",
     choralConductingContent:
         "Aquest taller s’adreça als estudiants inscrits en un curs de direcció de cor i als directors de cor amateurs i també als músics professionals ",
