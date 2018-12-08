@@ -7,51 +7,30 @@ import adam from "../adam.jpg";
 const Adam = () => (
     <InnerPage
         name="Adam Vidovic"
-        title="Chœur et direction de chœur"
+        title="Choir and choir conducting et direction de chœur"
         imgUrl={adam}
         content={
             <div>
                 <p>
-                    De nationalité britannique, Adam Vidović est chef de chœur, professeur de chant
-                    choral, de direction de chœur, organiste et sophrologue. Il est titulaire des
-                    orgues Cavaillé-Coll/Mutin de l'Église luthérienne de la Rédemption à Paris.
-                </p>
+                    Adam Vidovic is a British musician born in Rome, raised in London and now living and working in France. 
+    He studied the piano, the organ (with Catherine Ennis and Andrew Lumsden), the bassoon and singing at Christ’s Hospital School
+in Sussex. After his bachelors degree in languages from the University of Manchester, he went on to study the organ with Marie-Louise Langlais at the Paris Conservatoire (CRR) obtaining a ‘Premier Prix’ in 1996, and pursued his organ studies at the Lyon Conservatoire (CRR) with Louis Robillard.
+He later obtained a diploma (DEM) in choral conducting with Ariel Alonso at the Ecole nationale de musique de Créteil, and studied orchestral conducting in Lille with Jean-Sébastien Béreau.
+Most recently he trained as a sophrologist.
+ </p>
                 <p>
-                    Il enseigne à Sciences-Po (Paris), au Conservatoire Nadia et Lili Boulanger,
-                    Paris 9e, où il co-dirige le chœur Nadia Boulanger et le Jeune Chœur et au
-                    Conservatoire Gustave Charpentier, Paris 18e, où il dirige l’Ensemble vocal.
-                </p>
+Today Adam Vidovic works as a choir master with numerous choirs and choral societies. He teaches in two of Paris’ 
+conservatoires, and at the Paris Institute of Political Sciences (SciencesPo).
+He has collaborated with contemporary dance companies, worked on musicals (CRÉA) and played the harmonium with Diabolicus, 
+    an ensemble made up of soloists from the Orchestre de Paris. 
+     </p>
                 <p>
-                    Il a été directeur musical et chef de chœur de nombreux chœurs : l'Ensemble
-                    vocal de Neuilly, le Chœur de Meudon, le Chœur du campus d'Orsay et de Voices
-                    Chœur International.
+In 2008 he won a special prize at the International Festival of Advent and Christmas music in Prague for 
+    « inspirational conducting ».de (Gaspard Yurkievich).
                 </p>
-                <p>
-                    Il remporte une médaille d'argent avec l'Ensemble vocal de Neuilly au
-                    18e Festival international de musique de l'Avent et de Noël à Prague, où il
-                    obtient un prix spécial du jury pour « une direction de chœur inspirée ». En
-                    2016 la Lettre du Musicien qualifie sa direction de « claire et passionnée ».
-                </p>
-                <p>
-                    Adam Vidović intervient à des master-class, participe aux Choralies à
-                    Vaison-la-Romaine (A Cœur Joie), collabore avec Didier Grojsman au CREA
-                    d’Aulnay-sous-Bois, et dirige les chœurs pour la première production de
-                    l’opéra Vanessa de Samuel Barber en Île-de-France (coproduction Théâtre
-                    d’Herblay et l’Opéra de Metz) sous la baguette de Jean-Luc Tingaud. Sa
-                    polyvalence et sa curiosité le conduisent à diriger aussi bien des formations de
-                    chambre que de grands chœurs avec orchestre, à collaborer avec la danse
-                    contemporaine (compagnie Lionel Hoche), à intervenir dans le milieu de
-                    l’entreprise (Fondation Orange, Business France…) ou à conduire la musique pour
-                    des défilés de mode (Gaspard Yurkievich).
-                </p>
-                <p>
-                    Adam Vidovic partage la direction du chœur avec{" "}
-                    <InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink> pour le{" "}
-                    <InnerLink to="/fr/stage-choral">stage de chant choral</InnerLink>
-                    et travaillera avec les débutants pour le{" "}
-                    <InnerLink to="/fr/stage-direction-de-choeur">
-                        stage de direction de chœur
-                    </InnerLink>.
+ <p>
+                Adam Vidovic conducts, with{" "}<InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink>{" "} 
+        the Academy choir and teaches the students of the choir conducting program (beginners level).
                 </p>
             </div>
         }
