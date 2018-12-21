@@ -27,22 +27,22 @@ const Adam = () => (
                     Chœur International.
                 </p>
                 <p>
-                    Il remporte une médaille d'argent avec l'Ensemble vocal de Neuilly au
-                    18e Festival international de musique de l'Avent et de Noël à Prague, où il
-                    obtient un prix spécial du jury pour « une direction de chœur inspirée ». En
-                    2016 la Lettre du Musicien qualifie sa direction de « claire et passionnée ».
+                    Il remporte une médaille d'argent avec l'Ensemble vocal de Neuilly au 18e
+                    Festival international de musique de l'Avent et de Noël à Prague, où il obtient
+                    un prix spécial du jury pour « une direction de chœur inspirée ». En 2016 la
+                    Lettre du Musicien qualifie sa direction de « claire et passionnée ».
                 </p>
                 <p>
                     Adam Vidović intervient à des master-class, participe aux Choralies à
                     Vaison-la-Romaine (A Cœur Joie), collabore avec Didier Grojsman au CREA
-                    d’Aulnay-sous-Bois, et dirige les chœurs pour la première production de
-                    l’opéra Vanessa de Samuel Barber en Île-de-France (coproduction Théâtre
-                    d’Herblay et l’Opéra de Metz) sous la baguette de Jean-Luc Tingaud. Sa
-                    polyvalence et sa curiosité le conduisent à diriger aussi bien des formations de
-                    chambre que de grands chœurs avec orchestre, à collaborer avec la danse
-                    contemporaine (compagnie Lionel Hoche), à intervenir dans le milieu de
-                    l’entreprise (Fondation Orange, Business France…) ou à conduire la musique pour
-                    des défilés de mode (Gaspard Yurkievich).
+                    d’Aulnay-sous-Bois, et dirige les chœurs pour la première production de l’opéra
+                    Vanessa de Samuel Barber en Île-de-France (coproduction Théâtre d’Herblay et
+                    l’Opéra de Metz) sous la baguette de Jean-Luc Tingaud. Sa polyvalence et sa
+                    curiosité le conduisent à diriger aussi bien des formations de chambre que de
+                    grands chœurs avec orchestre, à collaborer avec la danse contemporaine
+                    (compagnie Lionel Hoche), à intervenir dans le milieu de l’entreprise (Fondation
+                    Orange, Business France…) ou à conduire la musique pour des défilés de mode
+                    (Gaspard Yurkievich).
                 </p>
                 <p>
                     Adam Vidovic partage la direction du chœur avec{" "}
@@ -58,5 +58,3 @@ const Adam = () => (
     />
 );
 export default Adam;
-
-   

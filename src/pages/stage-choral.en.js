@@ -15,24 +15,16 @@ const Choral = () => (
                     The choir is conducted by{" "}
                     <InnerLink to="/en/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, artistic
                     director of the Music Academy, and by{" "}
-                    <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink>. All choral singers take
-                    part in a daily class of vocal technique with{" "}
+                    <InnerLink to="/en/adam-vidovic">Adam Vidovic</InnerLink>. All choral singers
+                    take part in a daily class of vocal technique with{" "}
                     <InnerLink to="/en/muriel-ferraro">Muriel Ferraro</InnerLink>.
                 </p>
-                <p>In 2018, the program is about italian baroque music. The choir will sing:</p>
-                <List>
-                    <ListItem>Giacomo Carissimi: Jephté (SSATTB)</ListItem>
-                    <ListItem>Alessandro Grandi: O speciosa (SAB and SATB)</ListItem>
-                    <ListItem>Antonio Lotti: Crucifixus a 6 (SSAATB)</ListItem>
-                    <ListItem>Antonio Lotti: Miserere in d (SATB)</ListItem>
-                </List>
-
                 <p>
                     Morning rehearsals start at 9:30 am with a class of vocal technique with{" "}
                     <InnerLink to="/en/muriel-ferraro">Muriel Ferraro</InnerLink>. Then from 10:30
                     am to 01:00 pm, the Academy Choir works with the conductors, either{" "}
                     <InnerLink to="/en/philippe-le-fevre">Philippe Le Fèvre</InnerLink> or{" "}
-                    <InnerLink to="/en/josep-cabre">Josep Cabré</InnerLink>, a cappella or
+                    <InnerLink to="/en/adam-vidovic">Adam Vidovic</InnerLink>, a cappella or
                     accompanied by <InnerLink to="/en/stefano-intrieri">
                         Stefano Intrieri
                     </InnerLink>. From 02:30 to 04:30 pm, every section of the Choir, on a
