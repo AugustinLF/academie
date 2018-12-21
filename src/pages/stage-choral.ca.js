@@ -14,8 +14,8 @@ const Choral = () => (
                 <p>
                     El cor serà dirigit per{" "}
                     <InnerLink to="/ca/philippe-le-fevre">Philippe Le Fèvre</InnerLink>, director
-                    musical de l’Acadèmia, i <InnerLink to="/ca/josep-cabre">
-                        Josep Cabré
+                    musical de l’Acadèmia, i <InnerLink to="/en/adam-vidovic">
+                        Adam Vidovic
                     </InnerLink>. El cor comptarà amb 28 coristes amb un màxim equilibri de cordes.
                     El taller està adreçat a cantaires experimentats.
                 </p>
@@ -25,10 +25,7 @@ const Choral = () => (
                 </p>
                 <p>
                     El programa del cor:<List>
-                        <ListItem>Giacomo Carissimi : Jephté (SSATTB)</ListItem>
-                        <ListItem>Alessandro Grandi : O speciosa (SAB and SATB)</ListItem>
-                        <ListItem>Antonio Lotti : Crucifixus a 6 (SSAATB)</ListItem>
-                        <ListItem>Antonio Lotti : Miserere in d (SATB)</ListItem>
+                        <ListItem>detailed program in january 2019</ListItem>
                     </List>
                 </p>
             </div>
