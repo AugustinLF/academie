@@ -4,9 +4,9 @@ import {FormattedMessage} from "react-intl";
 import {Link} from "../../components/base";
 
 const registrationLinks = {
-    en: "http://capricciofrancais.com/registration.php",
-    fr: "http://capricciofrancais.com/inscription.php",
-    ca: "http://capricciofrancais.com/registration.php",
+    en: "https://docs.google.com/forms/d/1L893pl6JZKtkyLLIsaPSjFlxcWdZ7TDI1CEkXHPckFQ/prefill",
+    fr: "https://docs.google.com/forms/d/1DOQQd6gLtgcNbZ-knO2hV_HaEVdYd9xuKTZX31FYgLA/prefill",
+    ca: "https://docs.google.com/forms/d/1L893pl6JZKtkyLLIsaPSjFlxcWdZ7TDI1CEkXHPckFQ/prefill",
 };
 
 const Register = ({langKey}) => (
