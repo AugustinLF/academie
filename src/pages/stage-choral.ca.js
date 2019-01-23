@@ -24,8 +24,30 @@ const Choral = () => (
                     <InnerLink to="/ca/muriel-ferraro">Muriel Ferraro</InnerLink>
                 </p>
                 <p>
-                    El programa del cor:<List>
-                        <ListItem>detailed program in january 2019</ListItem>
+                    El programa del cor:
+     <p>
+                   Tomas Luis de Victoria (1548-1611):
+                </p>
+ <p>
+                    <List>
+                        <ListItem>Eram quasi agnus</ListItem>
+                        <ListItem>Lamed. Matribus suis dixerunt</ListItem>
+                        <ListItem>Caligaverunt Oculi mei </ListItem>
+                        <ListItem>Aleph. Quomodo obscuratum</ListItem>
+                        <ListItem>Sepulto Domino</ListItem>
+                    </List>
+                </p>
+              
+                <p>
+                    <List>
+                        <ListItem>Introït If Ye Love Me - Thomas Tallis </ListItem>
+                        <ListItem>The Preces - William Smith</ListItem>
+                        <ListItem>Hymne - George Frideric Händel - Sinners obey the Gospel Word </ListItem>
+                        <ListItem>Magnificat – Henry Purcell</ListItem>
+                        <ListItem>Nunc Dimitis – Henry Purcell</ListItem>
+                        <ListItem>Anthem – I was Glad Henry Purcell</ListItem>
+                        <ListItem>Hymne - Rejoice the Lord is King Händel</ListItem>
+                        <ListItem>Bénédicton & Amen - Gibbons - Threefold Amen</ListItem>
                     </List>
                 </p>
             </div>
