@@ -45,8 +45,8 @@ const Header = ({homeLink, langKey, langsMenu}) => (
         <DesktopHeader>
             <Logo langKey={langKey} />
             <Right>
-                <Register langKey={langKey} />
                 <SelectLanguage langsMenu={langsMenu} />
+                <Register langKey={langKey} />
             </Right>
         </DesktopHeader>
         <DesktopMenu homeLink={homeLink} />

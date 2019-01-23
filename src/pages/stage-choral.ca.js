@@ -23,12 +23,9 @@ const Choral = () => (
                     En parallel als assajos, els cantaires rebran classes de tècnica vocal de{" "}
                     <InnerLink to="/ca/muriel-ferraro">Muriel Ferraro</InnerLink>
                 </p>
+                <p>El programa del cor:</p>
+                <p>Tomas Luis de Victoria (1548-1611):</p>
                 <p>
-                    El programa del cor:
-     <p>
-                   Tomas Luis de Victoria (1548-1611):
-                </p>
- <p>
                     <List>
                         <ListItem>Eram quasi agnus</ListItem>
                         <ListItem>Lamed. Matribus suis dixerunt</ListItem>
@@ -37,12 +34,14 @@ const Choral = () => (
                         <ListItem>Sepulto Domino</ListItem>
                     </List>
                 </p>
-              
+
                 <p>
                     <List>
                         <ListItem>Introït If Ye Love Me - Thomas Tallis </ListItem>
                         <ListItem>The Preces - William Smith</ListItem>
-                        <ListItem>Hymne - George Frideric Händel - Sinners obey the Gospel Word </ListItem>
+                        <ListItem>
+                            Hymne - George Frideric Händel - Sinners obey the Gospel Word{" "}
+                        </ListItem>
                         <ListItem>Magnificat – Henry Purcell</ListItem>
                         <ListItem>Nunc Dimitis – Henry Purcell</ListItem>
                         <ListItem>Anthem – I was Glad Henry Purcell</ListItem>
