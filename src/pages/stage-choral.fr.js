@@ -83,7 +83,7 @@ const Choral = () => (
                         <ListItem>Nunc Dimitis – Henry Purcell</ListItem>
                         <ListItem>Anthem – I was Glad Henry Purcell</ListItem>
                         <ListItem>Hymne - Rejoice the Lord is King Händel</ListItem>
-                        <ListItem>Bénédicton & Amen - Gibbons - Threefold Amen</ListItem>
+                        <ListItem>Bénédiction & Amen - Gibbons - Threefold Amen</ListItem>
                     </List>
                 </p>
                 <p>
