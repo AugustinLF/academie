@@ -4,9 +4,9 @@ import {FormattedMessage} from "react-intl";
 import {Link} from "../../components/base";
 
 const registrationLinks = {
-    en: "https://docs.google.com/forms/d/1L893pl6JZKtkyLLIsaPSjFlxcWdZ7TDI1CEkXHPckFQ/prefill",
-    fr: "https://docs.google.com/forms/d/1DOQQd6gLtgcNbZ-knO2hV_HaEVdYd9xuKTZX31FYgLA/prefill",
-    ca: "https://docs.google.com/forms/d/1L893pl6JZKtkyLLIsaPSjFlxcWdZ7TDI1CEkXHPckFQ/prefill",
+    en: "https://goo.gl/forms/JKabfMZcekpXbIVK2",
+    fr: "https://goo.gl/forms/QxVyNcr3YRDUg7gD3",
+    ca: "https://goo.gl/forms/JKabfMZcekpXbIVK2",
 };
 
 const Register = ({langKey}) => (
