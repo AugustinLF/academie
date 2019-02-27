@@ -76,3 +76,9 @@ export const Information = g.p({
     fontSize: "90%",
     fontStyle: "italic",
 });
+
+export const IframeContainer = g.div({
+    display: "flex",
+    justifyContent: "center",
+    margin: "16px 0",
+});

@@ -1,7 +1,7 @@
 import React from "react";
 import g from "glamorous";
 
-import {Link, InnerLink, List, ListItem} from "../components/base";
+import {Link, InnerLink, List, ListItem, IframeContainer} from "../components/base";
 import choralImage from "../choral.jpg";
 import InnerPage from "../components/innerPage";
 
@@ -44,21 +44,24 @@ const Choral = () => (
                     Nous alternerons lamentations et répons, tel que cela se pratiquait dans les
                     offices de ténèbres.
                 </p>
-                <p>
-                    <List>
-                        <ListItem>7ème répons du jeudi saint : Eram quasi agnus</ListItem>
-                        <ListItem>
-                            Lamentations du vendredi saint : Lamed. Matribus suis dixerunt
-                        </ListItem>
-                        <ListItem>
-                            9ème répons pour le vendredi saint : Caligaverunt Oculi mei
-                        </ListItem>
-                        <ListItem>
-                            Lamentations du samedi saint : Aleph. Quomodo obscuratum
-                        </ListItem>
-                        <ListItem>9ème répons du samedi saint : Sepulto Domino</ListItem>
-                    </List>
-                </p>
+                <List>
+                    <ListItem>7ème répons du jeudi saint : Eram quasi agnus</ListItem>
+                    <ListItem>
+                        Lamentations du vendredi saint : Lamed. Matribus suis dixerunt
+                    </ListItem>
+                    <ListItem>9ème répons pour le vendredi saint : Caligaverunt Oculi mei</ListItem>
+                    <ListItem>Lamentations du samedi saint : Aleph. Quomodo obscuratum</ListItem>
+                    <ListItem>9ème répons du samedi saint : Sepulto Domino</ListItem>
+                </List>
+                <IframeContainer>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/qHM0EZQuCFg"
+                        frameBorder="0"
+                        allowFullScreen
+                    />
+                </IframeContainer>
                 <p>
                     Avec <InnerLink to="/fr/adam-vidovic">Adam Vidovic</InnerLink> nous aborderons
                     La tradition anglicane des vêpres chantés ou « choral Evensong ». Célébrées en
@@ -72,20 +75,18 @@ const Choral = () => (
                     permettant de s’immiscer dans ce service divin du soir en 'anthems', cantiques
                     et réponses.
                 </p>
-                <p>
-                    <List>
-                        <ListItem>Introït If Ye Love Me - Thomas Tallis </ListItem>
-                        <ListItem>The Preces - William Smith</ListItem>
-                        <ListItem>
-                            Hymne - George Frideric Händel - Sinners obey the Gospel Word
-                        </ListItem>
-                        <ListItem>Magnificat – Henry Purcell</ListItem>
-                        <ListItem>Nunc Dimitis – Henry Purcell</ListItem>
-                        <ListItem>Anthem – I was Glad Henry Purcell</ListItem>
-                        <ListItem>Hymne - Rejoice the Lord is King Händel</ListItem>
-                        <ListItem>Bénédiction & Amen - Gibbons - Threefold Amen</ListItem>
-                    </List>
-                </p>
+                <List>
+                    <ListItem>Introït If Ye Love Me - Thomas Tallis </ListItem>
+                    <ListItem>The Preces - William Smith</ListItem>
+                    <ListItem>
+                        Hymne - George Frideric Händel - Sinners obey the Gospel Word
+                    </ListItem>
+                    <ListItem>Magnificat – Henry Purcell</ListItem>
+                    <ListItem>Nunc Dimitis – Henry Purcell</ListItem>
+                    <ListItem>Anthem – I was Glad Henry Purcell</ListItem>
+                    <ListItem>Hymne - Rejoice the Lord is King Händel</ListItem>
+                    <ListItem>Bénédiction & Amen - Gibbons - Threefold Amen</ListItem>
+                </List>
                 <p>
                     Les journées commencent à 9h30 par un cours collectif d’une heure de technique
                     vocale avec <InnerLink to="/fr/muriel-ferraro">Muriel Ferraro</InnerLink> :
