@@ -87,6 +87,15 @@ const Choral = () => (
                     <ListItem>Hymne - Rejoice the Lord is King Händel</ListItem>
                     <ListItem>Bénédiction & Amen - Gibbons - Threefold Amen</ListItem>
                 </List>
+ <IframeContainer>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/soxlN3imb0Q"
+                        frameBorder="0"
+                        allowFullScreen
+                    />
+                </IframeContainer>
                 <p>
                     Les journées commencent à 9h30 par un cours collectif d’une heure de technique
                     vocale avec <InnerLink to="/fr/muriel-ferraro">Muriel Ferraro</InnerLink> :
