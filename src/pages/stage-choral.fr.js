@@ -87,7 +87,7 @@ const Choral = () => (
                     <ListItem>Hymne - Rejoice the Lord is King Händel</ListItem>
                     <ListItem>Bénédiction & Amen - Gibbons - Threefold Amen</ListItem>
                 </List>
- <IframeContainer>
+                <IframeContainer>
                     <iframe
                         width="560"
                         height="315"
