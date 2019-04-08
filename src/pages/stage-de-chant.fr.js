@@ -1,7 +1,7 @@
 import React from "react";
 import g from "glamorous";
 
-import {Link, InnerLink, List, ListItem, Information} from "../components/base";
+import {Link, InnerLink, List, ListItem, Information, NestedListItem} from "../components/base";
 import vocalImage from "../vocal.png";
 import InnerPage from "../components/innerPage";
 
@@ -50,10 +50,18 @@ const Vocal = () => (
                         travailleront une histoire sacrée de Marc-antoine Charpentier. Le choix
                         final de l'œuvre sera fait une fois les chanteurs sélectionnés. il s'agira
                         soit de Sacrificium Abrahae, histoire sacrée, soit du Reniement de
-                        Saint-Pierre. Seront notamment abordés : - la relation entre texte et
-                        musique - l'approche rhétorique - l'articulation et les notes
-                        égales/inégales à la lumière des textes de Charpentier lui-même et de ses
-                        contemporains - la prononciation du latin: français, italien, autre ?...
+                        Saint-Pierre. Seront notamment abordés :
+                        <ul>
+                            <NestedListItem>la relation entre texte et musique</NestedListItem>
+                            <NestedListItem>l'approche rhétorique</NestedListItem>
+                            <NestedListItem>
+                                l'articulation et les notes égales/inégales à la lumière des textes
+                                de Charpentier lui-même et de ses contemporains
+                            </NestedListItem>
+                            <NestedListItem>
+                                la prononciation du latin: français, italien, autre ?...
+                            </NestedListItem>
+                        </ul>
                     </ListItem>
                 </List>
             </div>

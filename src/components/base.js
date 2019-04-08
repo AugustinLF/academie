@@ -72,6 +72,10 @@ export const ListItem = g.li({
     listStyle: "initial",
     marginLeft: 30,
 });
+export const NestedListItem = g.li({
+    listStyle: "circle",
+    marginLeft: 30,
+});
 export const Information = g.p({
     fontSize: "90%",
     fontStyle: "italic",
