@@ -30,23 +30,31 @@ const Vocal = () => (
                     <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>.
                 </p>
                 <p>
-                    La musique d'ensemble est placée sous la coordination pédagogique de{" "}
-                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>avec qui les stagiaires
-                    préparent une pièce collective (la pièce sera déterminée en fonction des
-                    tessitures des chanteurs acceptés dans l'Académie 2019. En 2018, les chanteurs
-                    avaient préparé Jephté de Carissimi.
-                </p>
-                <p>
                     La journée se conclut sous la forme d'une masterclasse qui sera consacrée aux
                     quatre œuvres majeures de J.S. Bach : Passion selon Saint-Jean, Passion selon
                     Matthieu, Messe en si, Oratorio de Noël.
+                </p>
+    
+     <p>
+                    La musique d'ensemble est placée sous la coordination pédagogique de{" "}
+                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink> avec qui les stagiaires
+                    préparent une pièce collective (la pièce sera déterminée en fonction des
+                    tessitures des chanteurs acceptés dans l'Académie 2019). 
+                    Le compositeur retenu est Marc-Antoine Charpentier.
                 </p>
                 <List>
                     <ListItem>
                         Avec <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
                         préparent un oratorio sous la forme d'un atelier journalier de 3 heures
-                        conduisant à une restitution publique à la fin du stage. Le choix de cet
-                        oratorio sera déterminé au début de l'année 2019.
+                        conduisant à une restitution publique à la fin du stage. Les stagiaires travailleront un oratorio
+    de Marc-antoine Charpentier. Le choix final de l'œuvre sera fait une fosi les chanteurs sélectionnés. il s'agira soit de
+    Sacrificium Abrahae, histoire sacrée, soit du Reniement de Saint-Pierre.
+  Seront abordés :
+    - relation texte et musique
+    - approche réthorique
+    - articulation et notes égales/inégales à la lumière des textes de Charpentier lui-même et de ses contemporains
+    - Prononciation du latin: français, italien, autre ?...
+    
                     </ListItem>
                 </List>
             </div>
