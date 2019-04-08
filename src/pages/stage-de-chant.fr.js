@@ -46,14 +46,14 @@ const Vocal = () => (
                     <ListItem>
                         Avec <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
                         préparent un oratorio sous la forme d'un atelier journalier de 3 heures
-                        conduisant à une restitution publique à la fin du stage. Les stagiaires travailleront un oratorio
-    de Marc-antoine Charpentier. Le choix final de l'œuvre sera fait une fosi les chanteurs sélectionnés. il s'agira soit de
+                        conduisant à une restitution publique à la fin du stage. Les stagiaires travailleront une histoire sacrée
+    de Marc-antoine Charpentier. Le choix final de l'œuvre sera fait une fois les chanteurs sélectionnés. il s'agira soit de
     Sacrificium Abrahae, histoire sacrée, soit du Reniement de Saint-Pierre.
-  Seront abordés :
-    - relation texte et musique
-    - approche réthorique
-    - articulation et notes égales/inégales à la lumière des textes de Charpentier lui-même et de ses contemporains
-    - Prononciation du latin: français, italien, autre ?...
+  Seront notamment abordés :
+    - la relation entre texte et musique
+    - l'approche rhétorique
+    - l'articulation et les notes égales/inégales à la lumière des textes de Charpentier lui-même et de ses contemporains
+    - la prononciation du latin: français, italien, autre ?...
     
                     </ListItem>
                 </List>
