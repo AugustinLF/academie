@@ -54,7 +54,10 @@ const Informations = () => (
                     <p>
                         Les frais pédagogiques sont :
                         <List>
-                            <ListItem>inscription indivuelle (comprenant l'adhésion à l'association) : 340 € </ListItem>
+                            <ListItem>
+                                inscription indivuelle (comprenant l'adhésion à l'association) : 340
+                                €
+                            </ListItem>
                             <ListItem>formation professionnelle : 600 €</ListItem>
                             <ListItem>Atelier de Josep Cabré (7 demi-journées) : 170 €</ListItem>
                         </List>
