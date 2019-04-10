@@ -40,7 +40,6 @@ const Vocal = () => (
                     The day ends with a masterclass on 4 major J.S. Bach pieces: St John Passion, St
                     Matthew Passsion, Mass in B minor, Christmas Oratorio
                 </p>
-     </List>
                 <IframeContainer>
                     <iframe
                         width="560"
@@ -49,7 +48,7 @@ const Vocal = () => (
                         frameBorder="0"
                         allowFullScreen
                     />
-</IframeContainer>
+                </IframeContainer>
             </div>
         }
     />
