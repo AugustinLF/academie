@@ -40,6 +40,16 @@ const Vocal = () => (
                     The day ends with a masterclass on 4 major J.S. Bach pieces: St John Passion, St
                     Matthew Passsion, Mass in B minor, Christmas Oratorio
                 </p>
+     </List>
+                <IframeContainer>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/watch?v=1anWettp6dw"
+                        frameBorder="0"
+                        allowFullScreen
+                    />
+</IframeContainer>
             </div>
         }
     />
