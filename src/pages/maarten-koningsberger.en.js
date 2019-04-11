@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "../components/base";
+import {Link, IframeContainer} from "../components/base";
 import InnerPage from "../components/innerPage";
 import maarten from "../maarten.jpg";
 
@@ -59,7 +59,7 @@ const Maarten = () => (
                     <iframe
                         width="560"
                         height="315"
-                        src="https://www.youtube.com/watch?v=1anWettp6dw"
+                        src="https://www.youtube.com/embed/1anWettp6dw"
                         frameBorder="0"
                         allowFullScreen
                     />

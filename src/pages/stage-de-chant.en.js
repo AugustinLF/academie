@@ -1,7 +1,7 @@
 import React from "react";
 import g from "glamorous";
 
-import {List, ListItem, InnerLink} from "../components/base";
+import {List, ListItem, InnerLink, IframeContainer} from "../components/base";
 import vocalImage from "../vocal.png";
 import InnerPage from "../components/innerPage";
 
@@ -44,7 +44,7 @@ const Vocal = () => (
                     <iframe
                         width="560"
                         height="315"
-                        src="https://www.youtube.com/watch?v=1anWettp6dw"
+                        src="https://www.youtube.com/embed/1anWettp6dw"
                         frameBorder="0"
                         allowFullScreen
                     />
