@@ -39,6 +39,15 @@ const Vocal = () => (
                             fonction des tessitures des chanteurs acceptés dans l'Académie 2019). Le
                             compositeur retenu est Marc-Antoine Charpentier.
                         </p>
+     <IframeContainer>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/haBlas7ATi4"
+                        frameBorder="0"
+                        allowFullScreen
+                    />
+</IframeContainer>
                     </ListItem>
                     <ListItem>
                         Avec <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
