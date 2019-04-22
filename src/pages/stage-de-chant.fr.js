@@ -1,7 +1,7 @@
 import React from "react";
 import g from "glamorous";
 
-import {Link, InnerLink, List, ListItem, Information, NestedListItem} from "../components/base";
+import {Link, InnerLink, List, ListItem, Information, NestedListItem, IframeContainer} from "../components/base";
 import vocalImage from "../vocal.png";
 import InnerPage from "../components/innerPage";
 
@@ -39,15 +39,15 @@ const Vocal = () => (
                             fonction des tessitures des chanteurs acceptés dans l'Académie 2019). Le
                             compositeur retenu est Marc-Antoine Charpentier.
                         </p>
-     <IframeContainer>
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/haBlas7ATi4"
-                        frameBorder="0"
-                        allowFullScreen
-                    />
-</IframeContainer>
+                        <IframeContainer>
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/haBIas7ATi4"
+                                frameBorder="0"
+                                allowFullScreen
+                            />
+                        </IframeContainer>
                     </ListItem>
                     <ListItem>
                         Avec <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink>, les stagiaires
