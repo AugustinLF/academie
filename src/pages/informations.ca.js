@@ -57,11 +57,7 @@ const Informations = () => (
             </Section>
             <Section title="Tarifs">
                 <div>
-                    <p>
-                        Els costos docents són de 340 € i comprèn l’adhesió a l’associació (taller
-                        amb Josep Cabré : la tarifa és de 170 € i comprèn també l’adhesió a
-                        l’associació).
-                    </p>
+                    <p>Els costos docents són de 340 € i comprèn l’adhesió a l’associació.</p>
                     <p>
                         Per als acompanyants dels participants i allotjats a través de l’Acadèmia,
                         però que no participen en cap taller, la tarifa d’adhesió a l’associació és
