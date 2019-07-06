@@ -18,6 +18,7 @@ module.exports = {
 
     philippeContent: "Choir conducting academy and choral academy",
     maartenContent: "Vocal academy",
+    henkContent: "Vocal academy",
     heleneContent: "Vocal academy and basso continuo",
     stefanoContent: "Vocal academy and choral academy",
     josepContent: "Vocal academy and choral academy",

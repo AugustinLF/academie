@@ -18,13 +18,14 @@ module.exports = {
 
     philippeContent: "Stage direction de chœur et stage de chant choral",
     maartenContent: "Stage de chant",
+    henkContent: "Stage de chant",
     heleneContent: "Stage de chant et basse continue",
     stefanoContent: "Stage de chant et stage de chant choral",
     josepContent: "Stage de chant et stage de chant choral",
     murielContent: "Stage de direction de chœur et stage de chant choral",
 
     vocalTitle: "Stage de chant",
-    vocalContent: "Maarten Koningsberger et Josep Cabré animeront chacun un stage de chant.",
+    vocalContent: "Henk Neven et Josep Cabré animeront chacun un stage de chant.",
     choralTitle: "Stage de chant choral",
     choralContent:
         "Ce stage de chant choral accueille des choristes confirmés qui travailleront avec Philippe Le Fèvre et Adam Vidovic.",

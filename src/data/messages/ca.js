@@ -18,6 +18,7 @@ module.exports = {
 
     philippeContent: "Taller Coral i de Direcció de Cor",
     maartenContent: "Taller de Cant",
+    henkContent: "Taller de Cant",
     heleneContent: "Taller de Cant",
     stefanoContent: "Taller de Cant i Taller Coral",
     josepContent: "Taller de Cant i taller Coral",
