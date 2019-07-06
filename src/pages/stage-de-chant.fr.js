@@ -33,15 +33,6 @@ const Vocal = () => (
                     quatre œuvres majeures de J.S. Bach : Passion selon Saint-Jean, Passion selon
                     Matthieu, Messe en si, Oratorio de Noël.
                 </p>
-                <IframeContainer>
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/haBIas7ATi4"
-                        frameBorder="0"
-                        allowFullScreen
-                    />
-                </IframeContainer>
             </div>
         }
     />
