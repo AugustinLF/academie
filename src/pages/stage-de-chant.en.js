@@ -11,12 +11,11 @@ const Vocal = () => (
         imgUrl={vocalImage}
         content={
             <div>
-                <p>The singers choose between two workshops:</p>
-                <List>
+               
                     <ListItem>
                         With{" "}
                         <InnerLink to="/en/maarten-koningsberger">
-                            Maarten Koningsberger
+                            Henk Neven
                         </InnerLink>{" "}
                         the singers focus their work on soloist repertoire, performance, as well as
                         collegial practice. Technical work will concentrate on posture, breathing,
@@ -27,7 +26,7 @@ const Vocal = () => (
                 </List>
                 <p>
                     Every day starts with a class in posture and breathing. Every student receives a
-                    daily private lesson in vocal technique with Maarten Koningsberger.
+                    daily private lesson in vocal technique with Henk Neven.
                 </p>
                 <p>
                     Students work with <InnerLink to="/en/helene-dufour">
@@ -40,15 +39,7 @@ const Vocal = () => (
                     The day ends with a masterclass on 4 major J.S. Bach pieces: St John Passion, St
                     Matthew Passsion, Mass in B minor, Christmas Oratorio
                 </p>
-                <IframeContainer>
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/1anWettp6dw"
-                        frameBorder="0"
-                        allowFullScreen
-                    />
-                </IframeContainer>
+               
             </div>
         }
     />
