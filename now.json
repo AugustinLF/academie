@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": [
+        "www.https://academie.capricciofrancais.com"
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "status": 301,
+            "headers": {
+                "Location": "https://https://academie.capricciofrancais.com/$1"
+            }
+        }
+    ]
+}
