@@ -19,19 +19,17 @@ const Vocal = () => (
         imgUrl={vocalImage}
         content={
             <div>
-                Avec <InnerLink to="/fr/henk-neven">Henk Neven</InnerLink> ce stage de chant associe
+                Avec <InnerLink to="/fr/maarten-koningsberger">Maarten Koningsberger</InnerLink> ce stage de chant associe
                 technique vocale et interprétation de la musique baroque.
                 <p>
                     Après un cours collectif sur la posture et la respiration, cours qui ouvre la
                     journée, chaque stagiaire reçoit un cours individuel de technique vocale avec
-                    Henk Neven et travaille avec ses chefs de chant{" "}
+                    Maarten Koningsberger et travaille avec ses chefs de chant{" "}
                     <InnerLink to="/fr/helene-dufour">Hélène Dufour</InnerLink> et{" "}
                     <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>.
                 </p>
                 <p>
-                    La journée se conclut sous la forme d'une masterclasse qui sera consacrée aux
-                    quatre œuvres majeures de J.S. Bach : Passion selon Saint-Jean, Passion selon
-                    Matthieu, Messe en si, Oratorio de Noël.
+                    La journée se conclut sous la forme d'une masterclasse.
                 </p>
             </div>
         }
