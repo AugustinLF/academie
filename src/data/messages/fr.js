@@ -25,7 +25,7 @@ module.exports = {
     murielContent: "Stage de direction de chœur et stage de chant choral",
 
     vocalTitle: "Stage de chant",
-    vocalContent: "Henk Neven animera le stage de chant.",
+    vocalContent: "Maarten Koningsberger animera le stage de chant.",
     choralTitle: "Stage de chant choral",
     choralContent:
         "Ce stage de chant choral accueille des choristes confirmés qui travailleront avec Philippe Le Fèvre et Adam Vidovic.",
