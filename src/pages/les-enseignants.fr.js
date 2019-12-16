@@ -9,7 +9,7 @@ const Teachers = () => (
     <Page title="Les enseignants">
         <Lead>
             <p>
-                Le Capriccio Français a fêté son 20ème anniversaire en 2015. Depuis sa création il a
+                Le Capriccio Français a fêté son 25ème anniversaire en 2020. Depuis sa création il a
                 donné plusieurs centaines de concerts. Si l'essentiel de son répertoire porte sur la
                 musique du XVIIIème siècle, il s'empare régulièrement du répertoire classique et
                 romantique : nul doute que sa Traviata sur instruments d'époque fut une première
