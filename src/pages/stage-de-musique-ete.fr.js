@@ -6,15 +6,15 @@ import Lead from "../components/lead";
 import ProgrammeList from "../components/programmeList";
 
 const Programme = () => (
-    <Page title="Les stages de musique été 2019">
+    <Page title="Les stages de musique été 2020">
         <Lead>
             <p>
                 L'Académie d'été du Capriccio Français propose un stage de chant, un stage de
                 direction de chœur, un stage pour chefs de chant ainsi qu’un stage de chant choral.
-                Elle se déroulera du 21 juillet au 28 juillet 2019 à Barcelone
+                Elle se déroulera du 20 juillet au 26 juillet 2020 à Barcelone
             </p>
             <p>
-                Le concert de fin de stage aura lieu le dimanche 28 juillet 2019 à 17h00 à
+                Le concert de fin de stage aura lieu le dimanche 26 juillet 2020 à 17h00 à
                 l'Església de Sant Gaietà.
             </p>
         </Lead>
