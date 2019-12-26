@@ -7,7 +7,7 @@ import helene from "../helene.jpg";
 import muriel from "../muriel.jpg";
 import stefano from "../stefano.jpg";
 import adam from "../adam.jpg";
-import henk from "../henk.png";
+import maarten from "../maarten.png";
 
 const TeacherList = ({language}) => (
     <Grid count={3}>
@@ -30,9 +30,9 @@ const TeacherList = ({language}) => (
             link={`/${language}/muriel-ferraro`}
         />
         <Tile
-            imgUrl={henk}
-            title="Henk Neven"
-            content="henkContent"
+            imgUrl={maarten}
+            title="Maarten Koningsberger"
+            content="maartenContent"
             link={`/${language}/henk-neven`}
         />
         <Tile
