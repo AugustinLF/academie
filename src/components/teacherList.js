@@ -1,15 +1,15 @@
 import React from "react";
 
-import {Tile, Grid} from "../components/grid";
+import { Tile, Grid } from "../components/grid";
 
 import philippe from "../philippe.jpg";
 import helene from "../helene.jpg";
 import muriel from "../muriel.jpg";
 import stefano from "../stefano.jpg";
 import adam from "../adam.jpg";
-import maarten from "../maarten.png";
+import maarten from "../maarten.jpg";
 
-const TeacherList = ({language}) => (
+const TeacherList = ({ language }) => (
     <Grid count={3}>
         <Tile
             imgUrl={philippe}
@@ -33,7 +33,7 @@ const TeacherList = ({language}) => (
             imgUrl={maarten}
             title="Maarten Koningsberger"
             content="maartenContent"
-            link={`/${language}/henk-neven`}
+            link={`/${language}/maarten-koningsberger`}
         />
         <Tile
             imgUrl={stefano}
