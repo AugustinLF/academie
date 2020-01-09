@@ -20,6 +20,31 @@ const Choral = () => (
                     <InnerLink to="/en/muriel-ferraro">Muriel Ferraro</InnerLink>.
                 </p>
                 <p>
+     With<InnerLink to="/fr/adam-vidovic">Adam Vidovic</InnerLink>, the choir will sing  "Byrd and other birds".
+                   
+                </p>
+                <p>
+        <List>
+        <ListItem>Wycombe : Summer Is Icumen</ListItem>
+        <ListItem>William Byrd : The Eagle's Force subdues each Bird that flies (SAH)</ListItem>					
+        <ListItem>William Byrd : Compel the Hawk (SSATB)</ListItem>
+        <ListItem>Thomas Morley : Fly Love that art so Sprightly (SSATB)</ListItem>
+        <ListItem>Thomas Weelkes : The Nightingale (SAH)</ListItem>
+        <ListItem>Thomas Vautor : Sweet Sufflok Owl (SSATB)</ListItem>
+        <ListItem>John Bartlett : Of All The Birds That I Do Know (SATB) </ListItem>
+                </p>
+                <p>
+                    With{" "}<InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink>:
+ </p>
+                <p>
+        <List>
+        <ListItem>Marc-Antoine Charpentier : Regina Coeli H46 (SATB)</ListItem>				
+        <ListItem>Guillaume Bouzignac : O mors, ero mors (SSATB)</ListItem>			  	
+        <ListItem>Marc-Antoine Charpentier : Alma redemptoris Mater H44	(SATB)</ListItem>	
+        <ListItem>Guillaume Bouzignac : Ha, Plange Filia Jerusalem (SSATB)</ListItem>		
+        <ListItem>Marc-Antoine Charpentier : Transfige dulcissime Jesu H251	(SSATB)</ListItem>	
+ </p>
+                <p>
                     Morning rehearsals start at 9:30 am with a class of vocal technique with{" "}
                     <InnerLink to="/en/muriel-ferraro">Muriel Ferraro</InnerLink>. Then from 10:30
                     am to 01:00 pm, the Academy Choir works with the conductors, either{" "}
