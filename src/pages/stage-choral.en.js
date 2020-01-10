@@ -20,7 +20,7 @@ const Choral = () => (
                     <InnerLink to="/en/muriel-ferraro">Muriel Ferraro</InnerLink>.
                 </p>
                 <p>
-                    With<InnerLink to="/fr/adam-vidovic">Adam Vidovic</InnerLink>, the choir will sing  "Byrd and other birds".
+                    With{" "}<InnerLink to="/fr/adam-vidovic">Adam Vidovic</InnerLink>, the choir will sing  "Byrd and other birds"!.
                 </p>
                 <p>
                     <List>
