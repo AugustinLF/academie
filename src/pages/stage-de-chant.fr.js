@@ -29,7 +29,7 @@ const Vocal = () => (
                     <InnerLink to="/fr/stefano-intrieri">Stefano Intrieri</InnerLink>.
                 </p>
                 <p>
-                    La journée se conclut sous la forme d'une masterclasse.
+                    Les masterclasses qui rythment l’Académie seront consacrées en 2020 aux oratorios de Handel avec en premier lieu le Messie.
                 </p>
             </div>
         }
