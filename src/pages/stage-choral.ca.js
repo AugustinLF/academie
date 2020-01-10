@@ -35,9 +35,7 @@ const Choral = () => (
                         <ListItem>John Bartlett : Of All The Birds That I Do Know (SATB) </ListItem>
                     </List>
                 </p>
-                <p>
-                    With{" "}<InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink>:
-                </p>
+          
                 <p>
                     <List>
                         <ListItem>Marc-Antoine Charpentier : Regina Coeli H46 (SATB)</ListItem>
