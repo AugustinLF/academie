@@ -41,7 +41,7 @@ const Choral = () => (
                     </List>
                 </p>
                 <p>
-                    La seconde partie {" "}<InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink>sera consacrée principalement à Marc-Antoine Charpentier, maître absolu de la musique religieuse française du XVIIème siècle. En contrepoint, nous chanterons deux courtes pièces très théâtrales de Guillaume Bouzignac.
+                    La seconde partie, dirigée par{" "}<InnerLink to="/fr/philippe-le-fevre">Philippe Le Fèvre</InnerLink>{" "}sera consacrée principalement à Marc-Antoine Charpentier, maître absolu de la musique religieuse française du XVIIème siècle. En contrepoint, nous chanterons deux courtes pièces très théâtrales de Guillaume Bouzignac.
                 </p>
                 <p>
                     <List>
