@@ -23,7 +23,7 @@ const Informations = () => (
                     </p>
                     <p>
                         Els participants són allotjats en règim de pensió completa (des del dinar
-                        del diumenge 15 de juliol fins a l’esmorzar del dilluns 23 de juliol)
+                        del diumenge 19 de juliol fins a l’esmorzar del dilluns 27 de juliol)
                     </p>
                     <p>Tres possibilitats d’allotjament en pensió completa són disponibles:</p>
                     <List>
