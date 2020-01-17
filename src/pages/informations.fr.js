@@ -22,8 +22,8 @@ const Informations = () => (
                         de Catalogne, début de la célèbre Rambla et du quartier historique.
                     </p>
                     <p>
-                        Les stagiaires sont hébergés en pension complète (du dîner du dimanche 21
-                        juillet au petit-déjeuner du lundi 29 juillet), sauf trois dîners dans la
+                        Les stagiaires sont hébergés en pension complète (du dîner du dimanche 19
+                        juillet au petit-déjeuner du lundi 27 juillet), sauf quatre dîners dans la
                         semaine qui sont libres.
                     </p>
                     <p>Trois possibilités d'hébergement en pension complète sont disponibles :</p>
