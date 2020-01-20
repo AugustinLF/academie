@@ -21,7 +21,7 @@ const Philippe = () => (
                     És per això que al costat de la seva activitat de director, afegeix donar una
                     importància gran a la pedagogia i a la transmissió de coneixements: ha creat per
                     això una acadèmia d’estiu des d’on forma els artistes joves del demà, ensenya al
-                    Conservatoire à Rayonnement Régional de Saint-Maur, de Cergy-Pontoise i al del
+                    Conservatoire à Rayonnement Régional de Cergy-Pontoise i al del
                     9è barri de Paris. Dirigeix cors amateurs on ajuda a fer-los descobrir obres
                     capdals i obres desconegudes i dóna conferències per a donar claus als melòmans.
                 </p>
