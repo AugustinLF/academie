@@ -41,8 +41,8 @@ const Philippe = () => (
                 </p>
                 <p>
                     Philippe Le Fèvre partage la direction du{" "}
-                    <InnerLink to="/fr/stage-choral">chœur de l'Académie </InnerLink> avec{" "}
-                    <InnerLink to="/fr/josep-cabre">Josep Cabré</InnerLink> et anime le{" "}
+                    <InnerLink to="/fr/stage-choral">chœur de l'Académie</InnerLink>{" "}avec{" "}
+                    <InnerLink to="/fr/adam-vidovic">Adam Vidovic</InnerLink> et anime le{" "}
                     <InnerLink to="/fr/stage-direction-de-choeur">
                         stage de direction de chœur
                     </InnerLink>{" "}
