@@ -31,7 +31,8 @@ const Vocal = () => (
                     individually or in small groups.
                 </p>
                 <p>
-                    The day ends with a masterclass.
+                   In 2020 the Masterclasses at the Académie will focus on Handel's oratorios, and firstly and foremostly The Messiah. 
+
                 </p>
             </div>
         }
