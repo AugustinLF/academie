@@ -20,8 +20,8 @@ const Informations = () => (
                         station and 10mins from the Catalunya Square and historical area.
                     </p>
                     <p>
-                        Full board is provided from the dinner of Sunday 21 July to the breakfast of
-                        Monday 29 July.
+                        Full board is provided from the dinner of Sunday 19 July to the breakfast of
+                        Monday 26 July (4 diners are not included in the full board).
                     </p>
                     <p>3 different options are available for your accommodation:</p>
                     <List>
