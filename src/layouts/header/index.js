@@ -1,13 +1,11 @@
 import React from "react";
 import g from "glamorous";
-import {FormattedMessage} from "react-intl";
 
 import {tabletUp, phone} from "../../components/mediaQueries";
 import SelectLanguage from "../../components/selectLanguage";
 import DesktopMenu from "./desktopMenu";
 import MobileHeader from "./mobileHeader";
 import Logo from "./logo";
-import {Link as OuterLink} from "../../components/base";
 import Register from "./register";
 
 const HeaderContainer = g.div({

@@ -1,9 +1,6 @@
 import g from "glamorous";
 
-import {phone, tabletUp} from "./mediaQueries";
-
 const Body = g.div({
-    margin: "0 auto",
     paddingTop: 0,
     position: "relative",
     top: 0,

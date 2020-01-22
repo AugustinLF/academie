@@ -5,12 +5,12 @@ const config = require("./local.js");
 
 module.exports = {
     siteMetadata: {
-        title: `Académie d'été du Capriccio Français`,
+        title: "Académie d'été du Capriccio Français",
         languages,
     },
     plugins: [
-        `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-glamor`,
+        "gatsby-plugin-react-helmet",
+        "gatsby-plugin-glamor",
         {
             resolve: "gatsby-plugin-google-fonts",
             options: {
@@ -23,10 +23,11 @@ module.exports = {
                 langKeyForNull: "any",
                 langKeyDefault: languages.defaultLangKey,
                 useLangKeyLayout: true,
+                prefixDefault: true,
             },
         },
         {
-            resolve: `gatsby-plugin-google-analytics`,
+            resolve: "gatsby-plugin-google-analytics",
             options: {
                 trackingId: config.googleAnalyticsId,
                 anonymize: true,

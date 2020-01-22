@@ -3,7 +3,7 @@ import React from "react";
 
 import {FullWidth} from "../base";
 import Block, {BlockTitle} from "./block";
-import {tabletUp, phone} from "../mediaQueries";
+import {phone} from "../mediaQueries";
 
 const TestimonialBackground = g.div({backgroundColor: "rgba(0, 48, 91, 1)", flexGrow: 1});
 const Title = g(BlockTitle)({
