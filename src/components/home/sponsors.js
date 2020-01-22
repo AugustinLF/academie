@@ -4,7 +4,6 @@ import {FormattedMessage} from "react-intl";
 
 import {Link} from "../base";
 import moviment from "./moviment.jpg";
-import symposium from "./symposium.jpeg";
 
 const Container = g.div({
     padding: "30px 0",

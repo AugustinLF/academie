@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "gatsby-link";
 
 import Home from "../components/home";
+import Layout from "../layouts/ca";
 
 export const msg = {
     title: ["Acadèmia 2019", "join us!"],
@@ -21,6 +21,10 @@ export const msg = {
     },
 };
 
-const IndexPage = () => <Home msg={msg} />;
+const IndexPage = (props) => (
+    <Layout location={props.location}>
+        <Home msg={msg} />
+    </Layout>
+);
 
 export default IndexPage;

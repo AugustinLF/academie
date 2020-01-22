@@ -2,7 +2,7 @@ import RawLink from "gatsby-link";
 import g from "glamorous";
 import React from "react";
 
-import {phone, tabletUp} from "./mediaQueries";
+import {phone} from "./mediaQueries";
 
 export const H1 = g.h1({
     fontFamily: '"Courier New", courier-ps-w01, courier-ps-w02, courier-ps-w10, monospace',
