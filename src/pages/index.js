@@ -1,5 +1,5 @@
 import React from "react";
-import graphql from "graphql";
+import {graphql} from "gatsby";
 import {redirectToHome} from "ptz-i18n";
 
 class RedirectIndex extends React.PureComponent {

@@ -1,6 +1,5 @@
 import g from "glamorous";
 import React from "react";
-import Link from "gatsby-link";
 import {FormattedMessage} from "react-intl";
 
 import {InnerLink} from "../../components/base";

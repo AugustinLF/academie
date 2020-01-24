@@ -1,4 +1,3 @@
-import React from "react";
 import g from "glamorous";
 
 import {phone} from "./mediaQueries";

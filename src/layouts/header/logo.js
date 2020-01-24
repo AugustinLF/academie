@@ -1,5 +1,6 @@
 import Link from "gatsby-link";
 import g from "glamorous";
+import React from "react";
 
 import {phone} from "../../components/mediaQueries";
 import logo from "./logo.png";

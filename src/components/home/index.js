@@ -6,7 +6,7 @@ import home from "./home.jpg";
 import Block from "./block";
 import Testimonials from "./testimonials";
 import Sponsors from "./sponsors";
-import {phone, tabletUp} from "../mediaQueries";
+import {phone} from "../mediaQueries";
 import Academy from "./academy";
 
 const CrowdBackground = g.div({
