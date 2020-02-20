@@ -10,8 +10,10 @@ import "./reset.css";
 import "./index.css";
 import Header from "./header";
 import Body from "../components/body";
+import * as indexEn from "../pages/index.en";
 import {msg as msgFr} from "../pages/index.fr";
-import {msg as msgEn} from "../pages/index.en";
+
+import msgEn from "../data/indexMsg.en";
 import {msg as msgCa} from "../pages/index.ca";
 import Footer from "./footer";
 
