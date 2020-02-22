@@ -11,10 +11,10 @@ import "./index.css";
 import Header from "./header";
 import Body from "../components/body";
 import * as indexEn from "../pages/index.en";
-import {msg as msgFr} from "../pages/index.fr";
 
 import msgEn from "../data/indexMsg.en";
-import {msg as msgCa} from "../pages/index.ca";
+import msgCa from "../data/indexMsg.ca";
+import msgFr from "../data/indexMsg.fr";
 import Footer from "./footer";
 
 const description = {
