@@ -5,9 +5,16 @@ import Lead from "../components/lead";
 import {Link} from "../components/base";
 import TeacherList from "../components/teacherList";
 import Layout from "../layouts/fr";
+import Helmet from "react-helmet";
 
-const Teachers = (props) => (
+const Teachers = props => (
     <Layout location={props.location}>
+        <Helmet>
+            <meta
+                name="keywords"
+                content="Stage de chant, stage choral, stage de chant choral, stage de direction de chœur, Hélène Dufour, Muriel Ferraro, Stefano INTRIERI, Maarten Koningsberger, Philippe Le Fèvre, Adam Vidovic"
+            />
+        </Helmet>
         <Page title="Les enseignants">
             <Lead>
                 <p>

@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 
 import Page from "../components/page";
 import LeadImage from "../components/leadImage";
@@ -8,8 +9,14 @@ import {List, ListItem, H3, Link} from "../components/base";
 import PageContent from "../components/pageContent";
 import Layout from "../layouts/fr";
 
-const Informations = (props) => (
+const Informations = props => (
     <Layout location={props.location}>
+        <Helmet>
+            <meta
+                name="keywords"
+                content="Stage de chant, stage choral, stage de chant choral, stage de direction de chœur, prise en charge AFDAS"
+            />
+        </Helmet>
         <Page title="Informations">
             <LeadImage src={Barcelona} alt="house" />
             <PageContent className="edsdf">

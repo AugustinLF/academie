@@ -11,6 +11,7 @@ module.exports = {
     plugins: [
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-glamor",
+        "gatsby-plugin-remove-trailing-slashes",
         {
             resolve: "gatsby-plugin-google-fonts",
             options: {

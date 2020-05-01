@@ -10,7 +10,6 @@ import "./reset.css";
 import "./index.css";
 import Header from "./header";
 import Body from "../components/body";
-import * as indexEn from "../pages/index.en";
 
 import msgEn from "../data/indexMsg.en";
 import msgCa from "../data/indexMsg.ca";

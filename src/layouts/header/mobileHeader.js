@@ -41,6 +41,7 @@ class MobileHeader extends React.Component {
                     alt="Toggle menu"
                     width={40}
                     height={40}
+                    role="button"
                 />
 
                 <img src={squareLogo} alt="Toggle menu" width={30} height={30} />
