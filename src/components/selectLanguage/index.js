@@ -4,9 +4,9 @@ import Link from "gatsby-link";
 
 import en from "./uk.png";
 import fr from "./france.png";
-import ca from "./ca.svg";
+// import ca from "./ca.svg";
 
-const flagMap = {en, fr, ca};
+const flagMap = {en, fr};
 
 const Container = g.div({
     display: "flex",
@@ -31,12 +31,14 @@ const LanguageText = g.div({
 });
 
 const SelectLanguage = ({className, langsMenu}) => {
-    const links = langsMenu.map(lang => (
-        <Language to={lang.link} key={lang.langKey}>
-            <LanguageImage src={flagMap[lang.langKey]} />
-            <LanguageText selected={lang.selected}>{lang.langKey}</LanguageText>
-        </Language>
-    ));
+    const links = langsMenu
+        .filter(({langKey}) => langKey !== "ca")
+        .map(lang => (
+            <Language to={lang.link} key={lang.langKey}>
+                <LanguageImage src={flagMap[lang.langKey]} />
+                <LanguageText selected={lang.selected}>{lang.langKey}</LanguageText>
+            </Language>
+        ));
 
     return <Container className={className}>{links}</Container>;
 };

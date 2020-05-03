@@ -1,13 +1,14 @@
 import g from "glamorous";
 import React from "react";
 
-import {FullWidth} from "../base";
-import home from "./home.jpg";
+import {FullWidth, SpacerVertical} from "../base";
+import home from "./villefavard__salle_de_concert.jpg";
 import Block from "./block";
 import Testimonials from "./testimonials";
 import Sponsors from "./sponsors";
 import {phone} from "../mediaQueries";
 import Academy from "./academy";
+import LeadImage from "../leadImage";
 
 const CrowdBackground = g.div({
     backgroundImage: `url(${home})`,
@@ -23,9 +24,15 @@ const Overlay = g.div({
     opacity: 0.15,
 });
 
-// TODO link program
-const Headline = g(Block)({
+const Headline = g.div({
+    position: "absolute",
     alignItems: "flex-start",
+    flexDirection: "column",
+    alignItems: "center",
+    height: "100%",
+    paddingLeft: 100,
+    alignItems: "flex-start",
+    justifyContent: "center",
 });
 const CallToActionMain = g.h1({
     color: "white",
@@ -50,20 +57,25 @@ const CallToAction = g.h2({
 
 const Home = ({msg}) => (
     <div style={{width: "100%"}}>
-        <FullWidth
-            height={510}
-            mobile={220}
-            background={
-                <CrowdBackground>
-                    <Overlay />
-                </CrowdBackground>
-            }
-        >
+        <div style={{position: "relative", width: 900, marginRight: "auto", marginLeft: "auto"}}>
+            <img alt="Villefranche" src={home} style={{width: 900}} />
             <Headline>
                 <CallToActionMain>{msg.title[0]}</CallToActionMain>
+                <SpacerVertical size="medium" />
                 <CallToAction>{msg.title[1]}</CallToAction>
             </Headline>
-        </FullWidth>
+        </div>
+        {/* <FullWidth
+            height={600}
+            mobile={220}
+            background={
+            }
+        > */}
+        {/* <CrowdBackground>
+            <Overlay />
+        </CrowdBackground> */}
+
+        {/* </FullWidth> */}
         <Academy msg={msg} />
         <Testimonials msg={msg} />
         <Sponsors />

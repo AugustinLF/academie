@@ -3,10 +3,7 @@ export default {
     academy: {
         title: "DU 23 au 30 AOÛT 2020 : 7 JOURS AUTOUR DE LA VOIX",
         content:
-            "en raison de l'épidémie de Covid-19, l'Académie d'été du Capriccio Français quitte cette année Barcelone 
-        pour revenir en France et se déroulera de façon exceptionnelle à la fin du mois d'août.
-        Stage de chant, stage de chant choral, stage pour chefs de chant, stage de direction de chœur : 
-        7 jours consacrés à la musique baroque dans un lieu spécialement dédié à la musique",
+            "En raison de l'épidémie de Covid-19, l'Académie d'été du Capriccio Français quitte cette année Barcelone pour revenir en France et se déroulera de façon exceptionnelle à la fin du mois d'août. Stage de chant, stage de chant choral, stage pour chefs de chant, stage de direction de chœur : 7 jours consacrés à la musique baroque dans un lieu spécialement dédié à la musique",
     },
     testimonials: {
         title: "TEMOIGNAGES",

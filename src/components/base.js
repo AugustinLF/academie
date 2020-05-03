@@ -4,6 +4,20 @@ import React from "react";
 
 import {phone} from "./mediaQueries";
 
+const SIZES = {
+    medium: 15,
+    large: 20,
+    extraLarge: 25,
+};
+
+export const SpacerHorizontal = g.div({}, ({size}) => ({
+    width: SIZES[size],
+}));
+
+export const SpacerVertical = g.div({}, ({size}) => ({
+    height: SIZES[size],
+}));
+
 export const H1 = g.h1({
     fontFamily: '"Courier New", courier-ps-w01, courier-ps-w02, courier-ps-w10, monospace',
     fontSize: 35,
