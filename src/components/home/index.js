@@ -78,7 +78,7 @@ const Home = ({msg}) => (
         {/* </FullWidth> */}
         <Academy msg={msg} />
         <Testimonials msg={msg} />
-        <Sponsors />
+        {/* <Sponsors /> */}
     </div>
 );
 export default Home;
