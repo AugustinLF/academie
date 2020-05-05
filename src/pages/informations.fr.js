@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 
 import Page from "../components/page";
 import LeadImage from "../components/leadImage";
-import Barcelona from "./barcelona.png";
+import Barcelona from "./villefranche.jpg";
 import Section from "../components/section";
 import {List, ListItem, H3, Link} from "../components/base";
 import PageContent from "../components/pageContent";
@@ -18,7 +18,7 @@ const Informations = props => (
             />
         </Helmet>
         <Page title="Informations">
-            <LeadImage src={Barcelona} alt="house" />
+            <LeadImage src={Barcelona} alt="house" height={600} />
             <PageContent className="edsdf">
                 <Section title="L'hébergement">
                     <div>

@@ -31,8 +31,10 @@ const Headline = g.div({
     alignItems: "center",
     height: "100%",
     paddingLeft: 100,
+    paddingTop: 75,
     alignItems: "flex-start",
     justifyContent: "center",
+    top: 0,
 });
 const CallToActionMain = g.h1({
     color: "white",
