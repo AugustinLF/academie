@@ -23,43 +23,48 @@ const Informations = props => (
                 <Section title="L'hébergement">
                     <div>
                         <p>
-                            L'Académie se déroule dans la "Casa Sant Felip Neri", un ancien couvent.
-                            Cours, répétition, hébergement et restauration sont sur le même site.
-                            Situé dans le quartier résidentiel calme de la Sarria, la Casa Sant
-                            Felip Neri est à 300 mètres du métro qui nous amène en 5 stations et 10
-                            minutes à la place de Catalogne, début de la célèbre Rambla et du
-                            quartier historique.
+                            L'Académie se déroule à la Ferme de Villefavard en Limousin – Centre de Rencontres Artistiques, 
+                            projet culturel ouvert aux professionnels de la culture et au public.
+                            La Ferme de Villefavard propose des résidences d’artistes de haut niveau qui donnent lieu à des 
+                            concerts, spectacles, enregistrements, master class..
                         </p>
                         <p>
-                            Les stagiaires sont hébergés en pension complète (du dîner du dimanche
-                            19 juillet au petit-déjeuner du lundi 27 juillet), sauf quatre dîners
-                            dans la semaine qui sont libres.
+                    La Ferme-modèle originelle abrite une salle de concert qui conserve l’esprit de la grange qu’elle a été, 
+                    mais est dorénavant dotée d’une acoustique exceptionnelle signée Albert Yaying XU (Philharmonie de Luxembourg, 
+                    de Copenhague, Opéra de Pékin…). Cette salle sera la salle de répétition pour le chœur de l'Académie et pour les masterclasses
+                    qui ponctuent le stage.
+                      </p>
+                        <p>
+                        Attenants à la salle de concert, se trouvent de nombreux espaces de travail et de répétition pour les résidents, ainsi que l'espace de restauration.
+                            Les stagiaires sont hébergés sur le site en pension complète (du dîner du dimanche
+                            23 juillet au petit-déjeuner du lundi 1er septembre). Le concert final ayant lieu dans l'après-midi du dimanche 30 août,
+                            les stagiaires qui le souhaitent peuvent quitter les lieux après le concert s'ils doivent être présents à leur domicile
+                            ou à leur travail dès le lundi 1er août. A noter : la tenue d'un concert de fin de stage dépendra évidemment de l'état sanitaire
+                            et des décisions gouvernementales en vigueur à ce moment-là. Il est donc possible que nous concluions notre Académie 2020 par une audition interne.
+                            .
                         </p>
                         <p>
-                            Trois possibilités d'hébergement en pension complète sont disponibles :
+                            Quatre possibilités d'hébergement en pension complète sont disponibles dans les trois bâtiment distincts
+                            que comporte le domaine :
                         </p>
                         <List>
-                            <ListItem>
-                                Chambre double avec salle de bains (deux lits simples)
+                             <ListItem>
+                                Chambre double avec salle de bains (deux lits simples).
                             </ListItem>
                             <ListItem>
-                                Chambre single avec lavabo dans la chambre et douches et toilettes
-                                partagées avec d'autres chambres
+                                Chambre double (deux lits simples) avec douches et toilettes partagées avec d'autres chambres.
                             </ListItem>
                             <ListItem>
-                                Chambre triple avec lavabo dans la chambre (trois lits simples) et
-                                douches et toilettes partagées avec d'autres chambres
+                                Chambre single avec douches et toilettes partagées avec d'autres chambres.
+                            </ListItem>
+                            <ListItem>
+                                Chambre triple (trois lits simples) et douches et toilettes partagées avec d'autres chambres.
                             </ListItem>
                         </List>
-                        <p>
-                            Le linge de toilette est fourni, les draps sont changés en milieu de
-                            séjour. Les articles de toilette ne sont pas fournis.
+                        <p>        
+                            En raison de l'épidémie, il est demandé aux stagiaires de venir avec leurs serviettes de toilettes et avec 
+                            leurs articles de toilette (shampoing, gel douche...).
                         </p>
-                        <p>
-                            Il est possible d'arriver plus tôt ou de repartir plus tard, des
-                            chambres sont disponibles (sans repas) : nous consulter.
-                        </p>
-                        <p>A noter : la grande salle de répétition est climatisée.</p>
                     </div>
                 </Section>
                 <Section title="Tarifs">
@@ -85,78 +90,49 @@ const Informations = props => (
                             les frais) afin de permettre de profiter pleinement de la ville :
                         </p>
                         <List>
-                            <ListItem>Chambre double avec salle de bains : 440 €</ListItem>
-                            <ListItem>
-                                Chambre single avec lavabo dans la chambre et douches et toilettes à
-                                l'extérieur : 420 €
+                             <ListItem>
+                                Chambre double avec salle de bains (deux lits simples) : 460 €.
                             </ListItem>
                             <ListItem>
-                                Chambre triple avec lavabo dans la chambre et douches et toilettes à
-                                l'extérieur : 340 €
+                                Chambre double avec salle de bains (deux lits simples) avec douches et toilettes
+                                partagées : 390 €
+                            </ListItem>
+                            <ListItem>
+                                Chambre single avec douches et toilettes partagées avec d'autres chambres : 420 €.
+                            </ListItem>
+                            <ListItem>
+                                Chambre triple (trois lits simples) et
+                                douches et toilettes partagées avec d'autres chambres : 350 €.
                             </ListItem>
                         </List>
                         <p>
                             Une participation aux frais de 10 € par jour (soit 70 €) pour les
                             locations de salle sera demandée aux stagiaires ne logeant pas en
-                            pension complète. Cette participation ne s'applique pas aux membres du
-                            Moviment Coral Catala.
-                        </p>
-                        <p>
-                            NB: Les frais d’hébergement ne comprennent ni le transport, ni les
-                            transferts depuis l’aéroport ou la gare.
+                            pension complète. 
                         </p>
                     </div>
                 </Section>
                 <Section title="Comment venir ?">
                     <div>
                         <H3>En train</H3>
-                        <p>
-                            Barcelone est accessible en TGV direct depuis Paris. Il existe aussi des
-                            lignes directes depuis Lyon et Marseille. Il est aussi possible
-                            d'emprunter les trains low cost Ouigo de la SNCF depuis Marne-la-Vallée
-                            en direction du sud et de faire un changement pour bénéficier des
-                            meilleurs prix.
-                        </p>
-                        <p>Pour vous rendre ensuite à l'Académie depuis la gare :</p>
+               
+                             <p>Villefavard est desservi par deux gares SNCF.</p>
                         <List>
+                            <ListItem>La Souterraine, 2h45 direct depuis Paris-Austerlitz ou correspondances
+                            depuis la gare de Limoges (billets entre 15 et 40 €). 
+                             </ListItem>
                             <ListItem>
-                                Vous pouvez prendre un taxi, il vous en coûtera entre 10 et 15
-                                euros, selon le trafic et le nombre de bagages.
-                            </ListItem>
-                            <ListItem>
-                                Ou bien vous pouvez prendre le métro :{" "}
-                                <Link href="https://drive.google.com/file/d/1BrouSE6JkvQ_5mou9uWoh-xM1NYtPUAD/view?usp=sharing">
-                                    téléchargez l'itinéraire détaillé
-                                </Link>
-                            </ListItem>
+                            Le Dorat, 2h45 TGV depuis Paris-Montparnasse, correpondance TER à Poitiers ou correspondances
+                            depuis la gare de Limoges.
+                             </ListItem>
                         </List>
-                        <H3>En avion</H3>
-                        <p>
-                            Barcelone est très bien desservi par de nombreuses compagnies aériennes.
-                            Depuis Paris Air France et Iberia, en ce qui concerne les compagnies
-                            nationales, Easyjet, Transavia et Vueling, pour les compagnies low-cost,
-                            assurent plusieurs vols quotidiens. Ryanair dessert aussi Barcelone
-                            depuis l'aéroport de Paris-Beauvais. Depuis Lyon, Genève, Nice, Easyjet
-                            assure également des vols directs.
-                        </p>
-                        <p>Pour vous rendre ensuite à l'Académie depuis l'aéroport :</p>
-                        <List>
-                            <ListItem>
-                                Vous pouvez prendre un taxi, il vous en coûtera entre 30 et 40€
-                                selon le trafic et le nombre de bagages.
-                            </ListItem>
-                            <ListItem>
-                                Vous pouvez aussi prendre l’Aerobus qui vous amènera Plaça de
-                                Catalunya. Le ticket aller-retour vaut 10,20€. Vous prendrez ensuite
-                                le métro : téléchargez{" "}
-                                <Link href="https://drive.google.com/file/d/1JaESdg-R8zC7NHtpdk504qhHj6Zp20A-/view?usp=sharing">
-                                    l'itinéraire détaillé
-                                </Link>
-                            </ListItem>
-                        </List>
+                       <p>Nous pouvons organiser vos transferts entre la gare SNCF et Villefavard : nous consulter.</p>
+                        
+                      
                         <H3>En voiture</H3>
                         <p>
-                            Attention, si vous venez en voiture, merci de nous avertir à l'avance,
+                            L'A20 est à 16 kms de Villefavard, mettant Paris à 3h45 en voiture, Lyon à moins de 4 heures, Nantes ou Toulouse à 3h30,
+                            Bordeaux à moins de 3 heures.Attention, si vous venez en voiture, merci de nous avertir à l'avance,
                             le nombre de places de parking disponibles à la Casa Sant Felip Neri est
                             réduit. Celles-ci seront donc attribuées par ordre d'inscription.
                         </p>
@@ -172,7 +148,7 @@ const Informations = props => (
                         enseignants de conservatoire.
                     </p>
                     <p>
-                        Quelques unes de nos récentes références : AFDAS Paris, AFDAS Rhône-Alpes,
+                        Quelques unes de nos récentes références : AFDAS,
                         Uniformation, Atelier musicaux de Toulouse, Villes de Châlon-sur-Saône,
                         Chambéry, Domène, Lorient, Saint-Quentin
                     </p>
