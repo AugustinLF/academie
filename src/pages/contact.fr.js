@@ -14,16 +14,19 @@ const Contact = (props) => (
                     <br />
                     FR - 94130 Nogent-sur-Marne
                     <br />
-                    Tél. : 01 48 75 00 70
+                    Tél. : +33 (0)1 48 75 00 70
+                    <br />
+                    Courriel : academie(at)capricciofrancais.com
                 </p>
                 <br />
                 <p>
-                    Adresse à Barcelone :<br />
-                    Casa d´Espiritualitat Sant Felip Neri
+                    Adresse à Villefavard :<br />
+                    Ferme de Villefavard en Limousin <br />
+                    2 impasse de l’église et de la cure <br />
+                    87190 Villefavard <br />
+                    Tél. : +33 (0)5 55 76 54 72
                     <br />
-                    Nena Casas, 37-47
-                    <br />
-                    08017 Barcelona
+                   
                 </p>
             </PageContent>
         </Page>
