@@ -32,7 +32,7 @@ const Informations = props => (
                         <p>
                             La Ferme-modèle originelle abrite une salle de concert qui conserve
                             l’esprit de la grange qu’elle a été, mais est dorénavant dotée d’une
-                            acoustique exceptionnelle signée Albert Yaying XU (Philharmonie de
+                            acoustique exceptionnelle signée Albert Yaying Xu (Philharmonie de
                             Luxembourg, de Copenhague, Opéra de Pékin…). Cette salle sera la salle
                             de répétition pour le chœur de l'Académie et pour les masterclasses qui
                             ponctuent le stage.
@@ -42,7 +42,10 @@ const Informations = props => (
                             travail et de répétition pour les résidents, ainsi que l'espace de
                             restauration. Les stagiaires sont hébergés sur le site en pension
                             complète (du dîner du dimanche 23 juillet au petit-déjeuner du lundi 1er
-                            septembre). Le concert final ayant lieu dans l'après-midi du dimanche 30
+                            septembre).
+                             </p>
+                        <p>
+                                Le concert final ayant lieu dans l'après-midi du dimanche 30
                             août, les stagiaires qui le souhaitent peuvent quitter les lieux après
                             le concert s'ils doivent être présents à leur domicile ou à leur travail
                             dès le lundi 1er août. A noter : la tenue d'un concert de fin de stage
@@ -105,8 +108,7 @@ const Informations = props => (
                                 Chambre double avec salle de bains (deux lits simples) : 460 €.
                             </ListItem>
                             <ListItem>
-                                Chambre double avec salle de bains (deux lits simples) avec douches
-                                et toilettes partagées : 390 €
+                                Chambre double (deux lits simples) avec douches et toilettes partagées : 390 €
                             </ListItem>
                             <ListItem>
                                 Chambre single avec douches et toilettes partagées avec d'autres
@@ -149,10 +151,7 @@ const Informations = props => (
                         <p>
                             L'A20 est à 16 kms de Villefavard, mettant Paris à 3h45 en voiture, Lyon
                             à moins de 4 heures, Nantes ou Toulouse à 3h30, Bordeaux à moins de 3
-                            heures.Attention, si vous venez en voiture, merci de nous avertir à
-                            l'avance, le nombre de places de parking disponibles à la Casa Sant
-                            Felip Neri est réduit. Celles-ci seront donc attribuées par ordre
-                            d'inscription.
+                            heures.
                         </p>
                     </div>
                 </Section>
