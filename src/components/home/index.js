@@ -3,7 +3,6 @@ import React from "react";
 
 import {FullWidth, SpacerVertical} from "../base";
 import home from "./villefavard__salle_de_concert.jpg";
-import Block from "./block";
 import Testimonials from "./testimonials";
 import Sponsors from "./sponsors";
 import {phone} from "../mediaQueries";
@@ -19,7 +18,11 @@ const CrowdBackground = g.div({
     alignItems: "stretch",
 });
 const Overlay = g.div({
-    flexGrow: 1,
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
     backgroundColor: "black",
     opacity: 0.15,
 });
@@ -32,6 +35,10 @@ const Headline = g.div({
     height: "100%",
     paddingLeft: 100,
     paddingTop: 75,
+    [phone]: {
+        paddingTop: 30,
+        paddingLeft: 20,
+    },
     alignItems: "flex-start",
     justifyContent: "center",
     top: 0,
@@ -57,30 +64,34 @@ const CallToAction = g.h2({
     fontWeight: "bold",
 });
 
+const Image = g.img({
+    width: 900,
+    [phone]: {
+        width: "100%",
+    },
+});
+const Block = g.div({
+    position: "relative",
+    width: 900,
+    [phone]: {width: "100%"},
+    marginRight: "auto",
+    marginLeft: "auto",
+    display: "flex",
+});
+
 const Home = ({msg}) => (
     <div style={{width: "100%"}}>
-        <div style={{position: "relative", width: 900, marginRight: "auto", marginLeft: "auto"}}>
-            <img alt="Villefranche" src={home} style={{width: 900}} />
+        <Block>
+            <Image alt="Villefranche" src={home} />
+            <Overlay />
             <Headline>
                 <CallToActionMain>{msg.title[0]}</CallToActionMain>
                 <SpacerVertical size="medium" />
                 <CallToAction>{msg.title[1]}</CallToAction>
             </Headline>
-        </div>
-        {/* <FullWidth
-            height={600}
-            mobile={220}
-            background={
-            }
-        > */}
-        {/* <CrowdBackground>
-            <Overlay />
-        </CrowdBackground> */}
-
-        {/* </FullWidth> */}
+        </Block>
         <Academy msg={msg} />
         <Testimonials msg={msg} />
-        {/* <Sponsors /> */}
     </div>
 );
 export default Home;
