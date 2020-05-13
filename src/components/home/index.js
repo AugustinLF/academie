@@ -7,7 +7,6 @@ import Testimonials from "./testimonials";
 import Sponsors from "./sponsors";
 import {phone} from "../mediaQueries";
 import Academy from "./academy";
-import LeadImage from "../leadImage";
 
 const CrowdBackground = g.div({
     backgroundImage: `url(${home})`,
@@ -47,7 +46,7 @@ const CallToActionMain = g.h1({
     color: "white",
     fontSize: 60,
     [phone]: {
-        fontSize: 36,
+        fontSize: 32,
     },
     letterSpacing: "0.1em",
     textTransform: "uppercase",
@@ -57,7 +56,7 @@ const CallToAction = g.h2({
     color: "white",
     fontSize: 60,
     [phone]: {
-        fontSize: 36,
+        fontSize: 32,
     },
     letterSpacing: "0.1em",
     textTransform: "uppercase",
@@ -86,8 +85,8 @@ const Home = ({msg}) => (
             <Overlay />
             <Headline>
                 <CallToActionMain>{msg.title[0]}</CallToActionMain>
-                <SpacerVertical size="medium" />
                 <CallToAction>{msg.title[1]}</CallToAction>
+                {/* <CallToAction>{}</CallToAction> */}
             </Headline>
         </Block>
         <Academy msg={msg} />

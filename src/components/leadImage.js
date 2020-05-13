@@ -19,7 +19,7 @@ const Img = g.div(
 );
 
 const LeadImage = ({src, alt, big}) => (
-    <Lead>
+    <Lead noMargin>
         <Img src={src} big={big} />
     </Lead>
 );

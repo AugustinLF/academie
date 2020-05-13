@@ -43,15 +43,15 @@ const Informations = props => (
                             restauration. Les stagiaires sont hébergés sur le site en pension
                             complète (du dîner du dimanche 23 juillet au petit-déjeuner du lundi 1er
                             septembre).
-                             </p>
+                        </p>
                         <p>
-                                Le concert final ayant lieu dans l'après-midi du dimanche 30
-                            août, les stagiaires qui le souhaitent peuvent quitter les lieux après
-                            le concert s'ils doivent être présents à leur domicile ou à leur travail
-                            dès le lundi 1er août. A noter : la tenue d'un concert de fin de stage
-                            dépendra évidemment de l'état sanitaire et des décisions
-                            gouvernementales en vigueur à ce moment-là. Il est donc possible que
-                            nous concluions notre Académie 2020 par une audition interne. .
+                            Le concert final ayant lieu dans l'après-midi du dimanche 30 août, les
+                            stagiaires qui le souhaitent peuvent quitter les lieux après le concert
+                            s'ils doivent être présents à leur domicile ou à leur travail dès le
+                            lundi 1er août. A noter : la tenue d'un concert de fin de stage dépendra
+                            évidemment de l'état sanitaire et des décisions gouvernementales en
+                            vigueur à ce moment-là. Il est donc possible que nous concluions notre
+                            Académie 2020 par une audition interne. .
                         </p>
                         <p>
                             Quatre possibilités d'hébergement en pension complète sont disponibles
@@ -108,7 +108,8 @@ const Informations = props => (
                                 Chambre double avec salle de bains (deux lits simples) : 460 €.
                             </ListItem>
                             <ListItem>
-                                Chambre double (deux lits simples) avec douches et toilettes partagées : 390 €
+                                Chambre double (deux lits simples) avec douches et toilettes
+                                partagées : 390 €
                             </ListItem>
                             <ListItem>
                                 Chambre single avec douches et toilettes partagées avec d'autres
