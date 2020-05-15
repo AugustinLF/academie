@@ -30,7 +30,7 @@ const Informations = props => (
                             enregistrements, master class..
                         </p>
                         <p>
-                            La Ferme-modèle originelle abrite une salle de concert qui conserve
+                            La Ferme-modèle d'origine abrite une salle de concert qui conserve
                             l’esprit de la grange qu’elle a été, mais est dorénavant dotée d’une
                             acoustique exceptionnelle signée Albert Yaying Xu (Philharmonie de
                             Luxembourg, de Copenhague, Opéra de Pékin…). Cette salle sera la salle
@@ -41,17 +41,16 @@ const Informations = props => (
                             Attenants à la salle de concert, se trouvent de nombreux espaces de
                             travail et de répétition pour les résidents, ainsi que l'espace de
                             restauration. Les stagiaires sont hébergés sur le site en pension
-                            complète (du dîner du dimanche 23 juillet au petit-déjeuner du lundi 1er
-                            septembre).
+                            complète (du dîner du dimanche 23 août au petit-déjeuner du lundi 31 août).
                         </p>
                         <p>
                             Le concert final ayant lieu dans l'après-midi du dimanche 30 août, les
                             stagiaires qui le souhaitent peuvent quitter les lieux après le concert
                             s'ils doivent être présents à leur domicile ou à leur travail dès le
-                            lundi 1er août. A noter : la tenue d'un concert de fin de stage dépendra
+                            lundi 31 septembre. A noter : la tenue d'un concert de fin de stage dépendra
                             évidemment de l'état sanitaire et des décisions gouvernementales en
                             vigueur à ce moment-là. Il est donc possible que nous concluions notre
-                            Académie 2020 par une audition interne. .
+                            Académie 2020 par une audition sans public.
                         </p>
                         <p>
                             Quatre possibilités d'hébergement en pension complète sont disponibles
