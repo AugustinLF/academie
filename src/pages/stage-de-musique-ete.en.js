@@ -10,18 +10,15 @@ const Programme = (props) => (
         <Page title="Summer Music Academy 2020">
             <Lead>
                 <p>
-                    Le Capriccio Français Summer Music Academy offers a tuition program for singers,
-                    harpsichordists, and students in choir conducting, as well as a choral program,
-                    from July 19 (arrival before dinner) to July 26 (departure July 27 after
-                    breakfast). The Academy is situated in Barcelona, in Casa Sant Felip Neri, an
-                    ancient convent welcoming meetings, and especially musical workshops.
+                    Le Capriccio Français Summer Music Academy offers a tuition program for Singers, Harpsichordists, 
+                    Organists or Pianists, and students in Choir conducting, as well as a Choral program, from August 23 
+                    (arrival before dinner) to August 30 (departure August 31 after breakfast). 
                 </p>
                 <p>
-                    The students will develop their technical skills together with their stylistic
-                    skills on early music repertoire. Singers, instrumentalists and choral singers
-                    work together all through the session, sharing their stylistic knowledge, and
-                    prepare auditions and the final concert together. The concert will be held on
-                    Sunday 26 July (5:00 pm) in Església de Sant Gaietà.
+                    The Academy is situated in Villefavard, in the beautiful countryside near Limoges (France). 
+                    In these uncertain times of epidemic, the Academy has chosen a secluded place, entirely dedicated to our 
+                    students, offering both accommodation and musical activities in only one place, and with music rooms of 
+                    exceptional quality.
                 </p>
                 <p>
                     Students interested in the vocal, conducting or instrumental Academy must be
