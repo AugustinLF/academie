@@ -1,21 +1,11 @@
 import g from "glamorous";
 import React from "react";
 
-import {FullWidth, SpacerVertical} from "../base";
 import home from "./villefavard__salle_de_concert.jpg";
 import Testimonials from "./testimonials";
-import Sponsors from "./sponsors";
 import {phone} from "../mediaQueries";
 import Academy from "./academy";
 
-const CrowdBackground = g.div({
-    backgroundImage: `url(${home})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    flexGrow: 1,
-    display: "flex",
-    alignItems: "stretch",
-});
 const Overlay = g.div({
     position: "absolute",
     top: 0,
@@ -28,7 +18,6 @@ const Overlay = g.div({
 
 const Headline = g.div({
     position: "absolute",
-    alignItems: "flex-start",
     flexDirection: "column",
     alignItems: "center",
     height: "100%",

@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 
 import Page from "../components/page";
 import LeadImage from "../components/leadImage";
-import Barcelona from "./villefranche.jpg";
+import villefranche from "./villefranche.jpg";
 import Section from "../components/section";
 import {List, ListItem, H3} from "../components/base";
 import PageContent from "../components/pageContent";
@@ -18,7 +18,7 @@ const Informations = props => (
             />
         </Helmet>
         <Page title="Informations">
-            <LeadImage src={Barcelona} alt="house" big />
+            <LeadImage src={villefranche} alt="house" big />
             <PageContent className="edsdf">
                 <Section title="L'hébergement">
                     <div>
@@ -41,16 +41,17 @@ const Informations = props => (
                             Attenants à la salle de concert, se trouvent de nombreux espaces de
                             travail et de répétition pour les résidents, ainsi que l'espace de
                             restauration. Les stagiaires sont hébergés sur le site en pension
-                            complète (du dîner du dimanche 23 août au petit-déjeuner du lundi 31 août).
+                            complète (du dîner du dimanche 23 août au petit-déjeuner du lundi 31
+                            août).
                         </p>
                         <p>
                             Le concert final ayant lieu dans l'après-midi du dimanche 30 août, les
                             stagiaires qui le souhaitent peuvent quitter les lieux après le concert
                             s'ils doivent être présents à leur domicile ou à leur travail dès le
-                            lundi 31 septembre. A noter : la tenue d'un concert de fin de stage dépendra
-                            évidemment de l'état sanitaire et des décisions gouvernementales en
-                            vigueur à ce moment-là. Il est donc possible que nous concluions notre
-                            Académie 2020 par une audition sans public.
+                            lundi 31 septembre. A noter : la tenue d'un concert de fin de stage
+                            dépendra évidemment de l'état sanitaire et des décisions
+                            gouvernementales en vigueur à ce moment-là. Il est donc possible que
+                            nous concluions notre Académie 2020 par une audition sans public.
                         </p>
                         <p>
                             Quatre possibilités d'hébergement en pension complète sont disponibles

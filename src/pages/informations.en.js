@@ -2,50 +2,69 @@ import React from "react";
 
 import Page from "../components/page";
 import LeadImage from "../components/leadImage";
-import Barcelona from "./barcelona.png";
+import villefranche from "./villefranche.jpg";
 import Section from "../components/section";
-import {List, ListItem, H3, Link} from "../components/base";
+import {List, ListItem, H3} from "../components/base";
 import PageContent from "../components/pageContent";
 import Layout from "../layouts/en";
 
-const Informations = (props) => (
+const Informations = props => (
     <Layout location={props.location}>
         <Page title="Information">
-            <LeadImage src={Barcelona} alt="house" />
+            <LeadImage src={villefranche} alt="house" big />
             <PageContent>
                 <Section title="Accommodation">
                     <div>
                         <p>
-                            The Academy (tuition, rehearsals, lodging and dining) takes place in
-                            "Casa Sant Felip Neri", an ancient convent. Located in the quiet
-                            residential district of la Sarria, Casa Sant Felip Neri is 300m from the
-                            underground station and 10mins from the Catalunya Square and historical
-                            area.
+                            The Academy takes place at the Ferme de Villefavard in Limousin - Centre
+                            de Rencontres Artistiques, a cultural project open to cultural
+                            professionals and the public. The Ferme de Villefavard offers residences
+                            for high level artists and produces concerts, shows, recordings, master
+                            classes...
+                        </p>
+                        <p>
+                            The original Farmhouse houses a concert hall that retains the spirit of
+                            the barn it once was, but is now equipped with exceptional acoustics by
+                            Albert Yaying Xu (Philharmonie de Luxembourg, ` Copenhagen Philharmonic,
+                            Peking Opera...). The concert hall will therefore be the rehearsal room
+                            for the Academy choir and for the Masterclasses that punctuate the
+                            Academy.
+                        </p>
+                        <p>
+                            Adjacent to the concert hall, there will be numerous work and rehearsal
+                            spaces for the students, as well as a dining area. Students are
+                            accommodated on site with full board (from dinner on Sunday 23 August to
+                            breakfast on Monday 31 August).
+                        </p>
+                        <p>
+                            As the final concert is scheduled in the afternoon of Sunday 30 August,
+                            students who wish to do so may leave the premises after the concert, if
+                            they need to be present at home or work on Monday 31 August.
+                        </p>
+                        <p>
+                            Please note: the possibility of having a final concert at the end of the
+                            Academy will obviously depend on the Government decisions in force at
+                            that time. We may have to conclude our Academy 2020 with an internal
+                            audition, without an audience.
                         </p>
                         <p>
                             Full board is provided from the dinner of Sunday 19 July to the
                             breakfast of Monday 26 July (4 diners are not included in the full
                             board).
                         </p>
-                        <p>3 different options are available for your accommodation:</p>
+                        <p>4 different options are available for your accommodation:</p>
                         <List>
                             <ListItem>Ensuite Double room (two single beds)</ListItem>
                             <ListItem>
-                                Single room, shared bathroom (washbasin in the room)
+                                Double room (two single beds) with showers and toilets shared with
+                                other rooms.
                             </ListItem>
+                            <ListItem>Single room, shared bathroom</ListItem>
                             <ListItem>
                                 Triple room, shared bathroom (washbasin in the room)
                             </ListItem>
                         </List>
-                        <p>
-                            Linen and towels are provided; bed linen will be changed once during the
-                            week. Toiletries are not provided.
-                        </p>
-                        <p>
-                            Rooms may be available one or more days before or after the Academy (no
-                            meals), subject to availability.
-                        </p>
-                        <p>Air-conditioning: The main rehearsal room is air-conditioned.</p>
+                        <p>Due to covid-29, towels and toiletries are not provided.</p>
                     </div>
                 </Section>
                 <Section title="Fees">
@@ -61,7 +80,8 @@ const Informations = (props) => (
                         </p>
                         <p>Accommodation fees in full boarding:</p>
                         <List>
-                            <ListItem>Ensuite Double room: 440€</ListItem>
+                            <ListItem>Ensuite Double room: 460€</ListItem>
+                            <ListItem>Double room , shared bathroom: 390€</ListItem>
                             <ListItem>Single room, shared bathroom: 420€</ListItem>
                             <ListItem>Triple room, shared bathroom: 340€</ListItem>
                         </List>
@@ -69,15 +89,10 @@ const Informations = (props) => (
                             The number of rooms in each category is limited. We will warn you if
                             your first choice of room is no longer available.
                         </p>
-                        <p>
-                            Please take note that 3 evening meals in the week are not included, so
-                            that students may enjoy Barcelona at night!
-                        </p>
+
                         <p>
                             10 € per day (70 € for the whole academy) will be asked to students who
-                            should decide not to be accommodated in Casa Sant Felip Neri, as a
-                            participation for renting the rehearsal rooms. This fee does not apply
-                            for members of the Moviment Coral Català.
+                            should decide not to be accommodated with us.
                         </p>
 
                         <p>
@@ -89,29 +104,25 @@ const Informations = (props) => (
                 <Section title="Travelling to the Academy">
                     <div>
                         <H3>By train</H3>
+                        <p>Villefavard is connected to two SNCF railway stations:</p>
+                        <ListItem>
+                            La Souterraine, 2 hours 45min direct from Paris-Austerlitz or
+                            connections from Limoges station (tickets between 15 and 40 €).
+                        </ListItem>
+                        <ListItem>
+                            Le Dorat, 2h45 TGV from Paris-Montparnasse, TER connection in Poitiers
+                            or connections from Limoges station.
+                        </ListItem>
                         <p>
-                            Detailed route: Download the{" "}
-                            <Link href="https://drive.google.com/file/d/1g5fxG8cmhT0c-z8k4zlpuNqsrZDcQ4R-/view?usp=sharing">
-                                plan
-                            </Link>
-                            .
+                            We can organize your transfers between the SNCF train station and
+                            Villefavard: please contact us
                         </p>
-                        <H3>By plane</H3>
-                        <p>
-                            Barcelona - El Prat is an international airport with direct flights from
-                            all European countries. Detailed route: Download the{" "}
-                            <Link href="https://drive.google.com/file/d/1SIrY8N3NmEchhO7g91if1RLNQbORpn6N/view?usp=sharing">
-                                plan
-                            </Link>
-                        </p>
+
                         <H3>By car</H3>
                         <p>
-                            Please take note that there is no parking space in Casa Sant Felip Neri,
-                            and parking in the street is expensive. The best solution is to take a
-                            7-day pass in one of the city car parks (69 €), which will allow you
-                            unlimited ins and outs (but we recommend that you do not move your car
-                            for the week!). The BSM Cotxeres de Sarrià car park, at Manuel Girona
-                            77, is 500m from the Academy.
+                            The A20 is only 16 kms from Villefavard, making Paris at 3 hours 45 mins
+                            by car, Lyon at less than 4 hours, Nantes or Toulouse at 3 hours 30
+                            mins, Bordeaux at less than 3 hours.
                         </p>
                     </div>
                 </Section>
