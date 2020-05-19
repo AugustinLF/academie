@@ -47,11 +47,6 @@ const Informations = props => (
                             that time. We may have to conclude our Academy 2020 with an internal
                             audition, without an audience.
                         </p>
-                        <p>
-                            Full board is provided from the dinner of Sunday 19 July to the
-                            breakfast of Monday 26 July (4 diners are not included in the full
-                            board).
-                        </p>
                         <p>4 different options are available for your accommodation:</p>
                         <List>
                             <ListItem>Ensuite Double room (two single beds)</ListItem>
