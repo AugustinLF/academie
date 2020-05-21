@@ -23,8 +23,11 @@ const Informations = props => (
                 <Section title="L'hébergement">
                     <div>
                         <p>
-                            L'Académie se déroule à la Ferme de Villefavard en Limousin – Centre de
-                            Rencontres Artistiques, projet culturel ouvert aux professionnels de la
+                            L'Académie se déroule à <Link href="https://www.fermedevillefavard.com">                 
+                            la Ferme de Villefavard en Limousin – Centre de
+                            Rencontres Artistiques</Link>{" "}, 
+                            –{" "}
+                            projet culturel ouvert aux professionnels de la
                             culture et au public. La Ferme de Villefavard propose des résidences
                             d’artistes de haut niveau qui donnent lieu à des concerts, spectacles,
                             enregistrements, master class..
@@ -48,14 +51,14 @@ const Informations = props => (
                             Le concert final ayant lieu dans l'après-midi du dimanche 30 août, les
                             stagiaires qui le souhaitent peuvent quitter les lieux après le concert
                             s'ils doivent être présents à leur domicile ou à leur travail dès le
-                            lundi 31 septembre. A noter : la tenue d'un concert de fin de stage
+                            lundi 31 août. A noter : la tenue d'un concert de fin de stage
                             dépendra évidemment de l'état sanitaire et des décisions
                             gouvernementales en vigueur à ce moment-là. Il est donc possible que
                             nous concluions notre Académie 2020 par une audition sans public.
                         </p>
                         <p>
                             Quatre possibilités d'hébergement en pension complète sont disponibles
-                            dans les trois bâtiment distincts que comporte le domaine :
+                            dans les trois bâtiments distincts que comporte le domaine :
                         </p>
                         <List>
                             <ListItem>
@@ -76,7 +79,7 @@ const Informations = props => (
                         </List>
                         <p>
                             En raison de l'épidémie, il est demandé aux stagiaires de venir avec
-                            leurs serviettes de toilettes et avec leurs articles de toilette
+                            leurs serviettes de toilette et avec leurs articles de toilette
                             (shampoing, gel douche...).
                         </p>
                     </div>
