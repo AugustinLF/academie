@@ -5,7 +5,7 @@ import Page from "../components/page";
 import LeadImage from "../components/leadImage";
 import villefranche from "./villefranche.jpg";
 import Section from "../components/section";
-import {List, ListItem, H3} from "../components/base";
+import {List, ListItem, H3, Link} from "../components/base";
 import PageContent from "../components/pageContent";
 import Layout from "../layouts/fr";
 
@@ -23,13 +23,14 @@ const Informations = props => (
                 <Section title="L'hébergement">
                     <div>
                         <p>
-                            L'Académie se déroule à <Link href="https://www.fermedevillefavard.com">                 
-                            la Ferme de Villefavard en Limousin – Centre de
-                            Rencontres Artistiques</Link>{" "}, 
-                            –{" "}
-                            projet culturel ouvert aux professionnels de la
-                            culture et au public. La Ferme de Villefavard propose des résidences
-                            d’artistes de haut niveau qui donnent lieu à des concerts, spectacles,
+                            L'Académie se déroule à{" "}
+                            <Link href="https://www.fermedevillefavard.com">
+                                la Ferme de Villefavard en Limousin – Centre de Rencontres
+                                Artistiques
+                            </Link>{" "}
+                            , – projet culturel ouvert aux professionnels de la culture et au
+                            public. La Ferme de Villefavard propose des résidences d’artistes de
+                            haut niveau qui donnent lieu à des concerts, spectacles,
                             enregistrements, master class..
                         </p>
                         <p>
@@ -51,10 +52,10 @@ const Informations = props => (
                             Le concert final ayant lieu dans l'après-midi du dimanche 30 août, les
                             stagiaires qui le souhaitent peuvent quitter les lieux après le concert
                             s'ils doivent être présents à leur domicile ou à leur travail dès le
-                            lundi 31 août. A noter : la tenue d'un concert de fin de stage
-                            dépendra évidemment de l'état sanitaire et des décisions
-                            gouvernementales en vigueur à ce moment-là. Il est donc possible que
-                            nous concluions notre Académie 2020 par une audition sans public.
+                            lundi 31 août. A noter : la tenue d'un concert de fin de stage dépendra
+                            évidemment de l'état sanitaire et des décisions gouvernementales en
+                            vigueur à ce moment-là. Il est donc possible que nous concluions notre
+                            Académie 2020 par une audition sans public.
                         </p>
                         <p>
                             Quatre possibilités d'hébergement en pension complète sont disponibles
