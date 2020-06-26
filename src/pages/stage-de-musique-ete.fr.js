@@ -18,15 +18,10 @@ const Programme = props => (
         <Page title="Les stages de musique : été 2020">
             <Lead>
                 <p>
-                    L'Académie d'été du Capriccio Français propose un stage de chant, un stage de
-                    direction de chœur, un stage pour chefs de chant ainsi qu’un stage de chant
-                    choral. Elle se déroulera du 23 au 30 août 2020 à Villefavard en Haute-Vienne.
+                    L'Académie d'été du Capriccio Français propose un stage de chant, u un stage pour chefs de chant ainsi qu’un stage de chant
+                    choral. Elle se déroulera du 23 au 30 août 2020 sur les hauteurs du Lac d'Annecy en Haute-Savoie.
                 </p>
-                <p>
-                    L'Académie a choisi, en ces temps incertains d'épidémie, un lieu retiré, entièrement dédié à nos 
-    stagiaires, disposant de salles de musique d'une qualité exceptionnelle et réunissant sur un même lieu hébergement et 
-    activités musicales.
-                </p>
+                
             </Lead>
             <H2>Les stages</H2>
             <ProgrammeList language="fr" />
