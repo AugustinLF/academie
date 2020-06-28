@@ -1,7 +1,7 @@
 import g from "glamorous";
 import React from "react";
 
-import home from "./villefavard__salle_de_concert.jpg";
+import home from "../../annecy.jpg";
 import Testimonials from "./testimonials";
 import {phone} from "../mediaQueries";
 import Academy from "./academy";
@@ -19,7 +19,6 @@ const Overlay = g.div({
 const Headline = g.div({
     position: "absolute",
     flexDirection: "column",
-    alignItems: "center",
     height: "100%",
     paddingLeft: 100,
     paddingTop: 75,
