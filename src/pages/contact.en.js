@@ -21,12 +21,11 @@ const Contact = (props) => (
                 </p>
                 <br />
                 <p>
-                    Villefavard address:<br />
-                    Ferme de Villefavard en Limousin <br />
-                    2 impasse de l’église et de la cure <br />
-                    87190 Villefavard <br />
-                    Tél. : +33 (0)5 55 76 54 72
-                    <br />
+                    Annecy address:<br />
+                    Les Balcons du lac d'Annecy<br />
+                    1487 Route de Cessenaz<br />
+                    74320 Sevrier<br />
+                    Tél. : +33 (0)4 50 52 44 25<br />
                 </p>
                
             </PageContent>
