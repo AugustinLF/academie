@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 
 import Page from "../components/page";
 import LeadImage from "../components/leadImage";
-import villefranche from "./villefranche.jpg";
+import villefranche from "./annecy1.jpg";
 import Section from "../components/section";
 import {List, ListItem, H3, Link} from "../components/base";
 import PageContent from "../components/pageContent";
@@ -14,88 +14,50 @@ const Informations = props => (
         <Helmet>
             <meta
                 name="keywords"
-                content="Stage de chant, stage choral, stage de chant choral, stage de direction de chœur, prise en charge AFDAS"
+                content="Stage de chant, stage choral, stage de chant choral, stage de direction de chœur"
             />
         </Helmet>
         <Page title="Informations">
-            <LeadImage src={villefranche} alt="house" big />
+            <LeadImage src={annecy1} alt="house" big />
             <PageContent className="edsdf">
                 <Section title="L'hébergement">
                     <div>
                         <p>
-                            L'Académie se déroule à{" "}
-                            <Link href="https://www.fermedevillefavard.com">
-                                la Ferme de Villefavard en Limousin – Centre de Rencontres
-                                Artistiques
-                            </Link>{" "}
-                            , – projet culturel ouvert aux professionnels de la culture et au
-                            public. La Ferme de Villefavard propose des résidences d’artistes de
-                            haut niveau qui donnent lieu à des concerts, spectacles,
-                            enregistrements, master class..
+                            L'Académie 2020 se déroule sur les hauteurs du Lac d'Annecy
                         </p>
                         <p>
-                            La Ferme-modèle d'origine abrite une salle de concert qui conserve
-                            l’esprit de la grange qu’elle a été, mais est dorénavant dotée d’une
-                            acoustique exceptionnelle signée Albert Yaying Xu (Philharmonie de
-                            Luxembourg, de Copenhague, Opéra de Pékin…). Cette salle sera la salle
-                            de répétition pour le chœur de l'Académie et pour les masterclasses qui
-                            ponctuent le stage.
+                            L'ensemble des répétitions et des cours, ainsi que l'hébergement se tiendront dans un centre de vacances
+                             dominant le lac d'Annecy. 
+     </p>
+                        <p>
+                            Les stagiaires sont hébergés sur le site en pension
+                            complète (du dîner du dimanche 23 août au déjeuner du dimanche 30
+                            août). Un dîner dans la semaine sera libre afin de permettre aux stagiaires de profiter d'Annecy.
                         </p>
                         <p>
-                            Attenants à la salle de concert, se trouvent de nombreux espaces de
-                            travail et de répétition pour les résidents, ainsi que l'espace de
-                            restauration. Les stagiaires sont hébergés sur le site en pension
-                            complète (du dîner du dimanche 23 août au petit-déjeuner du lundi 31
-                            août).
-                        </p>
-                        <p>
-                            Le concert final ayant lieu dans l'après-midi du dimanche 30 août, les
-                            stagiaires qui le souhaitent peuvent quitter les lieux après le concert
-                            s'ils doivent être présents à leur domicile ou à leur travail dès le
-                            lundi 31 août. A noter : la tenue d'un concert de fin de stage dépendra
+                            Le concert final ayant lieu dans l'après-midi du dimanche 30 août.
+                            A noter : la tenue d'un concert de fin de stage dépendra
                             évidemment de l'état sanitaire et des décisions gouvernementales en
                             vigueur à ce moment-là. Il est donc possible que nous concluions notre
                             Académie 2020 par une audition sans public.
                         </p>
                         <p>
-                            Quatre possibilités d'hébergement en pension complète sont disponibles
-                            dans les trois bâtiments distincts que comporte le domaine :
-                        </p>
+                            Deux possibilités d'hébergement en pension complète sont disponibles :
                         <List>
                             <ListItem>
-                                Chambre double avec salle de bains (deux lits simples).
+                                Chambre double avec salle de bains.
                             </ListItem>
                             <ListItem>
-                                Chambre double (deux lits simples) avec douches et toilettes
-                                partagées avec d'autres chambres.
-                            </ListItem>
-                            <ListItem>
-                                Chambre single avec douches et toilettes partagées avec d'autres
-                                chambres.
-                            </ListItem>
-                            <ListItem>
-                                Chambre triple (trois lits simples) et douches et toilettes
-                                partagées avec d'autres chambres.
+                                Chambre single avec salle de bains.
                             </ListItem>
                         </List>
-                        <p>
-                            En raison de l'épidémie, il est demandé aux stagiaires de venir avec
-                            leurs serviettes de toilette et avec leurs articles de toilette
-                            (shampoing, gel douche...).
-                        </p>
+                        
                     </div>
                 </Section>
                 <Section title="Tarifs">
                     <div>
                         <p>
-                            Les frais pédagogiques sont :
-                            <List>
-                                <ListItem>
-                                    inscription indivuelle (comprenant l'adhésion à l'association) :
-                                    340 €
-                                </ListItem>
-                                <ListItem>formation professionnelle : 600 €</ListItem>
-                            </List>
+                            Les frais pédagogiques sont de 340 € (comprenant l'adhésion à l'association).
                         </p>
                         <p>
                             Pour les personnes accompagnant les stagiaires et hébergées par
@@ -104,24 +66,15 @@ const Informations = props => (
                         </p>
                         <p>
                             Les frais d'hébergement en pension complète sont les suivants, sachant
-                            que trois dîners dans la semaine sont libres (et donc non compris dans
-                            les frais) afin de permettre de profiter pleinement de la ville :
+                            qu'un dîner dans la semaine est libre (et donc non compris dans
+                            les frais)  :
                         </p>
                         <List>
                             <ListItem>
-                                Chambre double avec salle de bains (deux lits simples) : 460 €.
+                                Chambre double avec salle de bains : 460 €.
                             </ListItem>
                             <ListItem>
-                                Chambre double (deux lits simples) avec douches et toilettes
-                                partagées : 390 €
-                            </ListItem>
-                            <ListItem>
-                                Chambre single avec douches et toilettes partagées avec d'autres
-                                chambres : 420 €.
-                            </ListItem>
-                            <ListItem>
-                                Chambre triple (trois lits simples) et douches et toilettes
-                                partagées avec d'autres chambres : 350 €.
+                                Chambre single avec salle de bains : 510 €.
                             </ListItem>
                         </List>
                         <p>
@@ -135,46 +88,16 @@ const Informations = props => (
                     <div>
                         <H3>En train</H3>
 
-                        <p>Villefavard est desservi par deux gares SNCF.</p>
-                        <List>
-                            <ListItem>
-                                La Souterraine, 2h45 direct depuis Paris-Austerlitz ou
-                                correspondances depuis la gare de Limoges (billets entre 15 et 40
-                                €).
-                            </ListItem>
-                            <ListItem>
-                                Le Dorat, 2h45 TGV depuis Paris-Montparnasse, correpondance TER à
-                                Poitiers ou correspondances depuis la gare de Limoges.
-                            </ListItem>
-                        </List>
-                        <p>
-                            Nous pouvons organiser vos transferts entre la gare SNCF et Villefavard
-                            : nous consulter.
-                        </p>
+                        <p>Gare SNCF d'Annecy (TGV direct depuis Paris) puis bus 51 ou 52 jusqu'au centre de vacances.<
 
                         <H3>En voiture</H3>
                         <p>
-                            L'A20 est à 16 kms de Villefavard, mettant Paris à 3h45 en voiture, Lyon
-                            à moins de 4 heures, Nantes ou Toulouse à 3h30, Bordeaux à moins de 3
-                            heures.
+                            Depuis l'A41 nord : sortie Annecy Centre (n°16) direction Albertville. Traverser le village de Sevrier 
+                            puis prendre la direction du col de Leschaux. Continuer 3 km, passer le pont étroit. Le village-club se trouve en contrebas sur votre gauche.
                         </p>
                     </div>
                 </Section>
-                <Section title="Formation professionelle">
-                    <p>
-                        Les stages peuvent être pris en charge dans le cadre de la formation
-                        professionnelle. Depuis sa création l'Académie travaille avec l'AFDAS pour
-                        les professionnels intermittents du spectacle ou avec des organismes
-                        collecteurs comme Uniformation par exemple pour les salariés d'association.
-                        Nous travaillons aussi directement avec des collectivités locales pour les
-                        enseignants de conservatoire.
-                    </p>
-                    <p>
-                        Quelques unes de nos récentes références : AFDAS, Uniformation, Atelier
-                        musicaux de Toulouse, Villes de Châlon-sur-Saône, Chambéry, Domène, Lorient,
-                        Saint-Quentin
-                    </p>
-                </Section>
+                
             </PageContent>
         </Page>
     </Layout>
