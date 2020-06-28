@@ -11,14 +11,11 @@ const Programme = (props) => (
             <Lead>
                 <p>
                     Le Capriccio Français Summer Music Academy offers a tuition program for Singers, Harpsichordists, 
-                    Organists or Pianists, and students in Choir conducting, as well as a Choral program, from August 23 
-                    (arrival before dinner) to August 30 (departure August 31 after breakfast). 
+                    Organists or Pianists, as well as a Choral program, from August 23 
+                    (arrival before dinner) to August 30. 
                 </p>
                 <p>
-                    The Academy is situated in Villefavard, in the beautiful countryside near Limoges (France). 
-                    In these uncertain times of epidemic, the Academy has chosen a secluded place, entirely dedicated to our 
-                    students, offering both accommodation and musical activities in only one place, and with music rooms of 
-                    exceptional quality.
+                    The Academy is situated on the heights of Lake Annecy (Haute-Savoie-France).
                 </p>
                 <p>
                     Students interested in the vocal, conducting or instrumental Academy must be
