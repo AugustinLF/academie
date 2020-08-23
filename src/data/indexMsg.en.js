@@ -1,9 +1,11 @@
 export default {
     title: ["Academy 2020", "JOIN US!"],
     academy: {
-        title: "AUGUST 23-30 2020: 7 days in the beautiful French countryside near Limoges, for Singers, Choral singers, Choir conductors and Lyric coaches.",
+        title:
+            "AUGUST 23-30 2020: 7 days in the beautiful French countryside near Limoges, for Singers, Choral singers, Choir conductors and Lyric coaches.",
         content:
             "Due to the Covid-19 epidemic, Le Capriccio Français Summer Music Academy is leaving Barcelona this year to return to France, and will exceptionally be held at the end of August. A Vocal academy, a Choral academy, a Choir conducting academy, a Vocal coach academy: immerse in 7 days devoted to Baroque music, in a place specially dedicated to Music.",
+        concerts: [],
     },
     testimonials: {
         title: "TESTIMONIALS",
