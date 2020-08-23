@@ -4,7 +4,6 @@ import React from "react";
 import {FullWidth} from "../base";
 import Block, {BlockTitle} from "./block";
 import {phone, tabletUp} from "../mediaQueries";
-import * as base from "../base";
 
 const Content = g.p({
     textAlign: "center",
@@ -30,14 +29,20 @@ const Academy = ({msg}) => (
         <Block>
             <BlockTitle>{msg.academy.title}</BlockTitle>
             <Separator />
-            <Content>
-                Deux concerts de fin de stage :
-                <br />
-                Samedi 29 août 17h30 concert privé au Château de Duingt
-                <br />
-                Dimanche 30 aout 15h30 à l’église de Cuvat
-            </Content>
-            <Separator />
+            {msg.academy.concerts && msg.academy.concerts.length > 0 ? (
+                <>
+                    <Content>
+                        {msg.academy.concerts.map((line, index) => (
+                            <>
+                                {line}
+                                {index !== msg.academy.concerts.length - 1 ? <br /> : null}
+                            </>
+                        ))}
+                    </Content>
+                    <Separator />
+                </>
+            ) : null}
+
             <Content>{msg.academy.content}</Content>
         </Block>
     </FullWidth>
