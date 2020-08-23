@@ -1,7 +1,7 @@
 import g from "glamorous";
 import React from "react";
 
-import home from "../../annecy.jpg";
+import home from "./duingt.png";
 import Testimonials from "./testimonials";
 import {phone} from "../mediaQueries";
 import Academy from "./academy";

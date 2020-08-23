@@ -1,5 +1,5 @@
 export default {
-    title: ["Académie 2020", "Nouveau lieu, nouvelles dates !"],
+    title: ["Académie 2020", ""],
     academy: {
         title: "DU 23 au 30 AOÛT 2020 : 7 JOURS AUTOUR DE LA VOIX",
         content:
